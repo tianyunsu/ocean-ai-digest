@@ -305,6 +305,17 @@ def generate_category_pages():
     for cat_id, cat_info in categories.items():
         # 筛选该分类的文章
         cat_articles = [a for a in articles if cat_id in a['categories']]
+        
+        # 按URL去重（保留每条URL的第一条，即最新的）
+        seen_urls = set()
+        unique_articles = []
+        for art in cat_articles:
+            if art['url'] not in seen_urls:
+                unique_articles.append(art)
+                seen_urls.add(art['url'])
+        cat_articles = unique_articles
+        
+        # 按文章日期排序
         cat_articles.sort(key=lambda x: x['date'], reverse=True)
 
         # 生成文章HTML
