@@ -10,14 +10,14 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-management",
         "data-center",
-        "tools-resources",
-        "data-processing"
+        "marine-ai",
+        "data-processing",
+        "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507424"
+      "fetchedAt": "2026-05-06T13:41:41.047515"
     },
     {
       "id": "2026-05-06-017",
@@ -30,11 +30,11 @@
       "sourceName": "Schmidt Ocean Institute",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507996"
+      "fetchedAt": "2026-05-06T13:41:41.048099"
     },
     {
       "id": "2026-05-06-011",
@@ -46,11 +46,11 @@
       "source": "main",
       "sourceName": "ESSD / Taylor & Francis",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507087"
+      "fetchedAt": "2026-05-06T13:41:41.047215"
     },
     {
       "id": "2026-05-06-001",
@@ -65,7 +65,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.505799"
+      "fetchedAt": "2026-05-06T13:41:41.045928"
     },
     {
       "id": "2026-05-06-006",
@@ -77,11 +77,11 @@
       "source": "main",
       "sourceName": "Journal of Marine Science and Engineering",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506340"
+      "fetchedAt": "2026-05-06T13:41:41.046472"
     },
     {
       "id": "2026-05-06-007",
@@ -93,11 +93,11 @@
       "source": "main",
       "sourceName": "Northeast Ocean Data Portal",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506560"
+      "fetchedAt": "2026-05-06T13:41:41.046684"
     },
     {
       "id": "2026-05-06-018",
@@ -113,7 +113,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.508078"
+      "fetchedAt": "2026-05-06T13:41:41.048181"
     },
     {
       "id": "2026-05-06-010",
@@ -125,13 +125,13 @@
       "source": "main",
       "sourceName": "Copernicus Marine In Situ TAC",
       "categories": [
-        "marine-ai",
         "data-center",
+        "open-cruise",
         "data-quality",
-        "open-cruise"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506898"
+      "fetchedAt": "2026-05-06T13:41:41.047024"
     },
     {
       "id": "2026-05-06-005",
@@ -143,11 +143,11 @@
       "source": "main",
       "sourceName": "Destination Earth",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506249"
+      "fetchedAt": "2026-05-06T13:41:41.046386"
     },
     {
       "id": "2026-05-06-014",
@@ -163,7 +163,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507629"
+      "fetchedAt": "2026-05-06T13:41:41.047734"
     },
     {
       "id": "2026-04-30-007",
@@ -175,12 +175,12 @@
       "source": "main",
       "sourceName": "Journal of Oceanography",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580241"
+      "fetchedAt": "2026-05-06T13:41:41.095523"
     },
     {
       "id": "2026-04-30-014",
@@ -196,7 +196,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.581028"
+      "fetchedAt": "2026-05-06T13:41:41.096303"
     },
     {
       "id": "2026-05-06-008",
@@ -211,7 +211,7 @@
         "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506642"
+      "fetchedAt": "2026-05-06T13:41:41.046766"
     },
     {
       "id": "2026-05-06-020",
@@ -227,7 +227,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.508338"
+      "fetchedAt": "2026-05-06T13:41:41.048441"
     },
     {
       "id": "2026-05-06-019",
@@ -242,7 +242,7 @@
         "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.508262"
+      "fetchedAt": "2026-05-06T13:41:41.048366"
     },
     {
       "id": "2026-04-27-019",
@@ -255,11 +255,11 @@
       "sourceName": "PANGAEA / IODP",
       "categories": [
         "data-center",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.662543"
+      "fetchedAt": "2026-05-06T13:41:41.150371"
     },
     {
       "id": "2026-04-26-001",
@@ -274,7 +274,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.527275"
+      "fetchedAt": "2026-05-06T13:41:41.679400"
     },
     {
       "id": "2026-04-25-011",
@@ -286,12 +286,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.623730"
+      "fetchedAt": "2026-05-06T13:41:41.730144"
     },
     {
       "id": "2026-04-30-005",
@@ -303,11 +303,11 @@
       "source": "main",
       "sourceName": "Frontiers",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.579907"
+      "fetchedAt": "2026-05-06T13:41:41.095175"
     },
     {
       "id": "2026-04-27-005",
@@ -319,11 +319,11 @@
       "source": "main",
       "sourceName": "DITTO Programme",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.660784"
+      "fetchedAt": "2026-05-06T13:41:41.148712"
     },
     {
       "id": "2026-04-24-007",
@@ -338,7 +338,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.736589"
+      "fetchedAt": "2026-05-06T13:41:41.201730"
     },
     {
       "id": "2026-04-24-012",
@@ -351,11 +351,11 @@
       "sourceName": "Argo DMQC GitHub",
       "categories": [
         "data-center",
-        "data-quality",
-        "tools-resources"
+        "tools-resources",
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737232"
+      "fetchedAt": "2026-05-06T13:41:41.202419"
     },
     {
       "id": "2026-04-28-004",
@@ -367,11 +367,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.464126"
+      "fetchedAt": "2026-05-06T13:41:41.635700"
     },
     {
       "id": "2026-04-25-017",
@@ -383,12 +383,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "data-management",
         "data-center",
+        "data-management",
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624485"
+      "fetchedAt": "2026-05-06T13:41:41.730883"
     },
     {
       "id": "2026-04-30-017",
@@ -404,7 +404,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.581497"
+      "fetchedAt": "2026-05-06T13:41:41.096825"
     },
     {
       "id": "2026-04-27-015",
@@ -420,7 +420,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.662073"
+      "fetchedAt": "2026-05-06T13:41:41.149948"
     },
     {
       "id": "2026-04-28-001",
@@ -435,7 +435,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.463663"
+      "fetchedAt": "2026-05-06T13:41:41.635223"
     },
     {
       "id": "2026-04-28-002",
@@ -447,12 +447,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "data-quality",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.463852"
+      "fetchedAt": "2026-05-06T13:41:41.635405"
     },
     {
       "id": "2026-04-28-003",
@@ -464,11 +464,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.464038"
+      "fetchedAt": "2026-05-06T13:41:41.635587"
     },
     {
       "id": "2026-04-25-003",
@@ -483,7 +483,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.622600"
+      "fetchedAt": "2026-05-06T13:41:41.729052"
     },
     {
       "id": "2026-04-25-012",
@@ -495,12 +495,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "data-center",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.623926"
+      "fetchedAt": "2026-05-06T13:41:41.730333"
     },
     {
       "id": "2026-04-30-006",
@@ -512,11 +512,11 @@
       "source": "main",
       "sourceName": "NOAA NCEI",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580072"
+      "fetchedAt": "2026-05-06T13:41:41.095345"
     },
     {
       "id": "2026-04-24-001",
@@ -531,7 +531,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.735892"
+      "fetchedAt": "2026-05-06T13:41:41.201049"
     },
     {
       "id": "2026-04-24-025",
@@ -543,11 +543,11 @@
       "source": "main",
       "sourceName": "GDC海洋数据资源目录",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738732"
+      "fetchedAt": "2026-05-06T13:41:41.203898"
     },
     {
       "id": "2026-04-23-009",
@@ -559,12 +559,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888093"
+      "fetchedAt": "2026-05-06T13:41:41.259339"
     },
     {
       "id": "2026-04-22-005",
@@ -576,12 +576,12 @@
       "source": "main",
       "sourceName": "EGU 2026",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.975167"
+      "fetchedAt": "2026-05-06T13:41:41.316671"
     },
     {
       "id": "2026-04-22-010",
@@ -596,7 +596,7 @@
         "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.975880"
+      "fetchedAt": "2026-05-06T13:41:41.317360"
     },
     {
       "id": "2026-04-22-021",
@@ -608,14 +608,14 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
-        "visualization",
         "data-center",
-        "open-cruise",
-        "tools-resources"
+        "data-management",
+        "tools-resources",
+        "visualization",
+        "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977612"
+      "fetchedAt": "2026-05-06T13:41:41.319101"
     },
     {
       "id": "2026-04-22-025",
@@ -632,7 +632,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.978189"
+      "fetchedAt": "2026-05-06T13:41:41.319708"
     },
     {
       "id": "2026-04-25-001",
@@ -644,11 +644,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.622398"
+      "fetchedAt": "2026-05-06T13:41:41.728869"
     },
     {
       "id": "2026-04-25-007",
@@ -660,12 +660,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "visualization",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.623216"
+      "fetchedAt": "2026-05-06T13:41:41.729670"
     },
     {
       "id": "2026-04-25-015",
@@ -681,7 +681,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624290"
+      "fetchedAt": "2026-05-06T13:41:41.730713"
     },
     {
       "id": "2026-05-06-003",
@@ -696,7 +696,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.505990"
+      "fetchedAt": "2026-05-06T13:41:41.046116"
     },
     {
       "id": "2026-05-06-023",
@@ -708,11 +708,11 @@
       "source": "main",
       "sourceName": "arXiv",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.508726"
+      "fetchedAt": "2026-05-06T13:41:41.048808"
     },
     {
       "id": "2026-04-30-009",
@@ -724,12 +724,12 @@
       "source": "main",
       "sourceName": "Copernicus Marine",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "tools-resources",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580537"
+      "fetchedAt": "2026-05-06T13:41:41.095814"
     },
     {
       "id": "2026-04-27-003",
@@ -744,7 +744,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.660513"
+      "fetchedAt": "2026-05-06T13:41:41.148435"
     },
     {
       "id": "2026-04-27-011",
@@ -756,11 +756,11 @@
       "source": "main",
       "sourceName": "EGUsphere综述",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661583"
+      "fetchedAt": "2026-05-06T13:41:41.149436"
     },
     {
       "id": "2026-04-24-008",
@@ -772,13 +772,13 @@
       "source": "main",
       "sourceName": "Blue-Cloud 2026",
       "categories": [
-        "marine-ai",
-        "visualization",
         "data-center",
-        "tools-resources"
+        "visualization",
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.736767"
+      "fetchedAt": "2026-05-06T13:41:41.201910"
     },
     {
       "id": "2026-04-24-015",
@@ -790,11 +790,11 @@
       "source": "main",
       "sourceName": "EGUsphere预印本",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737618"
+      "fetchedAt": "2026-05-06T13:41:41.202798"
     },
     {
       "id": "2026-04-23-008",
@@ -806,12 +806,12 @@
       "source": "main",
       "sourceName": "CMEMS可视化工具页面近期更新",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887973"
+      "fetchedAt": "2026-05-06T13:41:41.259219"
     },
     {
       "id": "2026-04-23-014",
@@ -823,11 +823,11 @@
       "source": "main",
       "sourceName": "Nature Geoscience",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888790"
+      "fetchedAt": "2026-05-06T13:41:41.260036"
     },
     {
       "id": "2026-04-22-024",
@@ -843,7 +843,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.978074"
+      "fetchedAt": "2026-05-06T13:41:41.319567"
     },
     {
       "id": "2026-04-21-008",
@@ -855,11 +855,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.057128"
+      "fetchedAt": "2026-05-06T13:41:41.370926"
     },
     {
       "id": "2026-04-21-009",
@@ -871,12 +871,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.057243"
+      "fetchedAt": "2026-05-06T13:41:41.371043"
     },
     {
       "id": "2026-04-21-010",
@@ -888,12 +888,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "visualization",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.057362"
+      "fetchedAt": "2026-05-06T13:41:41.371159"
     },
     {
       "id": "2026-04-21-012",
@@ -905,12 +905,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-center",
         "data-management",
-        "data-quality",
-        "data-center"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.057714"
+      "fetchedAt": "2026-05-06T13:41:41.371465"
     },
     {
       "id": "2026-04-21-013",
@@ -922,12 +922,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-processing",
         "data-center",
-        "data-quality",
-        "data-processing"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.057830"
+      "fetchedAt": "2026-05-06T13:41:41.371583"
     },
     {
       "id": "2026-04-21-015",
@@ -939,11 +939,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.058134"
+      "fetchedAt": "2026-05-06T13:41:41.371916"
     },
     {
       "id": "2026-04-21-016",
@@ -955,13 +955,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources",
+        "data-processing",
         "data-center",
-        "data-processing"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.058248"
+      "fetchedAt": "2026-05-06T13:41:41.372033"
     },
     {
       "id": "2026-04-21-017",
@@ -977,7 +977,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.058508"
+      "fetchedAt": "2026-05-06T13:41:41.372264"
     },
     {
       "id": "2026-04-21-019",
@@ -989,11 +989,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
-        "data-center"
+        "data-center",
+        "data-management"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.058737"
+      "fetchedAt": "2026-05-06T13:41:41.372497"
     },
     {
       "id": "2026-04-21-020",
@@ -1009,7 +1009,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.058966"
+      "fetchedAt": "2026-05-06T13:41:41.372750"
     },
     {
       "id": "2026-04-21-021",
@@ -1022,11 +1022,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.059078"
+      "fetchedAt": "2026-05-06T13:41:41.372866"
     },
     {
       "id": "2026-04-21-022",
@@ -1038,13 +1038,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
         "data-center",
-        "marine-ai",
-        "open-cruise"
+        "data-management",
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.059190"
+      "fetchedAt": "2026-05-06T13:41:41.372980"
     },
     {
       "id": "2026-04-21-024",
@@ -1057,11 +1057,11 @@
       "sourceName": "",
       "categories": [
         "data-center",
-        "data-quality",
-        "tools-resources"
+        "tools-resources",
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.059548"
+      "fetchedAt": "2026-05-06T13:41:41.373326"
     },
     {
       "id": "2026-04-21-025",
@@ -1077,7 +1077,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.059662"
+      "fetchedAt": "2026-05-06T13:41:41.373450"
     },
     {
       "id": "2026-04-21-026",
@@ -1089,13 +1089,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-center",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "data-center",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.059898"
+      "fetchedAt": "2026-05-06T13:41:41.373718"
     },
     {
       "id": "2026-04-21-027",
@@ -1107,11 +1107,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "visualization",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.060012"
+      "fetchedAt": "2026-05-06T13:41:41.373835"
     },
     {
       "id": "2026-04-21-028",
@@ -1123,12 +1123,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.060124"
+      "fetchedAt": "2026-05-06T13:41:41.373950"
     },
     {
       "id": "2026-04-21-029",
@@ -1144,7 +1144,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.060237"
+      "fetchedAt": "2026-05-06T13:41:41.374065"
     },
     {
       "id": "2026-04-25-002",
@@ -1156,12 +1156,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.622511"
+      "fetchedAt": "2026-05-06T13:41:41.728964"
     },
     {
       "id": "2026-04-25-009",
@@ -1173,12 +1173,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.623531"
+      "fetchedAt": "2026-05-06T13:41:41.729951"
     },
     {
       "id": "2026-04-25-018",
@@ -1191,11 +1191,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624677"
+      "fetchedAt": "2026-05-06T13:41:41.731068"
     },
     {
       "id": "2026-04-25-021",
@@ -1210,7 +1210,7 @@
         "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.625037"
+      "fetchedAt": "2026-05-06T13:41:41.731424"
     },
     {
       "id": "2026-04-25-024",
@@ -1222,12 +1222,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "data-center",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.625422"
+      "fetchedAt": "2026-05-06T13:41:41.731824"
     },
     {
       "id": "2026-05-06-015",
@@ -1239,11 +1239,11 @@
       "source": "main",
       "sourceName": "Seabed 2030",
       "categories": [
-        "data-management",
-        "data-center"
+        "data-center",
+        "data-management"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507708"
+      "fetchedAt": "2026-05-06T13:41:41.047817"
     },
     {
       "id": "2026-05-06-022",
@@ -1255,11 +1255,11 @@
       "source": "main",
       "sourceName": "Copernicus Marine Toolbox",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.508650"
+      "fetchedAt": "2026-05-06T13:41:41.048732"
     },
     {
       "id": "2026-04-24-020",
@@ -1276,7 +1276,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738116"
+      "fetchedAt": "2026-05-06T13:41:41.203295"
     },
     {
       "id": "2026-04-23-017",
@@ -1288,12 +1288,12 @@
       "source": "main",
       "sourceName": "AGU JGR-Oceans",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "digital-twin",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.889070"
+      "fetchedAt": "2026-05-06T13:41:41.260313"
     },
     {
       "id": "2026-04-23-025",
@@ -1309,7 +1309,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.890125"
+      "fetchedAt": "2026-05-06T13:41:41.261353"
     },
     {
       "id": "2026-04-23-026",
@@ -1324,7 +1324,7 @@
         "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.890205"
+      "fetchedAt": "2026-05-06T13:41:41.261430"
     },
     {
       "id": "2026-04-23-028",
@@ -1336,11 +1336,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.890526"
+      "fetchedAt": "2026-05-06T13:41:41.261749"
     },
     {
       "id": "2026-04-23-029",
@@ -1352,11 +1352,11 @@
       "source": "main",
       "sourceName": "GitHub datahacks2026",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.890601"
+      "fetchedAt": "2026-05-06T13:41:41.261826"
     },
     {
       "id": "2026-04-22-001",
@@ -1368,11 +1368,11 @@
       "source": "main",
       "sourceName": "arXiv",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.974695"
+      "fetchedAt": "2026-05-06T13:41:41.316179"
     },
     {
       "id": "2026-04-22-020",
@@ -1384,13 +1384,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
         "data-center",
-        "marine-ai",
-        "open-cruise"
+        "data-management",
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977499"
+      "fetchedAt": "2026-05-06T13:41:41.318987"
     },
     {
       "id": "2026-04-21-001",
@@ -1405,7 +1405,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056205"
+      "fetchedAt": "2026-05-06T13:41:41.370010"
     },
     {
       "id": "2026-04-20-002",
@@ -1420,7 +1420,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.135987"
+      "fetchedAt": "2026-05-06T13:41:41.428834"
     },
     {
       "id": "2026-04-20-007",
@@ -1432,12 +1432,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.136699"
+      "fetchedAt": "2026-05-06T13:41:41.429574"
     },
     {
       "id": "2026-04-20-012",
@@ -1453,7 +1453,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137473"
+      "fetchedAt": "2026-05-06T13:41:41.430369"
     },
     {
       "id": "2026-04-20-020",
@@ -1466,11 +1466,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138643"
+      "fetchedAt": "2026-05-06T13:41:41.431518"
     },
     {
       "id": "2026-04-20-022",
@@ -1483,11 +1483,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138849"
+      "fetchedAt": "2026-05-06T13:41:41.431831"
     },
     {
       "id": "2026-04-20-024",
@@ -1503,7 +1503,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.139202"
+      "fetchedAt": "2026-05-06T13:41:41.432204"
     },
     {
       "id": "2026-04-20-026",
@@ -1515,14 +1515,14 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization",
         "data-center",
+        "marine-ai",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.139600"
+      "fetchedAt": "2026-05-06T13:41:41.432558"
     },
     {
       "id": "2026-04-20-027",
@@ -1535,11 +1535,11 @@
       "sourceName": "",
       "categories": [
         "data-center",
-        "visualization",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.139717"
+      "fetchedAt": "2026-05-06T13:41:41.432706"
     },
     {
       "id": "2026-04-20-028",
@@ -1551,14 +1551,14 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "digital-twin",
         "marine-ai",
-        "visualization",
         "data-processing",
-        "tools-resources"
+        "digital-twin",
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.139832"
+      "fetchedAt": "2026-05-06T13:41:41.432825"
     },
     {
       "id": "2026-04-25-005",
@@ -1570,11 +1570,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.622895"
+      "fetchedAt": "2026-05-06T13:41:41.729335"
     },
     {
       "id": "2026-04-25-013",
@@ -1586,11 +1586,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624012"
+      "fetchedAt": "2026-05-06T13:41:41.730416"
     },
     {
       "id": "2026-04-25-026",
@@ -1602,11 +1602,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.625594"
+      "fetchedAt": "2026-05-06T13:41:41.731989"
     },
     {
       "id": "2026-04-20-005",
@@ -1618,11 +1618,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "visualization",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694502"
+      "fetchedAt": "2026-05-06T13:41:41.776993"
     },
     {
       "id": "2026-04-20-006",
@@ -1639,7 +1639,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694619"
+      "fetchedAt": "2026-05-06T13:41:41.777105"
     },
     {
       "id": "2026-04-20-009",
@@ -1655,7 +1655,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.695152"
+      "fetchedAt": "2026-05-06T13:41:41.777644"
     },
     {
       "id": "2026-04-20-010",
@@ -1671,7 +1671,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.695263"
+      "fetchedAt": "2026-05-06T13:41:41.777761"
     },
     {
       "id": "2026-04-20-013",
@@ -1687,7 +1687,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.695764"
+      "fetchedAt": "2026-05-06T13:41:41.778241"
     },
     {
       "id": "2026-04-20-015",
@@ -1699,12 +1699,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "data-center",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.696073"
+      "fetchedAt": "2026-05-06T13:41:41.778535"
     },
     {
       "id": "2026-04-27-016",
@@ -1721,7 +1721,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.662272"
+      "fetchedAt": "2026-05-06T13:41:41.150143"
     },
     {
       "id": "2026-04-24-026",
@@ -1736,7 +1736,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738807"
+      "fetchedAt": "2026-05-06T13:41:41.203973"
     },
     {
       "id": "2026-04-20-018",
@@ -1749,12 +1749,12 @@
       "sourceName": "",
       "categories": [
         "data-management",
+        "visualization",
         "digital-twin",
-        "marine-ai",
-        "visualization"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138292"
+      "fetchedAt": "2026-05-06T13:41:41.431213"
     },
     {
       "id": "2026-04-25-014",
@@ -1766,12 +1766,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "data-center",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624097"
+      "fetchedAt": "2026-05-06T13:41:41.730498"
     },
     {
       "id": "2026-04-25-020",
@@ -1787,7 +1787,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.624844"
+      "fetchedAt": "2026-05-06T13:41:41.731231"
     },
     {
       "id": "2026-04-30-016",
@@ -1803,7 +1803,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.581296"
+      "fetchedAt": "2026-05-06T13:41:41.096573"
     },
     {
       "id": "2026-04-27-001",
@@ -1818,7 +1818,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.660313"
+      "fetchedAt": "2026-05-06T13:41:41.148273"
     },
     {
       "id": "2026-04-24-024",
@@ -1833,7 +1833,7 @@
         "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738555"
+      "fetchedAt": "2026-05-06T13:41:41.203729"
     },
     {
       "id": "2026-04-22-022",
@@ -1845,13 +1845,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
         "data-center",
-        "marine-ai",
-        "open-cruise"
+        "data-management",
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977726"
+      "fetchedAt": "2026-05-06T13:41:41.319215"
     },
     {
       "id": "2026-04-19-010",
@@ -1866,7 +1866,7 @@
         "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.223726"
+      "fetchedAt": "2026-05-06T13:41:41.495783"
     },
     {
       "id": "2026-04-20-001",
@@ -1881,7 +1881,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.693911"
+      "fetchedAt": "2026-05-06T13:41:41.776406"
     },
     {
       "id": "2026-04-18-005",
@@ -1893,11 +1893,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.769008"
+      "fetchedAt": "2026-05-06T13:41:41.831756"
     },
     {
       "id": "2026-04-18-007",
@@ -1909,11 +1909,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.769345"
+      "fetchedAt": "2026-05-06T13:41:41.832092"
     },
     {
       "id": "2026-04-18-009",
@@ -1925,12 +1925,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
+        "data-center",
         "data-management",
-        "data-quality",
-        "data-center"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.769677"
+      "fetchedAt": "2026-05-06T13:41:41.832390"
     },
     {
       "id": "2026-04-18-011",
@@ -1942,12 +1942,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
+        "data-processing",
         "data-center",
-        "data-quality",
-        "data-processing"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.769964"
+      "fetchedAt": "2026-05-06T13:41:41.832702"
     },
     {
       "id": "2026-04-18-017",
@@ -1965,7 +1965,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.770877"
+      "fetchedAt": "2026-05-06T13:41:41.833589"
     },
     {
       "id": "2026-04-18-018",
@@ -1977,12 +1977,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.771076"
+      "fetchedAt": "2026-05-06T13:41:41.833815"
     },
     {
       "id": "2026-04-30-011",
@@ -1997,7 +1997,7 @@
         "data-processing"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580692"
+      "fetchedAt": "2026-05-06T13:41:41.095964"
     },
     {
       "id": "2026-04-27-007",
@@ -2009,13 +2009,13 @@
       "source": "main",
       "sourceName": "NOAA AOML",
       "categories": [
-        "marine-ai",
+        "data-center",
         "visualization",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661020"
+      "fetchedAt": "2026-05-06T13:41:41.148943"
     },
     {
       "id": "2026-04-24-010",
@@ -2027,12 +2027,12 @@
       "source": "main",
       "sourceName": "NOAA AOML",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737052"
+      "fetchedAt": "2026-05-06T13:41:41.202234"
     },
     {
       "id": "2026-04-24-018",
@@ -2045,11 +2045,11 @@
       "sourceName": "ICY-TPACIFIC计划",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737970"
+      "fetchedAt": "2026-05-06T13:41:41.203146"
     },
     {
       "id": "2026-04-23-002",
@@ -2061,11 +2061,11 @@
       "source": "main",
       "sourceName": "Scientific Reports",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887117"
+      "fetchedAt": "2026-05-06T13:41:41.258371"
     },
     {
       "id": "2026-04-23-006",
@@ -2077,11 +2077,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "digital-twin",
-        "tools-resources"
+        "tools-resources",
+        "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887663"
+      "fetchedAt": "2026-05-06T13:41:41.258908"
     },
     {
       "id": "2026-04-23-018",
@@ -2097,7 +2097,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.889260"
+      "fetchedAt": "2026-05-06T13:41:41.260500"
     },
     {
       "id": "2026-04-21-005",
@@ -2109,12 +2109,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "digital-twin",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056737"
+      "fetchedAt": "2026-05-06T13:41:41.370505"
     },
     {
       "id": "2026-04-19-005",
@@ -2126,11 +2126,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "digital-twin",
-        "tools-resources"
+        "tools-resources",
+        "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.223043"
+      "fetchedAt": "2026-05-06T13:41:41.495133"
     },
     {
       "id": "2026-04-17-001",
@@ -2142,11 +2142,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.309945"
+      "fetchedAt": "2026-05-06T13:41:41.551803"
     },
     {
       "id": "2026-04-17-009",
@@ -2158,11 +2158,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "visualization",
-        "data-processing"
+        "data-processing",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.311179"
+      "fetchedAt": "2026-05-06T13:41:41.553021"
     },
     {
       "id": "2026-04-20-002",
@@ -2174,11 +2174,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-center"
+        "data-center",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694013"
+      "fetchedAt": "2026-05-06T13:41:41.776504"
     },
     {
       "id": "2026-04-20-014",
@@ -2193,7 +2193,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.695959"
+      "fetchedAt": "2026-05-06T13:41:41.778424"
     },
     {
       "id": "2026-05-06-009",
@@ -2205,12 +2205,12 @@
       "source": "main",
       "sourceName": "Scientific Data",
       "categories": [
-        "marine-ai",
         "data-management",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.506815"
+      "fetchedAt": "2026-05-06T13:41:41.046941"
     },
     {
       "id": "2026-04-27-013",
@@ -2222,11 +2222,11 @@
       "source": "main",
       "sourceName": "NOAA NCEI / GTSPP",
       "categories": [
-        "data-management",
-        "data-center"
+        "data-center",
+        "data-management"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661924"
+      "fetchedAt": "2026-05-06T13:41:41.149797"
     },
     {
       "id": "2026-04-24-022",
@@ -2242,7 +2242,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738395"
+      "fetchedAt": "2026-05-06T13:41:41.203553"
     },
     {
       "id": "2026-04-24-027",
@@ -2254,12 +2254,12 @@
       "source": "main",
       "sourceName": "MITgcm adjoint工具包",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.739011"
+      "fetchedAt": "2026-05-06T13:41:41.204169"
     },
     {
       "id": "2026-04-23-022",
@@ -2272,11 +2272,11 @@
       "sourceName": "OBIS",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.889737"
+      "fetchedAt": "2026-05-06T13:41:41.260978"
     },
     {
       "id": "2026-04-22-019",
@@ -2288,12 +2288,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
         "data-center",
+        "data-management",
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977251"
+      "fetchedAt": "2026-05-06T13:41:41.318761"
     },
     {
       "id": "2026-04-21-002",
@@ -2308,7 +2308,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056302"
+      "fetchedAt": "2026-05-06T13:41:41.370103"
     },
     {
       "id": "2026-04-19-025",
@@ -2324,7 +2324,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225834"
+      "fetchedAt": "2026-05-06T13:41:41.497815"
     },
     {
       "id": "2026-04-19-029",
@@ -2336,15 +2336,15 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-center",
         "data-quality",
         "marine-ai",
-        "visualization",
-        "data-center",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.226334"
+      "fetchedAt": "2026-05-06T13:41:41.498303"
     },
     {
       "id": "2026-04-17-010",
@@ -2356,11 +2356,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.311290"
+      "fetchedAt": "2026-05-06T13:41:41.553142"
     },
     {
       "id": "2026-04-17-017",
@@ -2372,14 +2372,14 @@
       "source": "main",
       "sourceName": "CMEMS官网更新",
       "categories": [
-        "data-management",
-        "visualization",
         "data-center",
+        "data-management",
         "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312350"
+      "fetchedAt": "2026-05-06T13:41:41.554227"
     },
     {
       "id": "2026-04-20-003",
@@ -2394,7 +2394,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694099"
+      "fetchedAt": "2026-05-06T13:41:41.776590"
     },
     {
       "id": "2026-04-20-004",
@@ -2406,11 +2406,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694269"
+      "fetchedAt": "2026-05-06T13:41:41.776783"
     },
     {
       "id": "2026-04-20-008",
@@ -2422,12 +2422,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "data-quality",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694950"
+      "fetchedAt": "2026-05-06T13:41:41.777426"
     },
     {
       "id": "2026-04-18-012",
@@ -2443,7 +2443,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.770142"
+      "fetchedAt": "2026-05-06T13:41:41.832886"
     },
     {
       "id": "2026-05-06-002",
@@ -2458,7 +2458,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.505904"
+      "fetchedAt": "2026-05-06T13:41:41.046030"
     },
     {
       "id": "2026-04-30-008",
@@ -2470,12 +2470,12 @@
       "source": "main",
       "sourceName": "OBIS",
       "categories": [
-        "marine-ai",
         "data-management",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580312"
+      "fetchedAt": "2026-05-06T13:41:41.095600"
     },
     {
       "id": "2026-04-24-009",
@@ -2487,14 +2487,14 @@
       "source": "main",
       "sourceName": "Argo DAC可视化工具",
       "categories": [
-        "data-quality",
-        "data-management",
-        "visualization",
         "data-center",
-        "tools-resources"
+        "data-management",
+        "data-quality",
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.736842"
+      "fetchedAt": "2026-05-06T13:41:41.202026"
     },
     {
       "id": "2026-04-24-011",
@@ -2510,7 +2510,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737125"
+      "fetchedAt": "2026-05-06T13:41:41.202310"
     },
     {
       "id": "2026-04-24-016",
@@ -2522,11 +2522,11 @@
       "source": "main",
       "sourceName": "NOAA AFSC",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737689"
+      "fetchedAt": "2026-05-06T13:41:41.202873"
     },
     {
       "id": "2026-04-23-020",
@@ -2539,11 +2539,11 @@
       "sourceName": "Schmidt Ocean Institute",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.889582"
+      "fetchedAt": "2026-05-06T13:41:41.260830"
     },
     {
       "id": "2026-04-22-017",
@@ -2559,7 +2559,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977020"
+      "fetchedAt": "2026-05-06T13:41:41.318506"
     },
     {
       "id": "2026-04-19-013",
@@ -2571,13 +2571,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-processing",
         "data-center",
-        "data-quality",
         "tools-resources",
-        "data-processing"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.224158"
+      "fetchedAt": "2026-05-06T13:41:41.496200"
     },
     {
       "id": "2026-04-19-019",
@@ -2589,13 +2589,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-center",
         "data-management",
         "visualization",
-        "data-center",
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225027"
+      "fetchedAt": "2026-05-06T13:41:41.497036"
     },
     {
       "id": "2026-04-19-028",
@@ -2607,13 +2607,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-center",
-        "visualization",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.226218"
+      "fetchedAt": "2026-05-06T13:41:41.498193"
     },
     {
       "id": "2026-04-17-002",
@@ -2628,7 +2628,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.310079"
+      "fetchedAt": "2026-05-06T13:41:41.551934"
     },
     {
       "id": "2026-04-17-015",
@@ -2640,11 +2640,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312055"
+      "fetchedAt": "2026-05-06T13:41:41.553926"
     },
     {
       "id": "2026-04-20-007",
@@ -2656,12 +2656,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "data-quality",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.694783"
+      "fetchedAt": "2026-05-06T13:41:41.777267"
     },
     {
       "id": "2026-04-27-021",
@@ -2673,11 +2673,11 @@
       "source": "main",
       "sourceName": "NOAA PMEL TAO/TRITON",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.662808"
+      "fetchedAt": "2026-05-06T13:41:41.150645"
     },
     {
       "id": "2026-04-24-030",
@@ -2693,7 +2693,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.739234"
+      "fetchedAt": "2026-05-06T13:41:41.204395"
     },
     {
       "id": "2026-04-23-003",
@@ -2708,7 +2708,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887196"
+      "fetchedAt": "2026-05-06T13:41:41.258449"
     },
     {
       "id": "2026-04-22-002",
@@ -2723,7 +2723,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.974788"
+      "fetchedAt": "2026-05-06T13:41:41.316270"
     },
     {
       "id": "2026-04-22-003",
@@ -2735,11 +2735,11 @@
       "source": "main",
       "sourceName": "arXiv",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.974867"
+      "fetchedAt": "2026-05-06T13:41:41.316351"
     },
     {
       "id": "2026-04-21-003",
@@ -2751,11 +2751,11 @@
       "source": "main",
       "sourceName": "arXiv",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056402"
+      "fetchedAt": "2026-05-06T13:41:41.370184"
     },
     {
       "id": "2026-04-21-004",
@@ -2770,7 +2770,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056492"
+      "fetchedAt": "2026-05-06T13:41:41.370265"
     },
     {
       "id": "2026-04-20-003",
@@ -2785,7 +2785,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.136113"
+      "fetchedAt": "2026-05-06T13:41:41.428957"
     },
     {
       "id": "2026-04-19-004",
@@ -2800,7 +2800,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.222804"
+      "fetchedAt": "2026-05-06T13:41:41.494904"
     },
     {
       "id": "2026-04-17-004",
@@ -2815,7 +2815,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.310321"
+      "fetchedAt": "2026-05-06T13:41:41.552179"
     },
     {
       "id": "2026-04-17-018",
@@ -2831,7 +2831,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312492"
+      "fetchedAt": "2026-05-06T13:41:41.554344"
     },
     {
       "id": "2026-04-20-011",
@@ -2847,7 +2847,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.695448"
+      "fetchedAt": "2026-05-06T13:41:41.777923"
     },
     {
       "id": "2026-04-30-001",
@@ -2862,7 +2862,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.579474"
+      "fetchedAt": "2026-05-06T13:41:41.094740"
     },
     {
       "id": "2026-04-30-003",
@@ -2877,7 +2877,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.579648"
+      "fetchedAt": "2026-05-06T13:41:41.094909"
     },
     {
       "id": "2026-04-30-004",
@@ -2889,11 +2889,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.579830"
+      "fetchedAt": "2026-05-06T13:41:41.095096"
     },
     {
       "id": "2026-04-30-012",
@@ -2908,7 +2908,7 @@
         "data-management"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580873"
+      "fetchedAt": "2026-05-06T13:41:41.096147"
     },
     {
       "id": "2026-04-30-019",
@@ -2924,7 +2924,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.581725"
+      "fetchedAt": "2026-05-06T13:41:41.097083"
     },
     {
       "id": "2026-04-24-006",
@@ -2936,12 +2936,12 @@
       "source": "main",
       "sourceName": "Copernicus Marine / EuroGOOS",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.736461"
+      "fetchedAt": "2026-05-06T13:41:41.201582"
     },
     {
       "id": "2026-04-24-017",
@@ -2953,11 +2953,11 @@
       "source": "main",
       "sourceName": "OceanPredict AI-TT Workshop",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737763"
+      "fetchedAt": "2026-05-06T13:41:41.202947"
     },
     {
       "id": "2026-04-23-027",
@@ -2973,7 +2973,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.890406"
+      "fetchedAt": "2026-05-06T13:41:41.261630"
     },
     {
       "id": "2026-04-22-015",
@@ -2985,11 +2985,11 @@
       "source": "main",
       "sourceName": "xarray v2026.04.0",
       "categories": [
-        "tools-resources",
-        "data-processing"
+        "data-processing",
+        "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976672"
+      "fetchedAt": "2026-05-06T13:41:41.318159"
     },
     {
       "id": "2026-04-20-001",
@@ -3004,7 +3004,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.135849"
+      "fetchedAt": "2026-05-06T13:41:41.428704"
     },
     {
       "id": "2026-04-19-023",
@@ -3019,7 +3019,7 @@
         "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225626"
+      "fetchedAt": "2026-05-06T13:41:41.497583"
     },
     {
       "id": "2026-04-19-026",
@@ -3031,12 +3031,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-center",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.226046"
+      "fetchedAt": "2026-05-06T13:41:41.498027"
     },
     {
       "id": "2026-04-17-026",
@@ -3052,7 +3052,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.313700"
+      "fetchedAt": "2026-05-06T13:41:41.555550"
     },
     {
       "id": "2026-04-18-001",
@@ -3067,7 +3067,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.768473"
+      "fetchedAt": "2026-05-06T13:41:41.831210"
     },
     {
       "id": "2026-04-18-014",
@@ -3083,7 +3083,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.770438"
+      "fetchedAt": "2026-05-06T13:41:41.833160"
     },
     {
       "id": "2026-04-27-014",
@@ -3099,7 +3099,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661997"
+      "fetchedAt": "2026-05-06T13:41:41.149873"
     },
     {
       "id": "2026-04-24-023",
@@ -3116,7 +3116,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738482"
+      "fetchedAt": "2026-05-06T13:41:41.203648"
     },
     {
       "id": "2026-04-19-020",
@@ -3129,11 +3129,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225228"
+      "fetchedAt": "2026-05-06T13:41:41.497228"
     },
     {
       "id": "2026-04-17-028",
@@ -3145,13 +3145,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.313894"
+      "fetchedAt": "2026-05-06T13:41:41.555780"
     },
     {
       "id": "2026-04-17-016",
@@ -3166,7 +3166,7 @@
         "data-processing"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312164"
+      "fetchedAt": "2026-05-06T13:41:41.554040"
     },
     {
       "id": "2026-04-12-005",
@@ -3178,12 +3178,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.837976"
+      "fetchedAt": "2026-05-06T13:41:41.883190"
     },
     {
       "id": "2026-04-11-002",
@@ -3195,11 +3195,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-center"
+        "data-center",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.917110"
+      "fetchedAt": "2026-05-06T13:41:41.930305"
     },
     {
       "id": "2026-04-11-010",
@@ -3212,11 +3212,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.918458"
+      "fetchedAt": "2026-05-06T13:41:41.931654"
     },
     {
       "id": "2026-04-11-016",
@@ -3228,12 +3228,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.919322"
+      "fetchedAt": "2026-05-06T13:41:41.932502"
     },
     {
       "id": "2026-05-06-016",
@@ -3249,7 +3249,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.507783"
+      "fetchedAt": "2026-05-06T13:41:41.047890"
     },
     {
       "id": "2026-04-24-005",
@@ -3264,7 +3264,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.736357"
+      "fetchedAt": "2026-05-06T13:41:41.201503"
     },
     {
       "id": "2026-04-24-021",
@@ -3280,7 +3280,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.738190"
+      "fetchedAt": "2026-05-06T13:41:41.203370"
     },
     {
       "id": "2026-04-23-013",
@@ -3292,11 +3292,11 @@
       "source": "main",
       "sourceName": "Taylor & Francis",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888587"
+      "fetchedAt": "2026-05-06T13:41:41.259834"
     },
     {
       "id": "2026-04-22-018",
@@ -3312,7 +3312,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977137"
+      "fetchedAt": "2026-05-06T13:41:41.318641"
     },
     {
       "id": "2026-04-22-023",
@@ -3328,7 +3328,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.977955"
+      "fetchedAt": "2026-05-06T13:41:41.319447"
     },
     {
       "id": "2026-04-19-008",
@@ -3340,12 +3340,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.223489"
+      "fetchedAt": "2026-05-06T13:41:41.495533"
     },
     {
       "id": "2026-04-19-016",
@@ -3360,7 +3360,7 @@
         "data-processing"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.224620"
+      "fetchedAt": "2026-05-06T13:41:41.496632"
     },
     {
       "id": "2026-04-17-006",
@@ -3375,7 +3375,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.310711"
+      "fetchedAt": "2026-05-06T13:41:41.552530"
     },
     {
       "id": "2026-04-17-024",
@@ -3388,11 +3388,11 @@
       "sourceName": "",
       "categories": [
         "data-center",
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.313349"
+      "fetchedAt": "2026-05-06T13:41:41.555232"
     },
     {
       "id": "2026-04-12-001",
@@ -3407,7 +3407,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.837319"
+      "fetchedAt": "2026-05-06T13:41:41.882536"
     },
     {
       "id": "2026-04-12-006",
@@ -3419,11 +3419,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.838179"
+      "fetchedAt": "2026-05-06T13:41:41.883385"
     },
     {
       "id": "2026-04-12-011",
@@ -3439,7 +3439,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.838845"
+      "fetchedAt": "2026-05-06T13:41:41.884068"
     },
     {
       "id": "2026-04-12-013",
@@ -3455,7 +3455,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.839172"
+      "fetchedAt": "2026-05-06T13:41:41.884391"
     },
     {
       "id": "2026-04-10-004",
@@ -3467,11 +3467,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.991778"
+      "fetchedAt": "2026-05-06T13:41:41.981222"
     },
     {
       "id": "2026-04-10-005",
@@ -3483,12 +3483,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.991904"
+      "fetchedAt": "2026-05-06T13:41:41.981343"
     },
     {
       "id": "2026-04-10-009",
@@ -3503,7 +3503,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.992552"
+      "fetchedAt": "2026-05-06T13:41:41.981975"
     },
     {
       "id": "2026-04-10-017",
@@ -3519,7 +3519,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.993721"
+      "fetchedAt": "2026-05-06T13:41:41.983131"
     },
     {
       "id": "2026-04-10-020",
@@ -3535,7 +3535,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.994124"
+      "fetchedAt": "2026-05-06T13:41:41.983536"
     },
     {
       "id": "2026-04-10-022",
@@ -3547,13 +3547,13 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "data-center",
-        "visualization",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.994472"
+      "fetchedAt": "2026-05-06T13:41:41.983871"
     },
     {
       "id": "2026-04-27-002",
@@ -3568,7 +3568,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.660424"
+      "fetchedAt": "2026-05-06T13:41:41.148356"
     },
     {
       "id": "2026-04-23-015",
@@ -3580,11 +3580,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888876"
+      "fetchedAt": "2026-05-06T13:41:41.260123"
     },
     {
       "id": "2026-04-21-006",
@@ -3596,12 +3596,12 @@
       "source": "main",
       "sourceName": "Copernicus Marine",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056821"
+      "fetchedAt": "2026-05-06T13:41:41.370589"
     },
     {
       "id": "2026-04-19-017",
@@ -3617,7 +3617,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.224822"
+      "fetchedAt": "2026-05-06T13:41:41.496835"
     },
     {
       "id": "2026-04-17-011",
@@ -3629,11 +3629,11 @@
       "source": "main",
       "sourceName": "WOD季度更新",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.311504"
+      "fetchedAt": "2026-05-06T13:41:41.553333"
     },
     {
       "id": "2026-04-17-027",
@@ -3645,13 +3645,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.313785"
+      "fetchedAt": "2026-05-06T13:41:41.555662"
     },
     {
       "id": "2026-04-12-007",
@@ -3666,7 +3666,7 @@
         "data-processing"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.838261"
+      "fetchedAt": "2026-05-06T13:41:41.883478"
     },
     {
       "id": "2026-04-12-017",
@@ -3678,12 +3678,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.839677"
+      "fetchedAt": "2026-05-06T13:41:41.884905"
     },
     {
       "id": "2026-04-10-008",
@@ -3695,11 +3695,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.992436"
+      "fetchedAt": "2026-05-06T13:41:41.981862"
     },
     {
       "id": "2026-04-30-010",
@@ -3711,11 +3711,11 @@
       "source": "main",
       "sourceName": "CMEMS",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.580613"
+      "fetchedAt": "2026-05-06T13:41:41.095890"
     },
     {
       "id": "2026-04-23-004",
@@ -3730,7 +3730,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887274"
+      "fetchedAt": "2026-05-06T13:41:41.258525"
     },
     {
       "id": "2026-04-12-018",
@@ -3742,12 +3742,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.839758"
+      "fetchedAt": "2026-05-06T13:41:41.884990"
     },
     {
       "id": "2026-04-11-001",
@@ -3759,11 +3759,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.916976"
+      "fetchedAt": "2026-05-06T13:41:41.930175"
     },
     {
       "id": "2026-04-10-003",
@@ -3778,7 +3778,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.991562"
+      "fetchedAt": "2026-05-06T13:41:41.981001"
     },
     {
       "id": "2026-04-27-009",
@@ -3790,13 +3790,13 @@
       "source": "main",
       "sourceName": "GO-BGC",
       "categories": [
-        "marine-ai",
-        "data-quality",
+        "data-processing",
         "data-center",
-        "data-processing"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661288"
+      "fetchedAt": "2026-05-06T13:41:41.149188"
     },
     {
       "id": "2026-04-24-029",
@@ -3808,11 +3808,11 @@
       "source": "main",
       "sourceName": "CROCO-Ocean v2.1.3",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.739161"
+      "fetchedAt": "2026-05-06T13:41:41.204320"
     },
     {
       "id": "2026-04-20-017",
@@ -3824,11 +3824,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "data-management",
-        "data-center"
+        "data-center",
+        "data-management"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138209"
+      "fetchedAt": "2026-05-06T13:41:41.431129"
     },
     {
       "id": "2026-04-20-025",
@@ -3845,7 +3845,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.139314"
+      "fetchedAt": "2026-05-06T13:41:41.432315"
     },
     {
       "id": "2026-04-12-003",
@@ -3860,7 +3860,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.837630"
+      "fetchedAt": "2026-05-06T13:41:41.882840"
     },
     {
       "id": "2026-04-12-008",
@@ -3872,11 +3872,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.838345"
+      "fetchedAt": "2026-05-06T13:41:41.883569"
     },
     {
       "id": "2026-04-30-002",
@@ -3888,11 +3888,11 @@
       "source": "main",
       "sourceName": "Nature Communications Earth",
       "categories": [
-        "marine-ai",
-        "data-center"
+        "data-center",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.579570"
+      "fetchedAt": "2026-05-06T13:41:41.094828"
     },
     {
       "id": "2026-04-17-019",
@@ -3905,11 +3905,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312578"
+      "fetchedAt": "2026-05-06T13:41:41.554429"
     },
     {
       "id": "2026-04-11-006",
@@ -3921,12 +3921,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.917856"
+      "fetchedAt": "2026-05-06T13:41:41.931054"
     },
     {
       "id": "2026-04-06-004",
@@ -3938,11 +3938,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069074"
+      "fetchedAt": "2026-05-06T13:41:42.038874"
     },
     {
       "id": "2026-04-06-005",
@@ -3954,12 +3954,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "visualization",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069185"
+      "fetchedAt": "2026-05-06T13:41:42.038985"
     },
     {
       "id": "2026-04-06-006",
@@ -3971,12 +3971,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "digital-twin",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069296"
+      "fetchedAt": "2026-05-06T13:41:42.039098"
     },
     {
       "id": "2026-04-06-007",
@@ -3988,11 +3988,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "visualization",
-        "tools-resources"
+        "tools-resources",
+        "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069522"
+      "fetchedAt": "2026-05-06T13:41:42.039297"
     },
     {
       "id": "2026-04-06-008",
@@ -4004,11 +4004,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069633"
+      "fetchedAt": "2026-05-06T13:41:42.039405"
     },
     {
       "id": "2026-04-06-009",
@@ -4020,11 +4020,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.069829"
+      "fetchedAt": "2026-05-06T13:41:42.039596"
     },
     {
       "id": "2026-04-06-011",
@@ -4041,7 +4041,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.070219"
+      "fetchedAt": "2026-05-06T13:41:42.040003"
     },
     {
       "id": "2026-04-06-013",
@@ -4057,7 +4057,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.070467"
+      "fetchedAt": "2026-05-06T13:41:42.040221"
     },
     {
       "id": "2026-04-06-014",
@@ -4073,7 +4073,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.070655"
+      "fetchedAt": "2026-05-06T13:41:42.040407"
     },
     {
       "id": "2026-04-06-018",
@@ -4085,12 +4085,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.071275"
+      "fetchedAt": "2026-05-06T13:41:42.041061"
     },
     {
       "id": "2026-04-06-019",
@@ -4102,13 +4102,13 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "data-center",
-        "visualization",
         "data-processing",
-        "tools-resources"
+        "tools-resources",
+        "visualization",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.071397"
+      "fetchedAt": "2026-05-06T13:41:42.041169"
     },
     {
       "id": "2026-04-06-020",
@@ -4124,7 +4124,7 @@
         "tools-resources"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.071518"
+      "fetchedAt": "2026-05-06T13:41:42.041280"
     },
     {
       "id": "2026-04-10-015",
@@ -4137,11 +4137,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.993371"
+      "fetchedAt": "2026-05-06T13:41:41.982807"
     },
     {
       "id": "2026-04-27-010",
@@ -4153,11 +4153,11 @@
       "source": "main",
       "sourceName": "CMEMS",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661503"
+      "fetchedAt": "2026-05-06T13:41:41.149360"
     },
     {
       "id": "2026-04-27-012",
@@ -4173,7 +4173,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.661740"
+      "fetchedAt": "2026-05-06T13:41:41.149591"
     },
     {
       "id": "2026-04-24-014",
@@ -4185,11 +4185,11 @@
       "source": "main",
       "sourceName": "CMEMS",
       "categories": [
-        "data-center",
-        "data-processing"
+        "data-processing",
+        "data-center"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737543"
+      "fetchedAt": "2026-05-06T13:41:41.202722"
     },
     {
       "id": "2026-04-18-002",
@@ -4204,7 +4204,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.768579"
+      "fetchedAt": "2026-05-06T13:41:41.831308"
     },
     {
       "id": "2026-04-06-002",
@@ -4219,7 +4219,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.068748"
+      "fetchedAt": "2026-05-06T13:41:42.038517"
     },
     {
       "id": "2026-04-24-013",
@@ -4231,11 +4231,11 @@
       "source": "main",
       "sourceName": "ETOOCC2项目",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.737308"
+      "fetchedAt": "2026-05-06T13:41:41.202498"
     },
     {
       "id": "2026-04-23-016",
@@ -4247,12 +4247,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "tools-resources",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888991"
+      "fetchedAt": "2026-05-06T13:41:41.260236"
     },
     {
       "id": "2026-04-22-006",
@@ -4264,11 +4264,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.975290"
+      "fetchedAt": "2026-05-06T13:41:41.316799"
     },
     {
       "id": "2026-04-22-009",
@@ -4280,11 +4280,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.975763"
+      "fetchedAt": "2026-05-06T13:41:41.317242"
     },
     {
       "id": "2026-04-06-003",
@@ -4296,11 +4296,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-management"
+        "data-management",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.068841"
+      "fetchedAt": "2026-05-06T13:41:42.038627"
     },
     {
       "id": "2026-04-01-001",
@@ -4312,11 +4312,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-center"
+        "data-center",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.142349"
+      "fetchedAt": "2026-05-06T13:41:42.084872"
     },
     {
       "id": "2026-04-01-002",
@@ -4328,12 +4328,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
         "data-center",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.142650"
+      "fetchedAt": "2026-05-06T13:41:42.085099"
     },
     {
       "id": "2026-04-30-018",
@@ -4350,7 +4350,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.581573"
+      "fetchedAt": "2026-05-06T13:41:41.096926"
     },
     {
       "id": "2026-04-23-021",
@@ -4366,7 +4366,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.889662"
+      "fetchedAt": "2026-05-06T13:41:41.260905"
     },
     {
       "id": "2026-04-22-014",
@@ -4378,11 +4378,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976590"
+      "fetchedAt": "2026-05-06T13:41:41.318077"
     },
     {
       "id": "2026-04-06-010",
@@ -4394,12 +4394,12 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "tools-resources",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.070000"
+      "fetchedAt": "2026-05-06T13:41:42.039787"
     },
     {
       "id": "2026-04-19-021",
@@ -4411,13 +4411,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
+        "data-processing",
         "data-management",
         "open-cruise",
-        "marine-ai",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225314"
+      "fetchedAt": "2026-05-06T13:41:41.497311"
     },
     {
       "id": "2026-04-01-005",
@@ -4429,11 +4429,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.143075"
+      "fetchedAt": "2026-05-06T13:41:42.085524"
     },
     {
       "id": "2026-04-22-011",
@@ -4445,11 +4445,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-quality"
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976107"
+      "fetchedAt": "2026-05-06T13:41:41.317586"
     },
     {
       "id": "2026-04-19-003",
@@ -4464,7 +4464,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.222683"
+      "fetchedAt": "2026-05-06T13:41:41.494784"
     },
     {
       "id": "2026-04-17-014",
@@ -4476,11 +4476,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.311943"
+      "fetchedAt": "2026-05-06T13:41:41.553811"
     },
     {
       "id": "2026-04-01-011",
@@ -4492,11 +4492,11 @@
       "source": "supplement",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:16.144116"
+      "fetchedAt": "2026-05-06T13:41:42.086555"
     },
     {
       "id": "2026-04-19-015",
@@ -4508,11 +4508,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.224535"
+      "fetchedAt": "2026-05-06T13:41:41.496534"
     },
     {
       "id": "2026-04-22-012",
@@ -4524,12 +4524,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976222"
+      "fetchedAt": "2026-05-06T13:41:41.317728"
     },
     {
       "id": "2026-04-20-016",
@@ -4541,13 +4541,13 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "visualization",
+        "data-processing",
         "tools-resources",
-        "data-processing"
+        "visualization",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138015"
+      "fetchedAt": "2026-05-06T13:41:41.430932"
     },
     {
       "id": "2026-04-17-021",
@@ -4563,7 +4563,7 @@
         "open-cruise"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.312910"
+      "fetchedAt": "2026-05-06T13:41:41.554790"
     },
     {
       "id": "2026-04-22-027",
@@ -4575,12 +4575,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "open-cruise",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.978536"
+      "fetchedAt": "2026-05-06T13:41:41.320017"
     },
     {
       "id": "2026-04-22-016",
@@ -4592,12 +4592,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-processing",
         "tools-resources",
-        "data-processing"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976784"
+      "fetchedAt": "2026-05-06T13:41:41.318273"
     },
     {
       "id": "2026-04-23-007",
@@ -4612,7 +4612,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.887782"
+      "fetchedAt": "2026-05-06T13:41:41.259026"
     },
     {
       "id": "2026-04-22-013",
@@ -4624,12 +4624,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.976339"
+      "fetchedAt": "2026-05-06T13:41:41.317851"
     },
     {
       "id": "2026-04-21-007",
@@ -4641,13 +4641,13 @@
       "source": "main",
       "sourceName": "Copernicus Marine",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
         "digital-twin",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.056902"
+      "fetchedAt": "2026-05-06T13:41:41.370695"
     },
     {
       "id": "2026-04-20-021",
@@ -4660,11 +4660,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138733"
+      "fetchedAt": "2026-05-06T13:41:41.431646"
     },
     {
       "id": "2026-04-12-014",
@@ -4680,7 +4680,7 @@
         "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.839253"
+      "fetchedAt": "2026-05-06T13:41:41.884472"
     },
     {
       "id": "2026-04-23-011",
@@ -4692,12 +4692,12 @@
       "source": "main",
       "sourceName": "MDPI Sensors",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888422"
+      "fetchedAt": "2026-05-06T13:41:41.259671"
     },
     {
       "id": "2026-04-19-009",
@@ -4709,12 +4709,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.223609"
+      "fetchedAt": "2026-05-06T13:41:41.495668"
     },
     {
       "id": "2026-04-23-010",
@@ -4729,7 +4729,7 @@
         "visualization"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888209"
+      "fetchedAt": "2026-05-06T13:41:41.259455"
     },
     {
       "id": "2026-04-22-007",
@@ -4741,11 +4741,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "digital-twin"
+        "digital-twin",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.975448"
+      "fetchedAt": "2026-05-06T13:41:41.316927"
     },
     {
       "id": "2026-04-20-004",
@@ -4757,11 +4757,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "tools-resources"
+        "tools-resources",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.136233"
+      "fetchedAt": "2026-05-06T13:41:41.429072"
     },
     {
       "id": "2026-04-20-014",
@@ -4773,11 +4773,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137813"
+      "fetchedAt": "2026-05-06T13:41:41.430728"
     },
     {
       "id": "2026-04-19-006",
@@ -4792,7 +4792,7 @@
         "digital-twin"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.223173"
+      "fetchedAt": "2026-05-06T13:41:41.495253"
     },
     {
       "id": "2026-04-20-010",
@@ -4804,12 +4804,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137098"
+      "fetchedAt": "2026-05-06T13:41:41.430026"
     },
     {
       "id": "2026-04-19-027",
@@ -4822,12 +4822,12 @@
       "sourceName": "",
       "categories": [
         "data-center",
+        "tools-resources",
         "visualization",
-        "data-quality",
-        "tools-resources"
+        "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.226133"
+      "fetchedAt": "2026-05-06T13:41:41.498111"
     },
     {
       "id": "2026-04-20-019",
@@ -4840,11 +4840,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.138378"
+      "fetchedAt": "2026-05-06T13:41:41.431296"
     },
     {
       "id": "2026-04-19-022",
@@ -4857,11 +4857,11 @@
       "sourceName": "",
       "categories": [
         "data-management",
-        "marine-ai",
-        "open-cruise"
+        "open-cruise",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.225421"
+      "fetchedAt": "2026-05-06T13:41:41.497393"
     },
     {
       "id": "2026-04-19-012",
@@ -4873,12 +4873,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "data-center",
         "data-quality",
-        "data-center"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.224042"
+      "fetchedAt": "2026-05-06T13:41:41.496087"
     },
     {
       "id": "2026-04-20-015",
@@ -4890,11 +4890,11 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-processing"
+        "data-processing",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137930"
+      "fetchedAt": "2026-05-06T13:41:41.430846"
     },
     {
       "id": "2026-04-23-012",
@@ -4910,7 +4910,7 @@
         "data-quality"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:14.888509"
+      "fetchedAt": "2026-05-06T13:41:41.259755"
     },
     {
       "id": "2026-04-20-009",
@@ -4922,12 +4922,12 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
+        "tools-resources",
         "visualization",
-        "tools-resources"
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137012"
+      "fetchedAt": "2026-05-06T13:41:41.429939"
     },
     {
       "id": "2026-04-20-013",
@@ -4939,24 +4939,24 @@
       "source": "main",
       "sourceName": "",
       "categories": [
-        "marine-ai",
-        "data-quality",
         "data-center",
-        "tools-resources"
+        "tools-resources",
+        "data-quality",
+        "marine-ai"
       ],
       "tags": [],
-      "fetchedAt": "2026-05-06T13:41:15.137591"
+      "fetchedAt": "2026-05-06T13:41:41.430483"
     }
   ],
-  "lastUpdated": "2026-05-06T13:41:16.144369",
+  "lastUpdated": "2026-05-06T13:41:42.086791",
   "stats": {
     "total": 303,
     "byCategory": {
-      "marine-ai": 230,
       "data-management": 72,
       "data-center": 101,
-      "tools-resources": 80,
+      "marine-ai": 230,
       "data-processing": 63,
+      "tools-resources": 80,
       "open-cruise": 33,
       "digital-twin": 34,
       "visualization": 48,
