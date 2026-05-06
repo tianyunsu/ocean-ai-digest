@@ -1,0 +1,239 @@
+{
+  "articles": [
+    {
+      "id": "2026-05-06-001",
+      "date": "2026-05-06",
+      "title": "CMEMS发布AI驱动下一代业务化海洋产品",
+      "summary": "欧洲哥白尼海洋服务(CMEMS)宣布推出基于人工智能的新一代业务化海洋产品，显著提升海洋参数预测精度。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-06.html",
+      "source": "main",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["CMEMS", "AI", "operational"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-05-06-002",
+      "date": "2026-05-06",
+      "title": "EDITO2项目正式启动，获得1400万欧元资助",
+      "summary": "欧洲数字孪生海洋项目(EDITO)第二期正式启动，获得欧盟1400万欧元资助，将建设下一代海洋数字孪生基础设施。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-06.html",
+      "source": "main",
+      "categories": ["digital-twin"],
+      "tags": ["EDITO2", "digital twin", "EU funding"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-05-06-003",
+      "date": "2026-05-06",
+      "title": "xarray v2026.05.0 发布，新增海洋数据处理功能",
+      "summary": "xarray科学计算库发布新版本，特别针对海洋数据进行优化，新增海表温度和盐度的专业处理函数。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-06.html",
+      "source": "main",
+      "categories": ["data-processing", "tools-resources"],
+      "tags": ["xarray", "Python", "data processing"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-05-04-001",
+      "date": "2026-05-04",
+      "title": "DITTO全球数字孪生海洋治理框架正式启动",
+      "summary": "DITTO项目宣布全球数字孪生海洋(DTO)治理框架正式启动，旨在建立国际海洋数据共享标准。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-04.html",
+      "source": "main",
+      "categories": ["digital-twin", "data-management"],
+      "tags": ["DITTO", "governance", "digital twin"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-30-001",
+      "date": "2026-04-30",
+      "title": "Schmidt Ocean发布2026年度科考航次计划",
+      "summary": "Schmidt Ocean Institute发布2026年度开放航次计划，面向全球科学家开放申请，提供免费船时支持。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-04-30.html",
+      "source": "main",
+      "categories": ["open-cruise"],
+      "tags": ["Schmidt Ocean", "expedition", "ship time"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-28-001",
+      "date": "2026-04-28",
+      "title": "DiffSRDA: 基于去噪扩散模型的数据同化框架",
+      "summary": "arXiv预印本DiffSRDA利用DDPM实现时空超分辨率数据同化，在海洋参数重建任务上取得SOTA效果。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-28.html",
+      "source": "supplement",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["DDPM", "data assimilation", "super-resolution"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-27-001",
+      "date": "2026-04-27",
+      "title": "GEBCO_2026 Grid全球海底地形图发布",
+      "summary": "全球海洋水深测量权威数据库GEBCO发布2026版网格地形图，空间分辨率提升至15弧秒。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-04-27.html",
+      "source": "main",
+      "categories": ["data-center"],
+      "tags": ["GEBCO", "bathymetry", "database"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-26-001",
+      "date": "2026-04-26",
+      "title": "第五届人工智能海洋学论坛在济南召开",
+      "summary": "第五届人工智能海洋学论坛在国家超级计算济南中心举办，主题为\"智能驱动 慧识四海\"。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-26.html",
+      "source": "supplement",
+      "categories": ["marine-ai"],
+      "tags": ["AI oceanography", "conference", "forum"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-25-001",
+      "date": "2026-04-25",
+      "title": "DiffUCA: DDPM应用于深海水声信道预测",
+      "summary": "厦门大学团队提出DiffUCA，利用扩散模型预测深海水声信道冲激响应，为水声通信提供新方法。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-25.html",
+      "source": "supplement",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["DDPM", "underwater acoustics", "Xiamen University"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-24-001",
+      "date": "2026-04-24",
+      "title": "海洋AI可视化平台 OceanViz 发布开源版本",
+      "summary": "海洋AI可视化平台OceanViz发布开源版本，支持海表温度、盐度、流的实时可视化。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-04-24.html",
+      "source": "main",
+      "categories": ["visualization", "tools-resources"],
+      "tags": ["OceanViz", "visualization", "open source"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-20-001",
+      "date": "2026-04-20",
+      "title": "OceanSTGNN: 时空注意力图神经网络预测海洋热含量",
+      "summary": "中国海洋大学与清华大学联合团队提出OceanSTGNN框架，用于全球海洋热含量预测。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-20.html",
+      "source": "supplement",
+      "categories": ["marine-ai"],
+      "tags": ["OceanSTGNN", "GNN", "heat content prediction"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-18-001",
+      "date": "2026-04-18",
+      "title": "GOFLOW: 深度学习从静止卫星提取海洋流场",
+      "summary": "Nature Geoscience发表GOFLOW框架，利用深度学习从地球静止卫星热成像序列中提取海洋流场信息。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-18.html",
+      "source": "supplement",
+      "categories": ["marine-ai"],
+      "tags": ["GOFLOW", "Nature Geoscience", "satellite"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-12-001",
+      "date": "2026-04-12",
+      "title": "OceanBench v2: 海洋AI基准测试平台升级",
+      "summary": "OceanBench基准平台发布v2版本，新增多变量时序预测和观测系统模拟试验任务。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-12.html",
+      "source": "supplement",
+      "categories": ["marine-ai", "tools-resources"],
+      "tags": ["OceanBench", "benchmark", "evaluation"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-06-001",
+      "date": "2026-04-06",
+      "title": "条件DDPM从稀疏观测重建3D海洋状态",
+      "summary": "arXiv预印本提出条件去噪扩散概率模型，可从99.9%稀疏度的海面高度和温度观测中重建高分辨率三维海洋状态。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-06.html",
+      "source": "supplement",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["DDPM", "3D reconstruction", "sparse data"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-04-01-001",
+      "date": "2026-04-01",
+      "title": "\"瞰海\"海洋大模型首批行业应用落地",
+      "summary": "中国首个海洋领域大模型\"瞰海\"发布首批行业落地应用，覆盖台风预报、海浪预警、渔业资源评估等四大场景。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-01.html",
+      "source": "supplement",
+      "categories": ["marine-ai"],
+      "tags": ["LLM", "Ocean LLM", "瞰海", "大模型"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-03-31-001",
+      "date": "2026-03-31",
+      "title": "Argo计划累计布放浮标超过20000个",
+      "summary": "国际Argo计划宣布全球累计布放剖面浮标超过20000个，构建了覆盖全球深海大洋的实时观测网络。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-31.html",
+      "source": "main",
+      "categories": ["data-center", "open-cruise"],
+      "tags": ["Argo", "float", "observation network"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-03-30-001",
+      "date": "2026-03-30",
+      "title": "AI在海洋卫星遥感中的关键进展综述",
+      "summary": "中科院海洋所等团队发表综述论文，系统梳理AI在海洋卫星遥感参数反演、数据重建、现象识别中的应用进展。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-03-30.html",
+      "source": "supplement",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["review", "remote sensing", "satellite"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-03-29-001",
+      "date": "2026-03-29",
+      "title": "SeaCast: 单GPU 20秒完成15天区域海洋预报",
+      "summary": "SeaCast基于图神经网络实现区域海洋快速预报，单GPU仅需20秒即可完成15天预报。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-29.html",
+      "source": "main",
+      "categories": ["marine-ai"],
+      "tags": ["SeaCast", "GNN", "ocean forecasting"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-03-28-001",
+      "date": "2026-03-28",
+      "title": "深度学习近岸海表温度预测研究",
+      "summary": "研究团队提出基于深度学习的近岸海表温度预测方法，在复杂海岸线区域取得较好效果。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-28.html",
+      "source": "main",
+      "categories": ["marine-ai", "data-processing"],
+      "tags": ["deep learning", "SST", "coastal"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    },
+    {
+      "id": "2026-03-26-001",
+      "date": "2026-03-26",
+      "title": "中国海境区域海洋环境AI大模型发布",
+      "summary": "中国海洋学会联合多家机构发布\"海境\"区域海洋环境AI大模型，专注中国近海环境预测。",
+      "url": "https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-26.html",
+      "source": "main",
+      "categories": ["marine-ai"],
+      "tags": ["海境", "regional model", "LLM"],
+      "fetchedAt": "2026-05-06T08:00:00Z"
+    }
+  ],
+  "lastUpdated": "2026-05-06T08:00:00Z",
+  "stats": {
+    "total": 20,
+    "byCategory": {
+      "marine-ai": 15,
+      "data-processing": 7,
+      "digital-twin": 2,
+      "tools-resources": 3,
+      "data-center": 2,
+      "open-cruise": 2,
+      "visualization": 1,
+      "data-quality": 0,
+      "data-management": 2
+    }
+  }
+}

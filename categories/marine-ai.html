@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海洋人工智能 | 海洋AI进展汇总</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #3B82F6;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #3B82F6 0%, #3B82F699 100%);
+            color: white;
+            padding: 48px 0;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .header-subtitle {
+            opacity: 0.9;
+        }
+
+        nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .stats-bar {
+            background: white;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-bar .container {
+            display: flex;
+            gap: 32px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .articles-section {
+            padding: 32px 0 80px;
+        }
+
+        .articles-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-source.main {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .article-source.supplement {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .article-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: var(--bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #0EA5E9;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-icon">🤖</div>
+            <div>
+                <h1>海洋人工智能</h1>
+                <p class="header-subtitle">AI、深度学习、机器学习在海洋科学中的应用，包括大模型、神经网络、图神经网络等</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="../index.html">首页</a>
+                <a href="../all.html">全部进展</a>
+                <a href="marine-ai.html" class="active">海洋AI</a>
+                <a href="digital-twin.html">数字孪生</a>
+                <a href="data-processing.html">数据处理</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <span class="stat-value">13</span> 条进展
+            </div>
+            <div class="stat-item">
+                📅 最后更新: 2026-05-06
+            </div>
+        </div>
+    </div>
+
+    <main class="articles-section">
+        <div class="container">
+            <div class="articles-list" id="articlesList">
+                
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-05-06</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-06.html" target="_blank">CMEMS发布AI驱动下一代业务化海洋产品</a>
+                </h3>
+                <p class="article-summary">欧洲哥白尼海洋服务(CMEMS)宣布推出基于人工智能的新一代业务化海洋产品，显著提升海洋参数预测精度。</p>
+                <div class="article-tags"><span class="article-tag">CMEMS</span><span class="article-tag">AI</span><span class="article-tag">operational</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-28</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-28.html" target="_blank">DiffSRDA: 基于去噪扩散模型的数据同化框架</a>
+                </h3>
+                <p class="article-summary">arXiv预印本DiffSRDA利用DDPM实现时空超分辨率数据同化，在海洋参数重建任务上取得SOTA效果。</p>
+                <div class="article-tags"><span class="article-tag">DDPM</span><span class="article-tag">data assimilation</span><span class="article-tag">super-resolution</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-26</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-26.html" target="_blank">第五届人工智能海洋学论坛在济南召开</a>
+                </h3>
+                <p class="article-summary">第五届人工智能海洋学论坛在国家超级计算济南中心举办，主题为"智能驱动 慧识四海"。</p>
+                <div class="article-tags"><span class="article-tag">AI oceanography</span><span class="article-tag">conference</span><span class="article-tag">forum</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-25</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-25.html" target="_blank">DiffUCA: DDPM应用于深海水声信道预测</a>
+                </h3>
+                <p class="article-summary">厦门大学团队提出DiffUCA，利用扩散模型预测深海水声信道冲激响应，为水声通信提供新方法。</p>
+                <div class="article-tags"><span class="article-tag">DDPM</span><span class="article-tag">underwater acoustics</span><span class="article-tag">Xiamen University</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-20</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-20.html" target="_blank">OceanSTGNN: 时空注意力图神经网络预测海洋热含量</a>
+                </h3>
+                <p class="article-summary">中国海洋大学与清华大学联合团队提出OceanSTGNN框架，用于全球海洋热含量预测。</p>
+                <div class="article-tags"><span class="article-tag">OceanSTGNN</span><span class="article-tag">GNN</span><span class="article-tag">heat content prediction</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-18</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-18.html" target="_blank">GOFLOW: 深度学习从静止卫星提取海洋流场</a>
+                </h3>
+                <p class="article-summary">Nature Geoscience发表GOFLOW框架，利用深度学习从地球静止卫星热成像序列中提取海洋流场信息。</p>
+                <div class="article-tags"><span class="article-tag">GOFLOW</span><span class="article-tag">Nature Geoscience</span><span class="article-tag">satellite</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-12</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-12.html" target="_blank">OceanBench v2: 海洋AI基准测试平台升级</a>
+                </h3>
+                <p class="article-summary">OceanBench基准平台发布v2版本，新增多变量时序预测和观测系统模拟试验任务。</p>
+                <div class="article-tags"><span class="article-tag">OceanBench</span><span class="article-tag">benchmark</span><span class="article-tag">evaluation</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-06</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-06.html" target="_blank">条件DDPM从稀疏观测重建3D海洋状态</a>
+                </h3>
+                <p class="article-summary">arXiv预印本提出条件去噪扩散概率模型，可从99.9%稀疏度的海面高度和温度观测中重建高分辨率三维海洋状态。</p>
+                <div class="article-tags"><span class="article-tag">DDPM</span><span class="article-tag">3D reconstruction</span><span class="article-tag">sparse data</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-01</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-04-01.html" target="_blank">"瞰海"海洋大模型首批行业应用落地</a>
+                </h3>
+                <p class="article-summary">中国首个海洋领域大模型"瞰海"发布首批行业落地应用，覆盖台风预报、海浪预警、渔业资源评估等四大场景。</p>
+                <div class="article-tags"><span class="article-tag">LLM</span><span class="article-tag">Ocean LLM</span><span class="article-tag">瞰海</span><span class="article-tag">大模型</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-30</span>
+                    <span class="article-source supplement">补充</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/posts/2026-03-30.html" target="_blank">AI在海洋卫星遥感中的关键进展综述</a>
+                </h3>
+                <p class="article-summary">中科院海洋所等团队发表综述论文，系统梳理AI在海洋卫星遥感参数反演、数据重建、现象识别中的应用进展。</p>
+                <div class="article-tags"><span class="article-tag">review</span><span class="article-tag">remote sensing</span><span class="article-tag">satellite</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-29</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-29.html" target="_blank">SeaCast: 单GPU 20秒完成15天区域海洋预报</a>
+                </h3>
+                <p class="article-summary">SeaCast基于图神经网络实现区域海洋快速预报，单GPU仅需20秒即可完成15天预报。</p>
+                <div class="article-tags"><span class="article-tag">SeaCast</span><span class="article-tag">GNN</span><span class="article-tag">ocean forecasting</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-28.html" target="_blank">深度学习近岸海表温度预测研究</a>
+                </h3>
+                <p class="article-summary">研究团队提出基于深度学习的近岸海表温度预测方法，在复杂海岸线区域取得较好效果。</p>
+                <div class="article-tags"><span class="article-tag">deep learning</span><span class="article-tag">SST</span><span class="article-tag">coastal</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-26</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-26.html" target="_blank">中国海境区域海洋环境AI大模型发布</a>
+                </h3>
+                <p class="article-summary">中国海洋学会联合多家机构发布"海境"区域海洋环境AI大模型，专注中国近海环境预测。</p>
+                <div class="article-tags"><span class="article-tag">海境</span><span class="article-tag">regional model</span><span class="article-tag">LLM</span></div>
+            </article>
+            
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>数据来源: <a href="https://tianyunsu.github.io/ocean-data-daily-report/" target="_blank">海洋AI技术日报</a> &
+               <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/" target="_blank">补充日报</a></p>
+        </div>
+    </footer>
+</body>
+</html>

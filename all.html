@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全部进展 | 海洋AI进展汇总</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0369A1;
+            --primary-light: #0EA5E9;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 32px 0;
+        }
+
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+        }
+
+        /* Filters */
+        .filters {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .filters .container {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary);
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: white;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--primary);
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Articles */
+        .articles-section {
+            padding: 32px 0 80px;
+        }
+
+        .articles-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary-light);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-source.main {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .article-source.supplement {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .article-categories {
+            display: flex;
+            gap: 6px;
+        }
+
+        .article-category {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .article-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: var(--bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 40px;
+        }
+
+        .pagination button {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .pagination button.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .no-results h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .filters .container {
+                flex-direction: column;
+            }
+
+            .filter-buttons {
+                width: 100%;
+                overflow-x: auto;
+                flex-wrap: nowrap;
+                padding-bottom: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📰 全部进展</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="all.html" class="active">全部进展</a>
+                <a href="categories/marine-ai.html">海洋AI</a>
+                <a href="categories/digital-twin.html">数字孪生</a>
+                <a href="categories/data-processing.html">数据处理</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="filters">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 搜索进展标题或摘要...">
+            </div>
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-category="all">全部</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="articles-section">
+        <div class="container">
+            <div class="articles-list" id="articlesList">
+                <!-- Articles will be loaded here -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be rendered here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>数据来源: <a href="https://tianyunsu.github.io/ocean-data-daily-report/" target="_blank">海洋AI技术日报</a> &
+               <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/" target="_blank">补充日报</a></p>
+        </div>
+    </footer>
+
+    <script>
+        let allArticles = [];
+        let filteredArticles = [];
+        let currentCategory = 'all';
+        let currentPage = 1;
+        const itemsPerPage = 10;
+
+        const categoryColors = {
+            'marine-ai': '#3B82F6',
+            'digital-twin': '#8B5CF6',
+            'visualization': '#EC4899',
+            'data-quality': '#10B981',
+            'data-processing': '#F59E0B',
+            'data-management': '#6366F1',
+            'open-cruise': '#0EA5E9',
+            'data-center': '#64748B',
+            'tools-resources': '#EF4444'
+        };
+
+        const categoryNames = {
+            'marine-ai': '海洋AI',
+            'digital-twin': '数字孪生',
+            'visualization': '可视化',
+            'data-quality': '数据质量',
+            'data-processing': '数据处理',
+            'data-management': '数据管理',
+            'open-cruise': '开放航次',
+            'data-center': '数据中心',
+            'tools-resources': '工具资源'
+        };
+
+        async function loadData() {
+            try {
+                const articlesRes = await fetch('_data/articles.json');
+                const categoriesRes = await fetch('_data/categories.json');
+
+                const articlesData = await articlesRes.json();
+                const categoriesData = await categoriesRes.json();
+
+                allArticles = articlesData.articles;
+                filteredArticles = [...allArticles];
+
+                // Render filter buttons
+                renderFilterButtons(categoriesData.categories);
+
+                // Initial render
+                applyFilters();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function renderFilterButtons(categories) {
+            const container = document.getElementById('filterButtons');
+            const buttons = categories.map(cat => `
+                <button class="filter-btn" data-category="${cat.id}">${cat.icon} ${cat.name}</button>
+            `).join('');
+
+            container.innerHTML = `
+                <button class="filter-btn active" data-category="all">全部</button>
+                ${buttons}
+            `;
+
+            // Add click handlers
+            container.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentCategory = btn.dataset.category;
+                    currentPage = 1;
+                    applyFilters();
+                });
+            });
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            filteredArticles = allArticles.filter(article => {
+                // Category filter
+                const categoryMatch = currentCategory === 'all' ||
+                    article.categories.includes(currentCategory);
+
+                // Search filter
+                const searchMatch = !searchTerm ||
+                    article.title.toLowerCase().includes(searchTerm) ||
+                    article.summary.toLowerCase().includes(searchTerm) ||
+                    article.tags.some(tag => tag.toLowerCase().includes(searchTerm));
+
+                return categoryMatch && searchMatch;
+            });
+
+            renderArticles();
+            renderPagination();
+        }
+
+        function renderArticles() {
+            const container = document.getElementById('articlesList');
+
+            if (filteredArticles.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <h3>没有找到匹配的进展</h3>
+                        <p>请尝试调整搜索条件或筛选器</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageArticles = filteredArticles.slice(start, end);
+
+            container.innerHTML = pageArticles.map(art => {
+                const sourceLabel = art.source === 'main' ? '日报' : '补充';
+                const tags = art.tags.slice(0, 5).map(tag => `<span class="article-tag">${tag}</span>`).join('');
+                const categories = art.categories.map(cat =>
+                    `<span class="article-category" style="background: ${categoryColors[cat]}20; color: ${categoryColors[cat]}">${categoryNames[cat]}</span>`
+                ).join('');
+
+                return `
+                    <article class="article-card">
+                        <div class="article-header">
+                            <span class="article-date">📅 ${art.date}</span>
+                            <span class="article-source ${art.source}">${sourceLabel}</span>
+                            <div class="article-categories">${categories}</div>
+                        </div>
+                        <h3 class="article-title">
+                            <a href="${art.url}" target="_blank">${art.title}</a>
+                        </h3>
+                        <p class="article-summary">${art.summary}</p>
+                        <div class="article-tags">${tags}</div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        function renderPagination() {
+            const container = document.getElementById('pagination');
+            const totalPages = Math.ceil(filteredArticles.length / itemsPerPage);
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let buttons = `
+                <button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>上一页</button>
+            `;
+
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    buttons += `<button onclick="goToPage(${i})" class="${i === currentPage ? 'active' : ''}">${i}</button>`;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    buttons += `<span style="padding: 0 8px;">...</span>`;
+                }
+            }
+
+            buttons += `<button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>下一页</button>`;
+
+            container.innerHTML = buttons;
+        }
+
+        function goToPage(page) {
+            currentPage = page;
+            renderArticles();
+            renderPagination();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', () => {
+            currentPage = 1;
+            applyFilters();
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

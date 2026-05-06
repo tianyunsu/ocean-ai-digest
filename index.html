@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海洋AI进展汇总 | Ocean AI Digest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0369A1;
+            --primary-light: #0EA5E9;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 48px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header-meta {
+            margin-top: 24px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+        }
+
+        .stats-bar .container {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+        }
+
+        /* Categories Grid */
+        .categories-section {
+            padding: 48px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        .category-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 28px;
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+            border-color: var(--primary-light);
+        }
+
+        .category-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .category-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .category-name-en {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .category-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            flex-grow: 1;
+            margin-bottom: 16px;
+        }
+
+        .category-count {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: var(--bg);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+
+        /* Latest Section */
+        .latest-section {
+            padding: 48px 0 80px;
+            background: white;
+        }
+
+        .latest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 24px;
+        }
+
+        .article-card {
+            background: var(--bg);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary-light);
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-source.main {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .article-source.supplement {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .article-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: white;
+            border-radius: 4px;
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 32px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.75rem;
+            }
+
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .latest-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌊 海洋AI进展汇总</h1>
+            <p>聚合海洋AI技术日报与补充日报，按研究方向分类整理，方便浏览与追踪最新进展</p>
+            <div class="header-meta">
+                <span>📅 最后更新: <span id="lastUpdated">加载中...</span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <div class="stat-value" id="totalCount">-</div>
+                <div class="stat-label">总进展数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="categoryCount">9</div>
+                <div class="stat-label">研究方向</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="sourceCount">2</div>
+                <div class="stat-label">数据来源</div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html" class="active">首页</a>
+                <a href="all.html">全部进展</a>
+                <a href="categories/marine-ai.html">海洋AI</a>
+                <a href="categories/digital-twin.html">数字孪生</a>
+                <a href="categories/data-processing.html">数据处理</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="section-title">研究方向分类</h2>
+                <p class="section-subtitle">按9个研究方向分类汇总，点击卡片查看详细内容</p>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-section">
+            <div class="container">
+                <h2 class="section-title">最新进展</h2>
+                <p class="section-subtitle">来自两个数据源的最新进展，按时间倒序排列</p>
+                <div class="latest-grid" id="latestGrid">
+                    <!-- Articles will be loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>数据来源: <a href="https://tianyunsu.github.io/ocean-data-daily-report/" target="_blank">海洋AI技术日报</a> &
+               <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/" target="_blank">补充日报</a></p>
+            <p style="margin-top: 8px;">本页面由 Ocean AI Digest 自动汇总生成</p>
+        </div>
+    </footer>
+
+    <script>
+        // Load data
+        async function loadData() {
+            try {
+                const [articlesRes, categoriesRes] = await Promise.all([
+                    fetch('_data/articles.json'),
+                    fetch('_data/categories.json')
+                ]);
+
+                const articlesData = await articlesRes.json();
+                const categoriesData = await categoriesRes.json();
+
+                // Update stats
+                document.getElementById('totalCount').textContent = articlesData.stats.total;
+                document.getElementById('lastUpdated').textContent = new Date(articlesData.lastUpdated).toLocaleString('zh-CN');
+
+                // Render categories
+                renderCategories(categoriesData.categories, articlesData.stats.byCategory);
+
+                // Render latest articles
+                renderLatestArticles(articlesData.articles.slice(0, 6));
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        function renderCategories(categories, stats) {
+            const grid = document.getElementById('categoriesGrid');
+            grid.innerHTML = categories.map(cat => {
+                const count = stats[cat.id] || 0;
+                return `
+                    <a href="categories/${cat.id}.html" class="category-card" style="--card-color: ${cat.color}">
+                        <div class="category-icon">${cat.icon}</div>
+                        <div class="category-name">${cat.name}</div>
+                        <div class="category-name-en">${cat.nameEn}</div>
+                        <div class="category-desc">${cat.description}</div>
+                        <div class="category-count">
+                            <span>📰</span>
+                            <span>${count} 条进展</span>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+        }
+
+        function renderLatestArticles(articles) {
+            const grid = document.getElementById('latestGrid');
+            grid.innerHTML = articles.map(art => {
+                const sourceLabel = art.source === 'main' ? '日报' : '补充';
+                const tags = art.tags.slice(0, 3).map(tag => `<span class="article-tag">${tag}</span>`).join('');
+
+                return `
+                    <article class="article-card">
+                        <div class="article-meta">
+                            <span class="article-date">${art.date}</span>
+                            <span class="article-source ${art.source}">${sourceLabel}</span>
+                        </div>
+                        <h3 class="article-title">
+                            <a href="${art.url}" target="_blank">${art.title}</a>
+                        </h3>
+                        <p class="article-summary">${art.summary}</p>
+                        <div class="article-tags">${tags}</div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

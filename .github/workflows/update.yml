@@ -1,0 +1,55 @@
+name: Update Ocean AI Digest
+
+on:
+  # 每天北京时间 08:00 自动执行
+  schedule:
+    - cron: '0 0 * * *'
+  # 支持手动触发
+  workflow_dispatch:
+  # 也可以在源站更新时触发
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Fetch articles from source sites
+        run: python scripts/fetch_articles.py
+        continue-on-error: true
+
+      - name: Generate category pages
+        run: python scripts/generate_pages.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: $(date +'%Y-%m-%d %H:%M')"
+          file_pattern: '_data/*.json categories/*.html'
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-ai-digest-site
+          path: |
+            index.html
+            all.html
+            categories/
+            _data/
+          retention-days: 7

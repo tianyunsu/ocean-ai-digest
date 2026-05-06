@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "marine-ai",
+      "name": "海洋人工智能",
+      "nameEn": "Marine AI",
+      "icon": "🤖",
+      "description": "AI、深度学习、机器学习在海洋科学中的应用，包括大模型、神经网络、图神经网络等",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "digital-twin",
+      "name": "海洋数字孪生",
+      "nameEn": "Digital Twin",
+      "icon": "🔄",
+      "description": "海洋数字孪生技术、系统与平台，包括EDITO、DITTO等国际项目",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "visualization",
+      "name": "海洋可视化",
+      "nameEn": "Visualization",
+      "icon": "📊",
+      "description": "海洋数据可视化方法、工具与平台，包括WebGL、D3.js等可视化技术",
+      "color": "#EC4899"
+    },
+    {
+      "id": "data-quality",
+      "name": "海洋数据质量",
+      "nameEn": "Data Quality",
+      "icon": "✓",
+      "description": "海洋数据质量控制、评估与验证方法",
+      "color": "#10B981"
+    },
+    {
+      "id": "data-processing",
+      "name": "海洋数据处理",
+      "nameEn": "Data Processing",
+      "icon": "⚙️",
+      "description": "海洋数据处理技术与方法，包括插值、重建、同化、超分辨率等",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "data-management",
+      "name": "数据管理与共享服务",
+      "nameEn": "Data Management",
+      "icon": "📚",
+      "description": "海洋数据管理、开放获取、FAIR原则与数据共享服务",
+      "color": "#6366F1"
+    },
+    {
+      "id": "open-cruise",
+      "name": "开放航次 / 船时共享",
+      "nameEn": "Open Cruise",
+      "icon": "🚢",
+      "description": "海洋科考航次信息、开放船时申请，包括Schmidt Ocean等平台",
+      "color": "#0EA5E9"
+    },
+    {
+      "id": "data-center",
+      "name": "海洋数据中心",
+      "nameEn": "Data Center",
+      "icon": "🗄️",
+      "description": "海洋数据中心、数据库与数据存储基础设施",
+      "color": "#64748B"
+    },
+    {
+      "id": "tools-resources",
+      "name": "工具与代码资源",
+      "nameEn": "Tools & Resources",
+      "icon": "🔧",
+      "description": "海洋科学软件工具、代码库与开源资源",
+      "color": "#EF4444"
+    }
+  ]
+}

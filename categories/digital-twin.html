@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海洋数字孪生 | 海洋AI进展汇总</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8B5CF6;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8B5CF6 0%, #8B5CF699 100%);
+            color: white;
+            padding: 48px 0;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .header-subtitle {
+            opacity: 0.9;
+        }
+
+        nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .stats-bar {
+            background: white;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-bar .container {
+            display: flex;
+            gap: 32px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .articles-section {
+            padding: 32px 0 80px;
+        }
+
+        .articles-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-source.main {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .article-source.supplement {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .article-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: var(--bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #0EA5E9;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-icon">🔄</div>
+            <div>
+                <h1>海洋数字孪生</h1>
+                <p class="header-subtitle">海洋数字孪生技术、系统与平台，包括EDITO、DITTO等国际项目</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="../index.html">首页</a>
+                <a href="../all.html">全部进展</a>
+                <a href="marine-ai.html" class="active">海洋AI</a>
+                <a href="digital-twin.html">数字孪生</a>
+                <a href="data-processing.html">数据处理</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <span class="stat-value">2</span> 条进展
+            </div>
+            <div class="stat-item">
+                📅 最后更新: 2026-05-06
+            </div>
+        </div>
+    </div>
+
+    <main class="articles-section">
+        <div class="container">
+            <div class="articles-list" id="articlesList">
+                
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-05-06</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-06.html" target="_blank">EDITO2项目正式启动，获得1400万欧元资助</a>
+                </h3>
+                <p class="article-summary">欧洲数字孪生海洋项目(EDITO)第二期正式启动，获得欧盟1400万欧元资助，将建设下一代海洋数字孪生基础设施。</p>
+                <div class="article-tags"><span class="article-tag">EDITO2</span><span class="article-tag">digital twin</span><span class="article-tag">EU funding</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-05-04</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-05-04.html" target="_blank">DITTO全球数字孪生海洋治理框架正式启动</a>
+                </h3>
+                <p class="article-summary">DITTO项目宣布全球数字孪生海洋(DTO)治理框架正式启动，旨在建立国际海洋数据共享标准。</p>
+                <div class="article-tags"><span class="article-tag">DITTO</span><span class="article-tag">governance</span><span class="article-tag">digital twin</span></div>
+            </article>
+            
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>数据来源: <a href="https://tianyunsu.github.io/ocean-data-daily-report/" target="_blank">海洋AI技术日报</a> &
+               <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/" target="_blank">补充日报</a></p>
+        </div>
+    </footer>
+</body>
+</html>

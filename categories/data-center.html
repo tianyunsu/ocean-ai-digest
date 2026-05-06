@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海洋数据中心 | 海洋AI进展汇总</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #64748B;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #1E293B;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #64748B 0%, #64748B99 100%);
+            color: white;
+            padding: 48px 0;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .header-subtitle {
+            opacity: 0.9;
+        }
+
+        nav {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .stats-bar {
+            background: white;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-bar .container {
+            display: flex;
+            gap: 32px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .articles-section {
+            padding: 32px 0 80px;
+        }
+
+        .articles-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .article-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .article-source.main {
+            background: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .article-source.supplement {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .article-title a:hover {
+            color: var(--primary);
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .article-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: var(--bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #0EA5E9;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-icon">🗄️</div>
+            <div>
+                <h1>海洋数据中心</h1>
+                <p class="header-subtitle">海洋数据中心、数据库与数据存储基础设施</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="../index.html">首页</a>
+                <a href="../all.html">全部进展</a>
+                <a href="marine-ai.html" class="active">海洋AI</a>
+                <a href="digital-twin.html">数字孪生</a>
+                <a href="data-processing.html">数据处理</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <span class="stat-value">2</span> 条进展
+            </div>
+            <div class="stat-item">
+                📅 最后更新: 2026-05-06
+            </div>
+        </div>
+    </div>
+
+    <main class="articles-section">
+        <div class="container">
+            <div class="articles-list" id="articlesList">
+                
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-27</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-04-27.html" target="_blank">GEBCO_2026 Grid全球海底地形图发布</a>
+                </h3>
+                <p class="article-summary">全球海洋水深测量权威数据库GEBCO发布2026版网格地形图，空间分辨率提升至15弧秒。</p>
+                <div class="article-tags"><span class="article-tag">GEBCO</span><span class="article-tag">bathymetry</span><span class="article-tag">database</span></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-31</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://tianyunsu.github.io/ocean-data-daily-report/posts/2026-03-31.html" target="_blank">Argo计划累计布放浮标超过20000个</a>
+                </h3>
+                <p class="article-summary">国际Argo计划宣布全球累计布放剖面浮标超过20000个，构建了覆盖全球深海大洋的实时观测网络。</p>
+                <div class="article-tags"><span class="article-tag">Argo</span><span class="article-tag">float</span><span class="article-tag">observation network</span></div>
+            </article>
+            
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>数据来源: <a href="https://tianyunsu.github.io/ocean-data-daily-report/" target="_blank">海洋AI技术日报</a> &
+               <a href="https://tianyunsu.github.io/ocean-data-daily-report/supplement/" target="_blank">补充日报</a></p>
+        </div>
+    </footer>
+</body>
+</html>
