@@ -1,19 +1,11 @@
 name: Update Ocean AI Digest
 
-# 暂时禁用自动更新，使用本地生成的数据
-# on:
-#   # 每天北京时间 08:00 自动执行
-#   schedule:
-#     - cron: '0 0 * * *'
-#   # 支持手动触发
-#   workflow_dispatch:
-#   # 也可以在源站更新时触发
-#   push:
-#     branches:
-#       - main
-
-# 只支持手动触发
+# 每日自动更新 + 支持手动触发
 on:
+  # 每天北京时间 08:00 自动执行（UTC 00:00）
+  schedule:
+    - cron: '0 0 * * *'
+  # 支持手动触发
   workflow_dispatch:
 
 permissions:
@@ -24,7 +16,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -65,7 +57,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-          
+
   deploy:
     needs: update
     if: github.ref == 'refs/heads/main'
