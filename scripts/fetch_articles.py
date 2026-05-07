@@ -76,7 +76,7 @@ def parse_daily_report(html, source_url, source_type):
         section_title_elem = section_header.find('div', class_='section-title') if section_header else None
         section_title = section_title_elem.get_text(strip=True) if section_title_elem else ""
         
-        # 映射分类
+        # 映射分类（注意顺序：更具体的匹配放前面）
         category = "marine-ai"
         if "数字孪生" in section_title or "Digital Twin" in section_title:
             category = "digital-twin"
@@ -86,12 +86,12 @@ def parse_daily_report(html, source_url, source_type):
             category = "data-quality"
         elif "数据处理" in section_title:
             category = "data-processing"
-        elif "管理" in section_title or "共享" in section_title:
-            category = "data-management"
         elif "航次" in section_title or "船时" in section_title:
             category = "open-cruise"
         elif "数据中心" in section_title:
             category = "data-center"
+        elif "管理" in section_title or "共享" in section_title:
+            category = "data-management"
         elif "工具" in section_title or "代码" in section_title:
             category = "tools-resources"
         
@@ -146,10 +146,8 @@ def parse_daily_report(html, source_url, source_type):
                     if date_from_meta:
                         article_date = date_from_meta
             
-            # 根据内容关键词添加额外分类
-            content = title + " " + summary
-            extra_cats = classify_article(content)
-            all_cats = list(set([category] + extra_cats))
+            # 只使用日报所在的分类，不再根据关键词添加额外分类
+            all_cats = [category]
             
             # 生成ID
             entry_num = len([a for a in articles]) + 1

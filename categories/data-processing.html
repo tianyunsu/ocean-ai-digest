@@ -254,10 +254,10 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">63</span> 条进展
+                <span class="stat-value">36</span> 条进展
             </div>
             <div class="stat-item">
-                📅 最后更新: 2026-05-06
+                📅 最后更新: 2026-05-07
             </div>
         </div>
     </div>
@@ -328,18 +328,6 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-22</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://arxiv.org/abs/2604.17192" target="_blank">arXiv:2604.17192：基于扩散模型的深海水声信道冲激响应预测框架</a>
-                </h3>
-                <p class="article-summary">arXiv 于2026年4月22日提交预印本（arXiv:2604.17192，cs.AI），厦门大学水声通信团队提出 DiffUCA——一种将去噪扩散概率模型（DDPM）应用于深海水声信道冲激响应（CIR）时间序列预测的框架。该方法对海洋环境中因温跃层、海流和地形散射引起的多径效应进行建模，在南海深水实验数据上的均方根误差比 LSTM 基线降低24%，为水声通信系统设计与海洋声学监测提供智能数据处理新途径。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
                     <span class="article-date">📅 2026-04-21</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -392,18 +380,6 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://oceanbestpractices.org/" target="_blank">OceanBestPractices System（IOC-UNESCO）：海洋观测最佳实践文档库——QC方法规程全球发现平台</a>
-                </h3>
-                <p class="article-summary">OceanBestPractices System（oceanbestpractices.org，IOC-UNESCO主导）是全球最系统的海洋观测最佳实践（BP）文档检索与发现平台，收录来自Argo、CTD、声学多普勒流速仪（ADCP）、生物地球化学传感器等多类观测系统的QC方法规程、传感器标定手册和数据处理流程文档，支持全文检索和语义相似性搜索，为全球海洋科研机构提供标准化QC规程参考，是联合国海洋十年数据共享目标的核心文档基础设施，持续接收新文档提交。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-21</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
                     <a href="https://os.copernicus.org/articles/" target="_blank">EGU Ocean Science 期刊（2026年4月）：Copernicus开放获取海洋数据处理方法论文持续发表</a>
                 </h3>
                 <p class="article-summary">EGU旗下Ocean Science期刊（os.copernicus.org，开放获取）是海洋数据处理与分析方法的重要发表平台，2026年4月持续发表与海洋数值模型、数据同化、卫星遥感数据处理和现场观测数据分析相关的论文，内容覆盖热带海洋数据插值、海洋边界层处理、季节性海冰模拟等典型方向。Ocean Science作为完全开放获取期刊，所有论文均经过公开互动评审，是EGU/Copernicus生态系统内海洋数据处理领域的核心期刊，读者可通过RSS订阅实时获取最新接受论文。</p>
@@ -424,54 +400,6 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-21</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/ioos/erddapy" target="_blank">erddapy（Python ERDDAP客户端）：通过Python访问全球ERDDAP数据服务器的标准接口库</a>
-                </h3>
-                <p class="article-summary">erddapy（GitHub: ioos/erddapy）是IOOS（美国综合海洋观测系统）维护的Python库，提供简洁的API接口用于访问全球任意ERDDAP数据服务器（包括NOAA CoastWatch、Copernicus Marine、Euro-Argo等超过100个ERDDAP实例），支持按时间、空间和变量构造查询URL，返回xarray/pandas格式数据，是Python海洋数据工作流中访问ERDDAP数据的最推荐方式，被OceanPy、IOOS生态系统和多个海洋数值预报后处理工具广泛调用，活跃维护中。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-21</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/intake/intake-esm" target="_blank">intake-esm（Pangeo生态系统）：CMIP/CESM等大规模模型数据的Python目录驱动访问工具</a>
-                </h3>
-                <p class="article-summary">intake-esm（GitHub: intake/intake-esm）是Pangeo生态系统中用于管理和访问大规模地球系统模型（ESM）数据集的Python目录驱动工具，支持CMIP5/6、CESM、FGOALS等多种模型输出的统一检索和按需加载，底层通过intake和fsspec实现云存储（S3/GCS）和本地文件的透明访问，与xarray/Dask无缝集成，是Pangeo海洋气候大数据处理流水线的核心组件，被多个欧美气候数据中心用于大规模海洋模型数据分发。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-21</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://pangeo.io/" target="_blank">Pangeo社区（2026年活跃）：大规模海洋气候数据分析开源生态系统——定期在线研讨会与代码示例</a>
-                </h3>
-                <p class="article-summary">Pangeo（pangeo.io）是专注于大规模地球科学（包括海洋）数据分析的开源社区，构建了以xarray+Dask+Jupyter+Zarr为核心的云原生海洋数据处理生态，定期举办双周在线研讨会（Pangeo Showcase）分享最新工具和海洋数据实战案例，并在GitHub维护丰富的海洋数据分析示例笔记本（pangeo-gallery），2026年社区持续活跃，近期新增对新版Zarr v3的云存储优化支持，是海洋大数据处理的最重要开源技术社区之一。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-21</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/oceanhackweek/ohw-tutorials" target="_blank">GitHub：oceanhackweek/ohw-tutorials 2026版发布——覆盖 ERDDAP、xarray、cartopy 海洋数据分析全流程</a>
-                </h3>
-                <p class="article-summary">Ocean Hack Week 于2026年4月21日发布 ohw-tutorials 2026版教程集，系统覆盖 ERDDAP 数据获取、xarray 多维数据分析、cartopy 海洋制图、CMEMS API 调用和 BGC-Argo 数据处理5大主题，所有教程以 Jupyter Notebook 形式开源，支持在 JupyterHub 和 Google Colab 一键运行，是面向海洋数据科学入门者的高质量中英双语开源教程集。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
                     <span class="article-date">📅 2026-04-20</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -485,48 +413,12 @@
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-04-20</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/NPIOcean/kval" target="_blank">kval（GitHub/PyPI，Norwegian Polar Institute）：挪威极地研究所Python海洋数据处理工具集</a>
-                </h3>
-                <p class="article-summary">kval（GitHub: NPIOcean/kval）是挪威极地研究所（NPI）海洋学组维护的Python海洋数据处理工具集，专为现场观测数据（CTD剖面、系泊数据、Glider数据等）的标准化处理与分析设计，提供数据读取、质控、插值、可视化和NetCDF输出等功能，支持CF Conventions格式规范，遵循极地海洋学典型数据处理流程，是南北极现场观测数据处理的实用开源工具参考，适合需要处理非Argo类型现场观测数据的研究团队。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-20</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://oceanspy.readthedocs.io/en/latest/index.html" target="_blank">OceanSpy（ReadTheDocs）：MIT海洋集群数字孪生接口Python库——专为海洋模型数据分析设计</a>
-                </h3>
-                <p class="article-summary">OceanSpy（oceanspy.readthedocs.io）是由MIT等机构开发的开源Python工具包，专为海洋学家分析和可视化大规模海洋模型数据集设计，底层依托xarray和Dask实现并行计算，提供计算海洋热量输运、涡动能、流线等常用物理量的内置函数，同时支持数字孪生集群（如MITgcm大西洋高分辨率配置）的直接在线接入，是海洋数值模型输出数据标准化访问与分析的重要参考工具，适合数字孪生后处理分析场景。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-20</span>
                     <span class="article-source supplement">补充</span>
                 </div>
                 <h3 class="article-title">
                     <a href="https://link.springer.com/journal/10236" target="_blank">Ocean Dynamics（Springer）：格林函数方法融合 CTD 与声学多普勒数据重建南大洋流场</a>
                 </h3>
                 <p class="article-summary">Ocean Dynamics 于2026年4月20日在线发表，来自德国 AWI（Alfred-Wegener-Institut）的研究人员提出改进的格林函数插值方法，融合 CTD 温盐剖面与船载 ADCP 流速数据，在南大洋 Drake Passage 断面实现高精度流场三维重建，南向体积输运估算与独立卫星测高对比误差低于5 Sv，为极地多源数据融合处理提供方法参考。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-20</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/marine-api/pygeos-ocean" target="_blank">pyGEOS-Ocean：地理空间海洋数据 Python 工具包 v0.9——支持 GEBCO 网格、EEZ 矢量与洋盆掩膜（持续更新）</a>
-                </h3>
-                <p class="article-summary">pyGEOS-Ocean 是 marine-api 开源社区维护的 Python 地理空间工具包，v0.9 新增 GEBCO 2024 全球海底地形网格直接加载、EEZ（专属经济区）多边形快速裁剪、主要洋盆边界掩膜生成等功能，与 xarray、cartopy 无缝集成，大幅简化海洋区域统计分析的地理处理流程，适用于海洋气候指数计算、区域数据提取和科学制图。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -568,30 +460,6 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-17</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://blog.csdn.net/weixin_42530793/article/details/160237743" target="_blank">Python+Cartopy替代MATLAB处理ETOPO1：出版级地形可视化全流程实战指南</a>
-                </h3>
-                <p class="article-summary">CSDN博客（2026-04-17）发布详细教程，介绍如何使用Python与Cartopy替代MATLAB处理ETOPO1全球地形数据集，覆盖从数据下载、xarray读取、投影设置到出版级地形图绘制的完整流程，强调xarray+Cartopy组合在高效处理大型NetCDF海洋/地形数据和生成期刊投稿质量图件方面的优势，是海洋地形可视化从MATLAB向Python迁移的实用参考。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-16</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/jessecusack/ocean_data_tools" target="_blank">GitHub Jesse Cusack/ocean_data_tools：海洋数据工具汇总——覆盖主流编程语言与数据格式</a>
-                </h3>
-                <p class="article-summary">GitHub仓库ocean_data_tools（Jesse Cusack维护）是海洋数据处理软件的综合索引，汇集了用于读取、处理和分析Argo、WOD、CMEMS、Glider、ADCP等多源海洋数据的开源软件包，覆盖Python、MATLAB、R、Julia等主流语言，按功能分类（数据获取、QC、可视化、模型输入输出等），是快速找到海洋数据处理工具的高效入口，适合任何正在构建海洋数据分析工作流的研究者参考使用。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
                     <span class="article-date">📅 2026-04-16</span>
                     <span class="article-source supplement">补充</span>
                 </div>
@@ -616,54 +484,6 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-15</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/ArgoDMQC" target="_blank">GitHub ArgoDMQC：Argo延时模式质控脚本库持续更新——涵盖SBE和RBR传感器双平台</a>
-                </h3>
-                <p class="article-summary">GitHub ArgoDMQC组织仓库持续维护用于Argo延时模式质量控制（DMQC）的脚本集，覆盖SeaBird（SBE）和RBR传感器两类主流Argo浮标平台的数据处理，包括盐度漂移检测、压力校正和温度剖面比对等核心DMQC流程，脚本以开源方式提供，被全球多个国家Argo数据中心（DAC）用于日常业务质控，是全球Argo DMQC社区的核心代码基础设施。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-15</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://oceanpython.org/" target="_blank">OceanPython.org：海洋与海洋科学Python代码学习与分享社区持续活跃</a>
-                </h3>
-                <p class="article-summary">OceanPython.org（4天前更新，2026-04-15）是专注于海洋与海洋科学Python应用的学习与代码共享社区，涵盖海洋数据获取、处理、分析与可视化的实用代码示例，近期更新了针对xarray v2026.04.0和cartopy最新版本的教程内容，并新增了argopy BGC-Argo数据处理案例，是海洋Python用户学习新工具、共享实战代码的活跃社区平台。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-15</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL110059" target="_blank">arXiv：深度学习改善全球卫星海洋表面流场估算精度——AGU EOS研究亮点</a>
-                </h3>
-                <p class="article-summary">AGU EOS Research Spotlight报道，深度学习方法在从卫星观测估算全球海洋表面流场方面取得显著进展，相关研究（2024年9月在AGU GRL发表，2026年持续被引用）通过神经网络整合多源卫星数据（高度计、SST、风场），生成高质量全球日尺度海流图，与传统地转流近似方法相比，在热带和边界流区域精度大幅提升，为海洋数据处理流水线中的遥感数据融合提供了新范式。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-13</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/pydata/xarray/releases" target="_blank">Python多维数组处理库发布——zarr 3.0支持与性能优化</a>
-                </h3>
-                <p class="article-summary">PyData xarray发布v2026.04.0，主要变更包括：zarr最低支持版本升级至3.0、timedelta弃用清理、新增col_wrap=auto绘图选项、DataTree.to_dataset新增inherit参数、StringDType变量写入netCDF支持、dataset索引性能改进及多项bug修复。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
                     <span class="article-date">📅 2026-04-13</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -680,69 +500,9 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://pypi.org/project/xarray/" target="_blank">N维标注数组科学计算库新版本发布</a>
-                </h3>
-                <p class="article-summary">xarray在PyPI发布v2026.04.0版本（2026年4月13日），新增若干方法与运算符、更新Python版本支持策略（Python 3.11+）、修复groupby若干bug，并引入DataTree实验性功能支持。xarray是海洋气候数据分析最广泛使用的Python库，本次发布持续增强其在netCDF、Zarr等海洋数据格式上的处理能力。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-13</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
                     <a href="https://github.com/pydata/xarray/releases/tag/v2026.04.0" target="_blank">最新版本发布——zarr 3.0支持与新数据树功能</a>
                 </h3>
                 <p class="article-summary">xarray v2026.04.0于2026年4月13日正式发布（GitHub），新版本最低支持zarr 3.0版本，完成timedelta解码废弃项清理，新增col_wrap=auto的图表自动排列功能，DataTree增加inherit=all_coords参数支持多层数据树坐标继承，并新增facetgrid_figsize选项用于自定义多图网格大小，22位贡献者参与。xarray是海洋数据处理生态的核心基础库，此版本重点强化了大规模多维数组（NetCDF/zarr云存储）的数据处理能力。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-13</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://docs.xarray.dev/en/stable/" target="_blank">xarray 文档：v2026.04.0 维护稳定——海洋数据处理工具链近期持续活跃</a>
-                </h3>
-                <p class="article-summary">xarray官方文档站（2026-04-13，6天前更新）显示v2026.04.0稳定运行，本版本已完成zarr v3迁移、timedelta弃用迁移及新索引API引入，对海洋气候领域使用zarr后端存储的大规模数据处理流水线影响显著。结合PyPI同步更新，xarray持续作为海洋科学NetCDF/zarr多维数组处理的首选Python工具，argopy、climpred、OceanSpy等下游海洋包均依赖xarray核心接口，建议用户保持最新版本以获得最佳兼容性。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-13</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://docs.xarray.dev/en/v2026.04.0/whats-new.html" target="_blank">最低zarr版本升级至3.0，新增col_wrap='auto'等特性</a>
-                </h3>
-                <p class="article-summary">xarray v2026.04.0（2026-04-13发布，文档4天前更新）是本年度首个正式版本，主要变更包括：最低支持zarr版本升至3.0（与zarr-python v3完全兼容）、完成timedelta编码弃用迁移、新增col_wrap='auto'参数支持绘图自动列数、引入新的索引API改进多维坐标查询效率。xarray是海洋气候科学中处理NetCDF/zarr格式多维标注数组的核心Python工具，本次升级对使用zarr存储的大规模海洋数据管道影响显著，建议用户尽快评估兼容性。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-11</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://iode.org/data/" target="_blank">IODE数据页面：WODselect系统支持季度更新数据检索——海洋历史剖面处理新接口</a>
-                </h3>
-                <p class="article-summary">IODE（国际海洋学数据和信息交换中心）官方数据页面更新（2026-04-11），介绍WODselect检索系统的最新功能，用户可通过用户自定义条件检索WOD数据库及季度增量更新数据，获取标准化NetCDF/CSV格式的历史海洋剖面观测数据，覆盖温度、盐度、溶解氧等多个关键海洋变量，是大规模历史数据处理工作流的重要接入点。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-11</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/Gabo2000s/xarray_MHW-xrMHW-" target="_blank">xarray-MHW（xrMHW）：基于 xarray+Dask 的高性能海洋热浪检测工具（2026年持续更新）</a>
-                </h3>
-                <p class="article-summary">xrMHW 是专为多维海洋数据设计的高性能海洋热浪（Marine Heatwave, MHW）检测工具，实现 Hobday et al.(2016) 标准定义，使用 Python、xarray 和 Dask 构建，支持并行处理大规模 SST 数据集。工具托管于 GitHub（Gabo2000s/xarray_MHW-xrMHW），可直接处理 Copernicus Marine、NOAA OISST 等标准格式 NetCDF 数据，是海洋极端事件监测分析的实用开源工具。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -772,18 +532,6 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-10</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://pypi.org/project/oceans/" target="_blank">oceans v1.2.0 PyPI 发布：海洋科学数据分析 Python 工具包</a>
-                </h3>
-                <p class="article-summary">oceans 是海洋学数据分析的 Python 开源工具包，v1.2.0 于2026年3月27日发布，提供温度盐度计算、海表高度异常处理、涡旋识别等常见海洋分析函数，大部分函数为 MATLAB 海洋工具箱的 Python 移植版本。支持 Argo 浮标轨迹可视化和 CTD 数据处理，可通过 pip install oceans 快速安装，BSD 许可证。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
                     <span class="article-date">📅 2026-04-09</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -791,18 +539,6 @@
                     <a href="https://www.mbari.org/expedition/chasing-marine-snowstorms-spring-2026/" target="_blank">MBARI：深海碳通量观测——SINKER机器人在MARS海底站部署</a>
                 </h3>
                 <p class="article-summary">MBARI（蒙特利湾水族馆研究所）碳通量生态学团队完成Spring 2026远征（4月9–13日），将SINKER深海碳通量观测机器人接入Monterey Canyon的MARS（Monterey Accelerated Research System）海底有线观测站，实现对海洋"雪"（生物碎屑颗粒）碳沉降过程的实时、连续成像监测，为海洋碳汇估算提供高时空分辨率数据。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-09</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/python4oceanography/ocean_python_tutorial" target="_blank">GitHub ocean_python_tutorial：为海洋学家设计的Python入门与可复现研究一日教程</a>
-                </h3>
-                <p class="article-summary">python4oceanography/ocean_python_tutorial（2026-04-09更新）是专为海洋学家设计的Python入门教程仓库，采用Jupyter Notebook形式，覆盖NumPy/pandas/xarray基础、NetCDF文件读写、海洋数据可视化和可复现研究实践，适合无编程基础的海洋研究人员快速上手Python数据分析工作流，是推动海洋科学社区Python普及的代表性教育资源，已被多所高校和研究机构用于培训。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -833,48 +569,12 @@
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-04-07</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://www.go-bgc.org/" target="_blank">全球海洋生物地球化学阵列2026年浮标数据与科学Workshop开放注册</a>
-                </h3>
-                <p class="article-summary">GO-BGC（全球海洋生物地球化学阵列）计划于2026年8月17-21日在蒙特利湾举办浮标数据与科学Workshop，聚焦BGC-Argo浮标数据处理、科学应用与海洋碳循环研究，即日起开放注册。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-07</span>
                     <span class="article-source supplement">补充</span>
                 </div>
                 <h3 class="article-title">
                     <a href="https://doi.org/10.5194/egusphere-2026-1683" target="_blank">EGUsphere 预印本：多模型集合卡尔曼滤波近实时同化卫星表层流速，RMSE 低至 0.18 m/s</a>
                 </h3>
                 <p class="article-summary">EGUsphere 于2026年4月7日发布预印本（doi:10.5194/egusphere-2026-1683），研究提出端到端框架，将 AVHRR 热成像卫星导出的高分辨率表层流速数据，通过多模型集合卡尔曼滤波器（MEnKF）直接同化到全球和区域预报系统，RMSE 最低可达 0.18 m/s，为海洋作业安全和环境监测提供了物理一致的卫星数据同化新方案。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-06</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/Cloud-Drift/clouddrift" target="_blank">CloudDrift：专为 Argo 和漂流浮标拉格朗日数据设计的 Python 分析工具包</a>
-                </h3>
-                <p class="article-summary">CloudDrift 是 NSF EarthCube 资助的开源 Python 包，专为大气、海洋和气候科学拉格朗日数据处理而设计，适用于 Argo 浮标轨迹、表层漂流浮标、动物追踪等不规则时序数据。工具采用 awkward-array 实现不规则数组高效处理，支持 AWS S3/GCS 云存储直接读取，提供完整的轨迹分析、统计聚合和可视化功能，是当前海洋拉格朗日数据云原生处理的最佳实践工具。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-06</span>
-                    <span class="article-source supplement">补充</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://github.com/physoce/qartod" target="_blank">QARTOD GitHub 开源实现：实时海洋质控算法 Python 代码库（physoce/qartod）</a>
-                </h3>
-                <p class="article-summary">GitHub 仓库 physoce/qartod 提供 QARTOD 实时海洋数据质控算法的 Python 开源实现，基于 NOAA IOOS QARTOD 手册的规范，实现温度盐度原位数据的一系列自动质控测试，包括范围检查、突变检测、坡度检测、平坦剖面检测等核心算法。该库可作为构建海洋观测数据质控流水线的基础组件，适合集成到海洋数据中心的实时数据处理管道中。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -935,30 +635,6 @@
                     <a href="https://doi.org/10.5194/egusphere-2026-955" target="_blank">EGU GMD 预印本：NOAA GFDL SIS2 海冰模型牛顿松弛数据同化方案设计与评估</a>
                 </h3>
                 <p class="article-summary">EGU Geoscientific Model Development 于2026年3月31日发布预印本（doi:10.5194/egusphere-2026-955），提出在 NOAA GFDL SIS2 海冰模型中实现牛顿松弛（Newtonian Relaxation / nudging）数据同化方案，将海冰厚度和浓度场约束向观测或分析目标场逼近，支持侧边界开放条件施加和域内任意位置的内部约束，特别适用于边界存在可变冰盖的区域海冰模型。基于东北太平洋和北冰洋两个配置的 MOM6-SIS2 耦合区域预报系统验证，敏感性实验表明该方法显著改善了海冰及海洋表面场的表征，为区域高分辨率海洋数据处理与同化提供了灵活、实用的新工具。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-03-30</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://oceantrainingpartnership.org/apply-for-shipboard-training/" target="_blank">OTP申请页：2026年船上培训推荐信规范与申请流程说明</a>
-                </h3>
-                <p class="article-summary">Ocean Training Partnership官网申请页（2026-03-30更新）详细说明了2026年度船上培训申请中推荐信的具体要求和提交规范，明确要求推荐信必须针对本次培训机会专项撰写，并在"Closed Calls"区域提供历届培训信息参考。OTP项目旨在通过搭载全球多艘顶级科考船（包括R/V Falkor、RRS Discovery等），系统提升低收入国家海洋科学人才的实地观测和数据处理能力，推动开放航次数据共享。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-03-27</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1798048/full" target="_blank">Frontiers in Marine Science：近岸海表温度深度学习预测——克服数值模型分辨率局限的新方法</a>
-                </h3>
-                <p class="article-summary">Frontiers in Marine Science（2026-03-27）在线发表研究，提出基于深度学习的近海岸海表温度（SST）预测方法，针对传统数值海洋模型在近岸精细化分辨率上的局限性，利用深度学习模型直接从历史观测数据中学习近岸动力学特征，在多个典型近岸站点取得优于数值模型的预测精度，为近海精细化预报和渔业、港口管理应用提供了新的数据处理思路。</p>
                 <div class="article-tags"></div>
             </article>
             
