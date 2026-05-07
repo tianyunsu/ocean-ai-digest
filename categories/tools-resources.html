@@ -254,7 +254,7 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">44</span> 条进展
+                <span class="stat-value">47</span> 条进展
             </div>
             <div class="stat-item">
                 📅 最后更新: 2026-05-07
@@ -296,9 +296,9 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://github.com/intake/intake-esm" target="_blank">intake-esm（Pangeo生态系统）：CMIP/CESM等大规模模型数据的Python目录驱动访问工具</a>
+                    <a href="https://matplotlib.org/cmocean/" target="_blank">cmocean（海洋学专用色图库）：感知均匀的海洋数据可视化色标——matplotlib/cartopy标准配套</a>
                 </h3>
-                <p class="article-summary">intake-esm（GitHub: intake/intake-esm）是Pangeo生态系统中用于管理和访问大规模地球系统模型（ESM）数据集的Python目录驱动工具，支持CMIP5/6、CESM、FGOALS等多种模型输出的统一检索和按需加载，底层通过intake和fsspec实现云存储（S3/GCS）和本地文件的透明访问，与xarray/Dask无缝集成，是Pangeo海洋气候大数据处理流水线的核心组件，被多个欧美气候数据中心用于大规模海洋模型数据分发。</p>
+                <p class="article-summary">cmocean（PyPI: cmocean）是专为海洋科学数据可视化设计的感知均匀色图库，收录temperature、salinity、oxygen、speed、chl、deep等20余套针对具体海洋变量优化的色图方案，符合色觉障碍友好、感知均匀和科学直觉一致的设计原则，被cartopy、hvplot、ODV、Ferret等众多可视化工具作为内置色图方案。cmocean在PyPI和conda-forge均有发布，是海洋数据可视化标准化的推荐工具，当前版本稳定维护中。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -308,9 +308,9 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://matplotlib.org/cmocean/" target="_blank">cmocean（海洋学专用色图库）：感知均匀的海洋数据可视化色标——matplotlib/cartopy标准配套</a>
+                    <a href="https://github.com/intake/intake-esm" target="_blank">intake-esm（Pangeo生态系统）：CMIP/CESM等大规模模型数据的Python目录驱动访问工具</a>
                 </h3>
-                <p class="article-summary">cmocean（PyPI: cmocean）是专为海洋科学数据可视化设计的感知均匀色图库，收录temperature、salinity、oxygen、speed、chl、deep等20余套针对具体海洋变量优化的色图方案，符合色觉障碍友好、感知均匀和科学直觉一致的设计原则，被cartopy、hvplot、ODV、Ferret等众多可视化工具作为内置色图方案。cmocean在PyPI和conda-forge均有发布，是海洋数据可视化标准化的推荐工具，当前版本稳定维护中。</p>
+                <p class="article-summary">intake-esm（GitHub: intake/intake-esm）是Pangeo生态系统中用于管理和访问大规模地球系统模型（ESM）数据集的Python目录驱动工具，支持CMIP5/6、CESM、FGOALS等多种模型输出的统一检索和按需加载，底层通过intake和fsspec实现云存储（S3/GCS）和本地文件的透明访问，与xarray/Dask无缝集成，是Pangeo海洋气候大数据处理流水线的核心组件，被多个欧美气候数据中心用于大规模海洋模型数据分发。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -344,6 +344,18 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
+                    <a href="https://toolbox-docs.marine.copernicus.eu/en/stable/changelog/v2.html" target="_blank">Copernicus Marine Toolbox v2.0.0（近期文档更新）：重大版本——Python客户端API架构全面重构</a>
+                </h3>
+                <p class="article-summary">Copernicus Marine Toolbox官方文档显示v2.0.0为主版本号升级，引入大量破坏性变更（见迁移指南）。重要改进包括：子集下载流程重构、缓存机制优化、认证流程简化（取消分开的用户名/密码，统一token管理）以及新增异步下载支持。用户需参考迁移指南从v1升级。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-20</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
                     <a href="https://github.com/jorodgrz/datahacks2026" target="_blank">海洋基础模型缺失生化通道——开源社区评估与路线图讨论</a>
                 </h3>
                 <p class="article-summary">GitHub公开仓库datahacks2026于2026年4月20日更新分析文档，指出截至2026年4月，所有主流开放海洋基础模型（Samudra、WenHai、XiHe、AI-GOMS、OceanNet）均仅包含T/S/U/V/SSH物理通道，缺乏生化（BGC）通道。文档提出弥补路径：与现有BGC模型（如PISCES、BFM）耦合或使用Neural-BGC等仿真器补齐缺口。</p>
@@ -368,9 +380,21 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://toolbox-docs.marine.copernicus.eu/en/stable/changelog/v2.html" target="_blank">Copernicus Marine Toolbox v2.0.0（近期文档更新）：重大版本——Python客户端API架构全面重构</a>
+                    <a href="https://odv.awi.de/" target="_blank">ODV（Ocean Data View）：AWI开发的海洋剖面数据交互探索与分析软件——持续更新</a>
                 </h3>
-                <p class="article-summary">Copernicus Marine Toolbox官方文档显示v2.0.0为主版本号升级，引入大量破坏性变更（见迁移指南）。重要改进包括：子集下载流程重构、缓存机制优化、认证流程简化（取消分开的用户名/密码，统一token管理）以及新增异步下载支持。用户需参考迁移指南从v1升级。</p>
+                <p class="article-summary">Ocean Data View（ODV，odv.awi.de，Alfred Wegener Institute开发维护）是海洋学界使用最广泛的桌面数据探索与可视化软件，支持剖面、时间序列、轨迹和序列等多类数据的交互分析与图形制作，能直接读取WOD、Argo、WOCE等主流海洋数据格式，内置温盐分析、散点图、断面图、地图投影等丰富功能，免费提供给科研和教育用途，是全球数万名海洋学家的日常数据分析工具，定期发布新版本修复BUG和增加功能。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-20</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://oceanspy.readthedocs.io/en/latest/index.html" target="_blank">OceanSpy（ReadTheDocs）：MIT海洋集群数字孪生接口Python库——专为海洋模型数据分析设计</a>
+                </h3>
+                <p class="article-summary">OceanSpy（oceanspy.readthedocs.io）是由MIT等机构开发的开源Python工具包，专为海洋学家分析和可视化大规模海洋模型数据集设计，底层依托xarray和Dask实现并行计算，提供计算海洋热量输运、涡动能、流线等常用物理量的内置函数，同时支持数字孪生集群（如MITgcm大西洋高分辨率配置）的直接在线接入，是海洋数值模型输出数据标准化访问与分析的重要参考工具，适合数字孪生后处理分析场景。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -395,30 +419,6 @@
                     <a href="https://github.com/marine-api/pygeos-ocean" target="_blank">pyGEOS-Ocean：地理空间海洋数据 Python 工具包 v0.9——支持 GEBCO 网格、EEZ 矢量与洋盆掩膜（持续更新）</a>
                 </h3>
                 <p class="article-summary">pyGEOS-Ocean 是 marine-api 开源社区维护的 Python 地理空间工具包，v0.9 新增 GEBCO 2024 全球海底地形网格直接加载、EEZ（专属经济区）多边形快速裁剪、主要洋盆边界掩膜生成等功能，与 xarray、cartopy 无缝集成，大幅简化海洋区域统计分析的地理处理流程，适用于海洋气候指数计算、区域数据提取和科学制图。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-20</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://oceanspy.readthedocs.io/en/latest/index.html" target="_blank">OceanSpy（ReadTheDocs）：MIT海洋集群数字孪生接口Python库——专为海洋模型数据分析设计</a>
-                </h3>
-                <p class="article-summary">OceanSpy（oceanspy.readthedocs.io）是由MIT等机构开发的开源Python工具包，专为海洋学家分析和可视化大规模海洋模型数据集设计，底层依托xarray和Dask实现并行计算，提供计算海洋热量输运、涡动能、流线等常用物理量的内置函数，同时支持数字孪生集群（如MITgcm大西洋高分辨率配置）的直接在线接入，是海洋数值模型输出数据标准化访问与分析的重要参考工具，适合数字孪生后处理分析场景。</p>
-                <div class="article-tags"></div>
-            </article>
-            
-            <article class="article-card">
-                <div class="article-header">
-                    <span class="article-date">📅 2026-04-20</span>
-                    <span class="article-source main">日报</span>
-                </div>
-                <h3 class="article-title">
-                    <a href="https://odv.awi.de/" target="_blank">ODV（Ocean Data View）：AWI开发的海洋剖面数据交互探索与分析软件——持续更新</a>
-                </h3>
-                <p class="article-summary">Ocean Data View（ODV，odv.awi.de，Alfred Wegener Institute开发维护）是海洋学界使用最广泛的桌面数据探索与可视化软件，支持剖面、时间序列、轨迹和序列等多类数据的交互分析与图形制作，能直接读取WOD、Argo、WOCE等主流海洋数据格式，内置温盐分析、散点图、断面图、地图投影等丰富功能，免费提供给科研和教育用途，是全球数万名海洋学家的日常数据分析工具，定期发布新版本修复BUG和增加功能。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -568,6 +568,18 @@
             
             <article class="article-card">
                 <div class="article-header">
+                    <span class="article-date">📅 2026-04-07</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pangaea.de/" target="_blank">PANGAEA Data Warehouse Beta——Python/R+Jupyter Notebook编程接口批量数据检索</a>
+                </h3>
+                <p class="article-summary">PANGAEA（2026-04-07）新版Data Warehouse Beta接口支持通过Python/R脚本与Jupyter Notebook直接检索并下载地球与环境科学数据集，相较旧版搜索界面大幅提升批量数据获取效率，配套5月社区研讨会提供实操培训，是海洋数据科学家将PANGAEA数据纳入自动化工作流的重要新能力。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
                     <span class="article-date">📅 2026-04-06</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -608,6 +620,18 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
+                    <a href="https://oceanobservatories.org/" target="_blank">Ocean Observatories Initiative(OOI):900+仪器实时数据流持续开放访问</a>
+                </h3>
+                <p class="article-summary">OOI（海洋观测站倡议）持续运行其科学驱动的海洋观测网络，截至2026年4月2日仍保持活跃更新，提供超过900个仪器的实时数据流。OOI数据门户支持时间序列、剖面和固定点观测数据的在线检索与下载，并提供完善的质量控制元数据和数据引用规范，是深水海洋观测与数据开放共享的重要基础设施，被广泛用于海洋AI模型训练和验证。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-02</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
                     <a href="https://github.com/oceanhackweek/ohw20-proj-marine-heat-waves" target="_blank">OceanHackWeek MHW项目:基于Xarray+Dask的多维海洋热浪检测器</a>
                 </h3>
                 <p class="article-summary">OceanHackWeek社区在GitHub维护的MHW（Marine Heatwave）检测项目于2026年3月底持续活跃更新。该项目应用Hobday等（2016）标准海洋热浪定义，利用Xarray和Dask实现高性能并行计算，支持多维海洋数据矩阵的海洋热浪自动检测。项目代码开源，提供Jupyter Notebook示例，适合海洋气候变化研究人员快速部署海洋热浪分析流水线。</p>
@@ -632,9 +656,9 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://github.com/ocean-foo/ocean-toolbox" target="_blank">Ocean Toolbox:Python海洋科学工具集</a>
+                    <a href="https://scitools.org.uk/cartopy/docs/latest/" target="_blank">Cartopy海洋地图绘制:基于matplotlib的地理数据处理</a>
                 </h3>
-                <p class="article-summary">Ocean Toolbox是一个Python海洋科学工具集合，包含海洋数据处理、海洋统计分析、海洋可视化等多个模块。该工具集提供开箱即用的海洋数据分析功能，支持海洋观测数据、模型输出数据等多种数据类型的处理和分析。</p>
+                <p class="article-summary">Cartopy是基于matplotlib的地理数据处理和可视化库，提供地图投影、海岸线、边界等地理数据。Cartopy广泛用于海洋科学地图绘制，支持多种地图投影和地理坐标系，可以轻松绘制海洋温度、盐度、海流等海洋要素的空间分布图。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -644,9 +668,9 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://scitools.org.uk/cartopy/docs/latest/" target="_blank">Cartopy海洋地图绘制:基于matplotlib的地理数据处理</a>
+                    <a href="https://github.com/ocean-foo/ocean-toolbox" target="_blank">Ocean Toolbox:Python海洋科学工具集</a>
                 </h3>
-                <p class="article-summary">Cartopy是基于matplotlib的地理数据处理和可视化库，提供地图投影、海岸线、边界等地理数据。Cartopy广泛用于海洋科学地图绘制，支持多种地图投影和地理坐标系，可以轻松绘制海洋温度、盐度、海流等海洋要素的空间分布图。</p>
+                <p class="article-summary">Ocean Toolbox是一个Python海洋科学工具集合，包含海洋数据处理、海洋统计分析、海洋可视化等多个模块。该工具集提供开箱即用的海洋数据分析功能，支持海洋观测数据、模型输出数据等多种数据类型的处理和分析。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -704,9 +728,21 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://www.earthdata.nasa.gov/data/catalog/ob-cloud-olcis3b-l2-efr-oc-2022.0" target="_blank">NASA Earthdata Sentinel-3B OLCI 海洋颜色数据产品：1天前更新</a>
+                    <a href="https://zarr.eopf.copernicus.eu/data-and-tools/" target="_blank">xarray-EOPF：ESA EOPF Zarr 格式 xarray 后端——哨兵卫星数据云端分析新接口</a>
                 </h3>
-                <p class="article-summary">NASA Earthdata 目录于1天前（2026年3月26日）更新 Sentinel-3B OLCI Level-2 Regional Earth-observation Full Resolution（EFR）海洋颜色（OC）数据套件，提供经过大气校正的海洋光学测量和生物地球物理产品，包括叶绿素浓度、悬浮颗粒物、有色溶解有机物等关键海洋水色参数。数据可通过 Earthdata Search 免费下载，是近岸和开阔大洋水质监测的重要遥感数据源。</p>
+                <p class="article-summary">ESA EOPF 数据产品的 xarray 后端扩展（xarray-eopf）正式发布，支持以 Zarr 格式读取 ESA Earth Observation Processing Framework 卫星数据产品，包括哨兵系列卫星的 SAR、光学和海洋颜色数据。该工具无缝融入 xarray/dask 云计算生态，为大规模海洋遥感数据的云端处理和可视化提供了标准化接口，是推动海洋遥感数据云原生分析的重要技术突破。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-25</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pangeo.io/" target="_blank">Pangeo Oceanography：大规模开放海洋数据分析云平台持续迭代</a>
+                </h3>
+                <p class="article-summary">Pangeo社区持续扩展其海洋学工具生态，最新发布的xarray、zarr、intake-esm等工具包已全面支持Dask分布式计算。Pangeo-Argo、Pangeo-CMIP6等子项目已将PB级海洋/气候数据开放至云端，用户可不下载数据直接在浏览器内完成海洋数据分析、可视化与建模，极大降低了大数据处理门槛。</p>
                 <div class="article-tags"></div>
             </article>
             
