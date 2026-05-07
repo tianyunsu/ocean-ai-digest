@@ -199,8 +199,8 @@ def main():
         archive_links = get_archive_links(main_html, MAIN_URL)
         print(f"   找到 {len(archive_links)} 个日报页面")
         
-        for i, url in enumerate(archive_links[:10]):
-            print(f"   抓取中 ({i+1}/{min(10, len(archive_links))}): {url}")
+        for i, url in enumerate(archive_links):
+            print(f"   抓取中 ({i+1}/{len(archive_links)}): {url}")
             html = fetch_page(url)
             if html:
                 articles = parse_daily_report(html, url, "main")
@@ -216,8 +216,8 @@ def main():
         archive_links = get_archive_links(supp_html, SUPPLEMENT_URL)
         print(f"   找到 {len(archive_links)} 个日报页面")
         
-        for i, url in enumerate(archive_links[:10]):
-            print(f"   抓取中 ({i+1}/{min(10, len(archive_links))}): {url}")
+        for i, url in enumerate(archive_links):
+            print(f"   抓取中 ({i+1}/{len(archive_links)}): {url}")
             html = fetch_page(url)
             if html:
                 articles = parse_daily_report(html, url, "supplement")

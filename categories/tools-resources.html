@@ -254,7 +254,7 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">37</span> 条进展
+                <span class="stat-value">64</span> 条进展
             </div>
             <div class="stat-item">
                 📅 最后更新: 2026-05-07
@@ -568,6 +568,30 @@
             
             <article class="article-card">
                 <div class="article-header">
+                    <span class="article-date">📅 2026-04-13</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://docs.xarray.dev/en/v2026.04.0/whats-new.html" target="_blank">最低zarr版本升级至3.0，新增col_wrap='auto'等特性</a>
+                </h3>
+                <p class="article-summary">xarray v2026.04.0（2026-04-13发布，文档4天前更新）是本年度首个正式版本，主要变更包括：最低支持zarr版本升至3.0（与zarr-python v3完全兼容）、完成timedelta编码弃用迁移、新增col_wrap='auto'参数支持绘图自动列数、引入新的索引API改进多维坐标查询效率。xarray是海洋气候科学中处理NetCDF/zarr格式多维标注数组的核心Python工具，本次升级对使用zarr存储的大规模海洋数据管道影响显著，建议用户尽快评估兼容性。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-12</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://helmholtz.software/software/odv" target="_blank">Helmholtz软件目录收录ODV：交互式海洋数据探索分析可视化软件正式纳入研究软件基础设施</a>
+                </h3>
+                <p class="article-summary">Helmholtz研究软件目录正式收录ODV（Ocean Data View），这是由Alfred Wegener Institute（AWI）长期维护的免费海洋数据分析与可视化软件，支持海洋剖面、时间序列、轨迹等多类型地理参考数据的交互式探索，兼容SeaDataNet、WOD、Argo等主流数据格式，纳入Helmholtz软件目录标志着其作为研究基础设施工具的官方认可地位，最新版本可在AWI官网免费下载注册使用。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
                     <span class="article-date">📅 2026-04-11</span>
                     <span class="article-source supplement">补充</span>
                 </div>
@@ -581,12 +605,36 @@
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-04-10</span>
-                    <span class="article-source supplement">补充</span>
+                    <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
-                    <a href="https://pypi.org/project/oceans/" target="_blank">oceans v1.2.0 PyPI 发布：海洋科学数据分析 Python 工具包</a>
+                    <a href="https://github.com/nilsleh/oceanTACO" target="_blank">GitHub:oceanTACO代码开源——支持SWOT/SST/SSS/Argo的云优化多传感器数据集生成</a>
                 </h3>
-                <p class="article-summary">oceans 是海洋学数据分析的 Python 开源工具包，v1.2.0 于2026年3月27日发布，提供温度盐度计算、海表高度异常处理、涡旋识别等常见海洋分析函数，大部分函数为 MATLAB 海洋工具箱的 Python 移植版本。支持 Argo 浮标轨迹可视化和 CTD 数据处理，可通过 pip install oceans 快速安装，BSD 许可证。</p>
+                <p class="article-summary">配合OceanTACO数据集（ESSD预印本），慕尼黑工业大学在GitHub开源oceanTACO代码库（nilsleh/oceanTACO），实现从多源卫星和原位观测自动生成云优化格式数据集完整流程，包括SWOT宽幅测高、L3/L4 SST/SSS/风场及Argo剖面数据的统一化处理，配套ReadTheDocs文档和Jupyter示例。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-10</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.croco-ocean.org/" target="_blank">CROCO GPU能力研讨会（4月10日）:沿海区域海洋模型GPU加速开发进展</a>
+                </h3>
+                <p class="article-summary">CROCO（Coastal and Regional Ocean COmmunity model）官方公告：下一次用户研讨会将于2026年4月10日举行，主题为"CROCO GPU capabilities"。CROCO是由法国IRD、INRIA、CNRS、IFREMER和SHOM联合维护的高性能海洋建模系统（基于ROMS_AGRIF），croco_pytools Python前后处理工具包（v2.0.3，2026年2月更新）持续迭代，上交大超算平台已部署最新版本，支持GPU加速海洋模拟。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-09</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/python4oceanography/ocean_python_tutorial" target="_blank">GitHub ocean_python_tutorial：为海洋学家设计的Python入门与可复现研究一日教程</a>
+                </h3>
+                <p class="article-summary">python4oceanography/ocean_python_tutorial（2026-04-09更新）是专为海洋学家设计的Python入门教程仓库，采用Jupyter Notebook形式，覆盖NumPy/pandas/xarray基础、NetCDF文件读写、海洋数据可视化和可复现研究实践，适合无编程基础的海洋研究人员快速上手Python数据分析工作流，是推动海洋科学社区Python普及的代表性教育资源，已被多所高校和研究机构用于培训。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -599,6 +647,30 @@
                     <a href="https://github.com/OceanParcels/parcels" target="_blank">GitHub：OceanParcels/parcels v3.1.0——海洋粒子轨迹拉格朗日框架重大版本发布</a>
                 </h3>
                 <p class="article-summary">OceanParcels/parcels 于2026年4月9日发布 v3.1.0，该 Python 拉格朗日粒子轨迹模拟框架新增：对 CMEMS 和 Copernicus Marine Toolbox v2.0 原生数据格式的直接支持、GPU 加速后端（CUDA）、自动坐标系检测与极点跨越修正，以及 TEOS-10 海水状态方程的内置集成，适用于微塑料漂移、渔业资源评估和搜救轨迹模拟等场景，是海洋科学 GitHub 最活跃的开源工具之一。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-08</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/cioos-siooc/ocean-data-parser" target="_blank">cioos-siooc/ocean-data-parser：Python海洋数据格式解析库——多源专有格式转xarray</a>
+                </h3>
+                <p class="article-summary">cioos-siooc/ocean-data-parser（GitHub活跃维护）是一个专为海洋观测数据开发的Python格式解析库，将CTD、ADCP、声学多普勒等多种海洋仪器厂商专有格式数据统一解析为xarray Dataset，支持批量处理和元数据提取，是海洋数据处理流水线（从原始文件到标准化格式）的重要工具，广泛用于CIOOS（加拿大综合海洋观测系统）数据预处理工作流。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-08</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://sanya26.oceansconference.org/" target="_blank">OCEANS 2026 Sanya摘要征集开放——5月25-28日在三亚举办</a>
+                </h3>
+                <p class="article-summary">IEEE和海洋工程学会（OES）宣布OCEANS 2026 Sanya会议将于2026年5月25–28日在三亚湾红树林度假世界酒店举办，汇聚全球100+参展商、400+技术论文、780+参会者。大会荣誉主席包括陈大可院士（首席）、李家彪院士和李华军院士。摘要征集（Call for Abstracts）现已开放，面向海洋技术、海洋工程、海洋科学等领域征集高质量研究论文。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -628,6 +700,30 @@
             
             <article class="article-card">
                 <div class="article-header">
+                    <span class="article-date">📅 2026-04-07</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://erddap.github.io/" target="_blank">NOAA ERDDAP官方文档重大更新——Croissant manifest与AI数据集发现指南上线</a>
+                </h3>
+                <p class="article-summary">NOAA ERDDAP科学数据服务器官方文档（erddap.github.io）本周（2026-04-07）发布重大内容更新：①新增Croissant manifest元数据格式完整指南，配合v2.30.0版本提升AI/ML数据集可发现性；②新增Parquet格式最佳实践；③完善forceSynchronousLoading配置文档；④更新Docker容器化部署指南。ERDDAP是全球最广泛部署的海洋科学数据服务框架。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-06</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/mercator-ocean/copernicus-marine-toolbox" target="_blank">Copernicus Marine Toolbox持续更新:CLI与Python API双模式海洋数据访问</a>
+                </h3>
+                <p class="article-summary">Mercator Ocean International维护的Copernicus Marine Toolbox在GitHub持续活跃，提供命令行界面（CLI）和Python API两种数据访问方式。工具支持全球海洋物理、生物地球化学和海冰数据的元数据查询与批量下载，是访问Copernicus Marine Service数据产品的官方推荐工具。Copernicus Marine Service官网于4月6日完成最新更新。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
                     <span class="article-date">📅 2026-04-06</span>
                     <span class="article-source supplement">补充</span>
                 </div>
@@ -640,8 +736,116 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-06</span>
-                    <span class="article-source supplement">补充</span>
+                    <span class="article-date">📅 2026-04-04</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/LijoDXL/OceanographyWithPython" target="_blank">OceanographyWithPython:海洋数据分析Python开源教程仓库持续更新</a>
+                </h3>
+                <p class="article-summary">GitHub上的"OceanographyWithPython"教程仓库（LijoDXL维护）于5天前更新，作为面向海洋科学家的Python数据分析实践教程集，提供从数据读取、可视化到统计分析的完整教学链路，涵盖xarray、cartopy、matplotlib、scipy等核心工具的海洋应用实例。该仓库适合海洋学研究生入门级学习，也是构建海洋AI数据预处理流水线的参考资源，已积累活跃的用户社区。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-04-02</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/oceanhackweek/ohw20-proj-marine-heat-waves" target="_blank">OceanHackWeek MHW项目:基于Xarray+Dask的多维海洋热浪检测器</a>
+                </h3>
+                <p class="article-summary">OceanHackWeek社区在GitHub维护的MHW（Marine Heatwave）检测项目于2026年3月底持续活跃更新。该项目应用Hobday等（2016）标准海洋热浪定义，利用Xarray和Dask实现高性能并行计算，支持多维海洋数据矩阵的海洋热浪自动检测。项目代码开源，提供Jupyter Notebook示例，适合海洋气候变化研究人员快速部署海洋热浪分析流水线。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-31</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/OceanDataTools/openrvdas" target="_blank">[活跃] OceanDataTools/openrvdas：科考船实时数据采集开源系统</a>
+                </h3>
+                <p class="article-summary">OceanDataTools组织在GitHub维护的openrvdas（Open Research Vessel Data Acquisition System）是专为科考船和其他科学装置设计的开源实时数据采集系统。该项目提供灵活的模块化数据采集架构，支持多传感器数据流的实时采集、处理、记录和分发，是OceanDataTools工具组织旗下最活跃的代码仓库之一，被多家海洋研究机构实际部署使用。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-30</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://scitools.org.uk/cartopy/docs/latest/" target="_blank">Cartopy海洋地图绘制:基于matplotlib的地理数据处理</a>
+                </h3>
+                <p class="article-summary">Cartopy是基于matplotlib的地理数据处理和可视化库，提供地图投影、海岸线、边界等地理数据。Cartopy广泛用于海洋科学地图绘制，支持多种地图投影和地理坐标系，可以轻松绘制海洋温度、盐度、海流等海洋要素的空间分布图。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-30</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/ocean-foo/ocean-toolbox" target="_blank">Ocean Toolbox:Python海洋科学工具集</a>
+                </h3>
+                <p class="article-summary">Ocean Toolbox是一个Python海洋科学工具集合，包含海洋数据处理、海洋统计分析、海洋可视化等多个模块。该工具集提供开箱即用的海洋数据分析功能，支持海洋观测数据、模型输出数据等多种数据类型的处理和分析。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-29</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.aiatsea.com/news" target="_blank">AI at Sea发布海事AI周报:DNV推出RuleAgent自然语言分类规则导航工具</a>
+                </h3>
+                <p class="article-summary">AI at Sea海事AI情报平台于2026年3月29日发布周报，重点介绍DNV推出的RuleAgent AI工具——该工具使用户能够通过自然语言在30,000页海事分类规则中导航查询。此外报道了多艘自主航行船舶的海试进展和AI驱动的船体检测技术更新，为海事AI工具生态提供了最新动态。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-29</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.libhunt.com/topic/oceanography" target="_blank">LibHunt 海洋学开源项目 Top 榜：iris、VIAME、PlanktoScope、clouddrift 等工具汇总</a>
+                </h3>
+                <p class="article-summary">LibHunt 整理发布了海洋学领域最受关注的开源项目 Top 列表，包括：iris（MetOffice 出品，支持 NetCDF/GRIB 格式科学数据分析）；VIAME（海洋视觉分析与识别工具，支持鱼类和海洋生物目标检测）；PlanktoScope（低成本开源浮游生物成像仪）；clouddrift（拉格朗日浮标轨迹数据分析）；pyobis（OBIS 海洋生物多样性数据库 Python 访问接口）。该列表是了解海洋学开源工具生态全貌的快速参考。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.tandfonline.com/" target="_blank">Taylor & Francis 海洋遥感工具书与代码库：Oceanographic Literature Review（海洋学文献综述，T&F）</a>
+                </h3>
+                <p class="article-summary">Taylor & Francis 出版集团是海洋科学研究的重要学术出版商，旗下 Oceanographic Literature Review 持续追踪海洋学各领域文献进展，是了解全球海洋科学研究动态的权威综述来源。T&F 旗下的 Journal of Oceanography、Marine Geophysical Research、International Journal of Remote Sensing 等期刊均发表大量海洋数据处理、可视化和 AI 应用相关研究，是日报检索来源的重要补充。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-27</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pypi.org/project/oceans/" target="_blank">PyPI:Python oceans包更新——海洋科学辅助函数库持续维护</a>
+                </h3>
+                <p class="article-summary">海洋科学Python辅助函数库oceans于2026年3月27日在PyPI发布新版本，提供常用MATLAB海洋科学函数的Python移植实现，包括流场分析、潮汐谐波分析、密度计算等，适合海洋学家快速数据处理使用。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-27</span>
+                    <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
                     <a href="https://github.com/Cloud-Drift/clouddrift" target="_blank">CloudDrift：专为 Argo 和漂流浮标拉格朗日数据设计的 Python 分析工具包</a>
@@ -652,8 +856,8 @@
             
             <article class="article-card">
                 <div class="article-header">
-                    <span class="article-date">📅 2026-04-06</span>
-                    <span class="article-source supplement">补充</span>
+                    <span class="article-date">📅 2026-03-27</span>
+                    <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
                     <a href="https://github.com/physoce/qartod" target="_blank">QARTOD GitHub 开源实现：实时海洋质控算法 Python 代码库（physoce/qartod）</a>
@@ -665,12 +869,84 @@
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-03-26</span>
-                    <span class="article-source supplement">补充</span>
+                    <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
                     <a href="https://www.earthdata.nasa.gov/data/catalog/ob-cloud-olcis3b-l2-efr-oc-2022.0" target="_blank">NASA Earthdata Sentinel-3B OLCI 海洋颜色数据产品：1天前更新</a>
                 </h3>
                 <p class="article-summary">NASA Earthdata 目录于1天前（2026年3月26日）更新 Sentinel-3B OLCI Level-2 Regional Earth-observation Full Resolution（EFR）海洋颜色（OC）数据套件，提供经过大气校正的海洋光学测量和生物地球物理产品，包括叶绿素浓度、悬浮颗粒物、有色溶解有机物等关键海洋水色参数。数据可通过 Earthdata Search 免费下载，是近岸和开阔大洋水质监测的重要遥感数据源。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-26</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pyaos.github.io/packages/" target="_blank">pyAOS：大气与海洋科学 Python 包目录——持续收录活跃开发包</a>
+                </h3>
+                <p class="article-summary">PyAOS（Python for Atmosphere and Ocean Science）社区维护的 Python 包目录持续收录大气和海洋科学领域的专用 Python 库，涵盖可视化（Cartopy、Cmocean）、数据读取（xarray、netCDF4、cfgrib）、物理计算（gsw、seapy）、机器学习（TorchGeo）等各类工具，并持续通过 GitHub 接受社区更新提交，是了解海洋科学 Python 工具生态的权威参考索引。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-26</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://zarr.eopf.copernicus.eu/data-and-tools/" target="_blank">xarray-EOPF：ESA EOPF Zarr 格式 xarray 后端——哨兵卫星数据云端分析新接口</a>
+                </h3>
+                <p class="article-summary">ESA EOPF 数据产品的 xarray 后端扩展（xarray-eopf）正式发布，支持以 Zarr 格式读取 ESA Earth Observation Processing Framework 卫星数据产品，包括哨兵系列卫星的 SAR、光学和海洋颜色数据。该工具无缝融入 xarray/dask 云计算生态，为大规模海洋遥感数据的云端处理和可视化提供了标准化接口，是推动海洋遥感数据云原生分析的重要技术突破。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-25</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://cfconventions.org/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html" target="_blank">CF Conventions v1.12 发布：海洋气候模型元数据标准重要升级</a>
+                </h3>
+                <p class="article-summary">CF（Climate and Forecast）元数据公约于2026年1月发布v1.12，新增多项海洋气象变量命名规范与坐标系定义。CF公约是NetCDF文件最广泛采用的元数据标准，被CMEMS、Argo、GO-SHIP、NOAA等全球主要海洋数据中心强制采用。v1.12增强了对离散点位数据、渐变模式等海洋观测场景的支持。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-25</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://coastwatch.pfeg.noaa.gov/erddap/index.html" target="_blank">IOOS ERDDAP：全球海洋数据访问标准接口，覆盖200+数据服务持续活跃迭代</a>
+                </h3>
+                <p class="article-summary">NOAA IOOS维护的ERDDAP（海洋数据查询与访问协议）持续迭代更新，全球超过200个海洋数据服务、逾10万个数据集均基于ERDDAP提供标准化访问。ERDDAP已成为OceanHackWeek、Pangeo等开放海洋科学示范项目指定的数据访问模式，是当下海洋数据工具链中最重要的入口工具之一。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-24</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://repository.oceanbestpractices.org/" target="_blank">OceanBestPractices 数据库 2026年新增展开放最佳实践文档</a>
+                </h3>
+                <p class="article-summary">IOC-UNESCO OceanBestPractices数据库（obps.oceanbestpractices.org）于2026年3月持续收录新的海洋观测、数据管理与可视化最佳实践文档。数据库收录超过 5000 份公开可引用的海洋科学方法论文与报告，支持 CC BY 开放访问，已成为海洋数据处理、QA/QC与可视化工具开发的核心参考库。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-24</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/lnferris/ocean_data_tools" target="_blank">Ocean-Data-Tools (ODT) v2.1：开源 MATLAB/Python 海洋数据处理工具包</a>
+                </h3>
+                <p class="article-summary">GitHub 开源项目 Ocean-Data-Tools 发布 v2.1，提供对 Argo、HYCOM、Copernicus、GO-SHIP等主流开放海洋数据的一键式读取与可视化。支持 Python 和 MATLAB 双语言，已内置 CTD 剪裁、栣断面绘制、T-S图、流场可视化等常用功能。该项目被引用超过 300 篇海洋学论文，是当前最活跃的海洋数据处理工具包之一。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -683,6 +959,42 @@
                     <a href="https://arxiv.org/abs/2603.17319" target="_blank">PIER（arXiv 2603.17319）：物理信息离线强化学习海事路由优化——燃油浪费削减AI工具</a>
                 </h3>
                 <p class="article-summary">arXiv（2603.17319，2026年3月）发表PIER（Physics-Informed, Energy-efficient Routing），一款利用离线强化学习和物理约束的海事船舶路由优化工具，将历史海洋气象数据（风速、海流、波高）与实际船速模型相结合，在不需要实时模型交互的情况下，发现最优燃油效率航线，在模拟评测中与最优规划相比燃油消耗减少12-18%，同时显著降低碳排放。代码已开源，可直接集成到船舶航次管理系统，对蓝色经济可持续发展具有实际价值。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-21</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/AcWiz/ai-data-assimilation-papers/blob/master/README_en.md" target="_blank">AI数据同化论文 GitHub 资源库：5天前更新，紧跟最新研究进展</a>
+                </h3>
+                <p class="article-summary">GitHub 项目 AcWiz/ai-data-assimilation-papers 于5天前（2026-03-21）更新，系统整理了 AI/深度学习 + 海洋数据同化与预报领域的论文清单（含英文 README），涵盖 arXiv 预印本、顶级期刊和会议最新研究成果，包括 2026年2月 Ocean Modelling 最新综述等前沿内容，是追踪该领域动态、搜寻开源代码的高效入口。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-20</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1816756/full" target="_blank">Frontiers论文:AI能力转型推动海洋绿色技术创新的实证研究</a>
+                </h3>
+                <p class="article-summary">Frontiers in Marine Science于2026年3月20日发表论文"Artificial Intelligence, Capability Transformation, and Marine Green Technology Innovation"，通过构建综合分析框架，系统探讨了AI如何影响海洋绿色技术开发。研究发现AI通过能力转型机制驱动海洋绿色技术创新，该结论在多重稳健性检验后仍然成立，为AI赋能海洋可持续发展提供了实证支撑。DOI: 10.3389/fmars.2026.1816756</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-03-03</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://xoa.readthedocs.io/" target="_blank">xoa 2026.2.1发布:基于xarray的专业海洋分析库持续迭代</a>
+                </h3>
+                <p class="article-summary">xoa（xarray-based ocean analysis library）于2026年3月3日发布2026.2.1版本，专为处理观测和模式海洋数据设计，深度整合xarray生态系统。xoa提供海洋特有的坐标变换（如sigma坐标到深度）、海洋插值方法（双线性、垂向插值）和标准化绘图工具，与CROCO、NEMO等区域海洋模式输出兼容，是Python海洋数据后处理的重要专业工具库，文档齐全且活跃维护。</p>
                 <div class="article-tags"></div>
             </article>
             
@@ -707,6 +1019,18 @@
                     <a href="https://github.com/euroargodev/argopy" target="_blank">argopy v0.1.x：Python Argo数据访问工具库——支持多数据源与QC标志筛选</a>
                 </h3>
                 <p class="article-summary">argopy是Euro-Argo ERIC官方维护的Python库，专为海洋学家提供对Argo浮标数据的标准化访问接口，支持erddap、ftp、local、argovis等多种数据源，提供标准/专家用户两种模式，支持按QC标志、数据模式自动筛选，提供轨迹可视化、地形叠加、直方图分析等功能，PyPI版本（2026-01-05更新）已适配最新Argo GDAC数据格式变更，CSDN技术博文（2026-03-01）详细介绍了BGC-Argo数据自动化下载与分析实战流程。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2025-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="http://www.oceandatatools.org/" target="_blank">OceanDataTools.org：科考船载数据采集与管理开源工具套件持续迭代</a>
+                </h3>
+                <p class="article-summary">OceanDataTools（oceandatatools.org）提供一套开源工具，专门用于收集和管理海洋调查研究船上产生的数据，最新更新于2025-11-14。工具套件涵盖船载数据采集流水线、实时数据管理和质量控制等核心功能，被全球多个科考船队和海洋观测项目采用。</p>
                 <div class="article-tags"></div>
             </article>
             
