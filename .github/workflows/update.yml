@@ -10,8 +10,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   update:
@@ -44,34 +42,16 @@ jobs:
         run: python scripts/fetch_articles.py
         continue-on-error: false
 
-      # 步骤 2：生成分类页面和首页
+      # 步骤 2：生成分类页面
       - name: Generate category pages
         run: python scripts/generate_pages.py
 
-      # 步骤 3：提交并推送变更
+      # 步骤 3：提交并推送变更（GitHub Pages 配置为 "Deploy from a branch"，推送后自动部署）
       - name: Commit and push changes
         run: |
           git stash
           git pull --rebase origin main
           git stash pop
-          git add _data/*.json categories/*.html index.html all.html
+          git add .nojekyll _data/*.json categories/*.html index.html all.html
           git diff --staged --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')"
           git push
-
-      - name: Upload to GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-  deploy:
-    needs: update
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
