@@ -39,13 +39,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      - name: Fetch articles from source sites
+      # 步骤 1：从两个来源增量抓取并合并，已内置 URL 去重 + 标题去重 + 链接有效性验证
+      - name: Fetch and validate articles from source sites
         run: python scripts/fetch_articles.py
-        continue-on-error: true
+        continue-on-error: false
 
+      # 步骤 2：生成分类页面和首页
       - name: Generate category pages
         run: python scripts/generate_pages.py
 
+      # 步骤 3：提交并推送变更
       - name: Commit and push changes
         run: |
           git stash
