@@ -353,6 +353,110 @@ def deduplicate_by_title(new_articles, existing_articles):
     return deduped
 
 
+# ─── 分类相关性评分（用于跨分类去重时选择最佳分类）──────────────────
+
+CATEGORY_KEYWORDS = {
+    'marine-ai': ['ai', '人工智能', '深度学习', 'machine learning', 'neural',
+                  'transformer', 'gnn', '预训练', '大模型', 'llm', 'deep learning',
+                  '卷积', 'cnn', 'rnn', 'lstm', 'gan', 'diffusion', '强化学习',
+                  'fu xi', 'fuxi', 'pangu', 'graphcast', 'aiweather', 'aifs'],
+    'digital-twin': ['数字孪生', 'digital twin', 'twin', 'destine', 'destinE',
+                     'oceaneye', 'copernicus marine', 'cmems', '耦合', '预报系统',
+                     'forecast system', '耦合模型', 'earth system'],
+    'visualization': ['可视化', 'vis', 'visualization', '地图', 'map', '图表',
+                      'chart', 'dashboard', '平台', 'platform', 'viewer', '3d',
+                      '渲染', 'render', '交互', 'interactive', '仪表盘'],
+    'data-quality': ['质量', 'quality', 'qa', 'qc', '质控', '校正', 'calibration',
+                     'validation', '验证', '偏差', 'bias', '误差', 'error',
+                     '准确度', 'accuracy'],
+    'data-processing': ['处理', 'processing', 'pipeline', 'workflow', 'etl',
+                        '清洗', 'clean', '格式', 'format', '转换', 'convert',
+                        '解析', 'parse', 'grib', 'netcdf', 'zarr'],
+    'data-management': ['管理', 'management', '共享', 'sharing', 'fair',
+                        'policy', '政策', '标准', 'standard', '规范',
+                        'metadata', '元数据', 'doi', '编目', 'catalog'],
+    'open-cruise': ['航次', 'cruise', '船时', 'expedition', '探险', '考察',
+                    '科考船', 'research vessel', 'okeanos', 'nautilus',
+                    'schmidt', '潜水器', 'rov', 'hoV', 'submersible'],
+    'data-center': ['数据中心', 'data center', 'database', '数据库', '仓库',
+                    'repository', '归档', 'archive', 'pangaea', 'ncei',
+                    'podaac', '存储', 'storage', '基础设施', 'infrastructure'],
+    'tools-resources': ['工具', 'tool', '代码', 'code', '开源', 'open source',
+                        'github', 'python', 'package', '包', '库', 'library',
+                        'api', 'sdk', '教程', 'tutorial', '文档', 'doc'],
+}
+
+
+def score_category_relevance(title, category):
+    """根据标题关键词给分类相关性打分，分数越高越相关"""
+    title_lower = title.lower()
+    score = 0
+    for kw in CATEGORY_KEYWORDS.get(category, []):
+        if kw.lower() in title_lower:
+            score += 1
+    return score
+
+
+def full_deduplicate(all_articles):
+    """
+    全量去重：对所有文章（已有 + 新增）执行统一去重。
+
+    去重策略（按优先级）：
+    1. URL 去重：相同 URL 只保留一条。跨分类时，保留分类相关性评分最高的一条。
+    2. 标题去重：相同标准化标题（即使 URL 不同）只保留一条。
+
+    返回去重后的文章列表。
+    """
+    if not all_articles:
+        return all_articles
+
+    removed = 0
+
+    # ── 第一步：URL 去重（含跨分类选择）──
+    by_url = {}
+    for art in all_articles:
+        url = art.get('url', '').strip()
+        if not url:
+            continue
+        if url not in by_url:
+            by_url[url] = []
+        by_url[url].append(art)
+
+    url_deduped = []
+    for url, arts_with_same_url in by_url.items():
+        if len(arts_with_same_url) == 1:
+            url_deduped.append(arts_with_same_url[0])
+        else:
+            # 跨分类去重：选择分类相关性最高的那条
+            best = max(arts_with_same_url, key=lambda a: score_category_relevance(
+                a.get('title', ''), a.get('categories', [''])[0]))
+            url_deduped.append(best)
+            removed += len(arts_with_same_url) - 1
+
+    # ── 第二步：标题去重（URL 不同但标题相同）──
+    def title_key(title):
+        t = re.sub(r'[\s\W]+', '', title).lower()
+        return t[:50]
+
+    seen_titles = {}
+    final = []
+    for art in sorted(url_deduped, key=lambda x: x.get('reportDate', ''), reverse=True):
+        key = title_key(art.get('title', ''))
+        if not key:
+            final.append(art)
+            continue
+        if key in seen_titles:
+            removed += 1
+            continue
+        seen_titles[key] = True
+        final.append(art)
+
+    if removed > 0:
+        print(f"    [全量去重] 移除 {removed} 条重复记录（URL重复 + 标题重复）")
+
+    return final
+
+
 def main():
     """主函数：增量抓取 + 链接验证 + 去重合并"""
     print("=" * 60)
@@ -432,8 +536,16 @@ def main():
         valid_new = []
         invalid_new = []
 
-    # ─── 合并 & 排序 ─────────────────────────────────────────────
+    # ─── 合并 & 全量去重 & 排序 ──────────────────────────────────
     all_articles = valid_new + existing_articles
+
+    # 全量去重：对已有 + 新增数据统一去重（URL 去重 + 标题去重 + 跨分类去重）
+    before_dedup = len(all_articles)
+    all_articles = full_deduplicate(all_articles)
+    after_dedup = len(all_articles)
+    if before_dedup != after_dedup:
+        print(f"\n[全量去重] {before_dedup} → {after_dedup} 条（移除 {before_dedup - after_dedup} 条重复）")
+
     all_articles.sort(key=lambda x: (x.get('date', ''), x.get('reportDate', '')), reverse=True)
 
     # 重新编号（保证 id 唯一稳定）
