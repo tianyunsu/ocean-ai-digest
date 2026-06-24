@@ -5761,10 +5761,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-06-24T16:04:17.457485",
+  "lastUpdated": "2026-06-24T16:04:32.608794",
   "stats": {
     "total": 384,
-    "newToday": 1,
+    "newToday": 0,
     "byCategory": {
       "tools-resources": 61,
       "data-processing": 38,
@@ -5777,9 +5777,9 @@
       "digital-twin": 34
     },
     "validation": {
-      "newCandidates": 4,
-      "afterTitleDedup": 4,
-      "validNew": 1,
+      "newCandidates": 3,
+      "afterTitleDedup": 3,
+      "validNew": 0,
       "invalidNew": 3
     }
   }
