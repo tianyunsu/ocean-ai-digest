@@ -1,19 +1,12 @@
 name: Update Ocean AI Digest
 
-# 每日自动更新 + 支持手动触发 + 推送时自动更新
+# 每日自动更新 + 支持手动触发
 on:
   # 每天北京时间 08:00 自动执行（UTC 00:00）
   schedule:
     - cron: '0 0 * * *'
   # 支持手动触发
   workflow_dispatch:
-  # 推送到 main 时自动执行（确保数据更新后立即部署）
-  push:
-    branches:
-      - main
-    paths:
-      - '_data/**'
-      - 'scripts/**'
 
 permissions:
   contents: write
