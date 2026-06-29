@@ -5986,10 +5986,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-06-28T02:56:42.221928",
+  "lastUpdated": "2026-06-29T02:57:28.790770",
   "stats": {
     "total": 399,
-    "newToday": 1,
+    "newToday": 0,
     "byCategory": {
       "visualization": 43,
       "marine-ai": 71,
@@ -6002,9 +6002,9 @@
       "digital-twin": 35
     },
     "validation": {
-      "newCandidates": 2,
-      "afterTitleDedup": 2,
-      "validNew": 1,
+      "newCandidates": 1,
+      "afterTitleDedup": 1,
+      "validNew": 0,
       "invalidNew": 1
     }
   }
