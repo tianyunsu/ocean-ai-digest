@@ -5986,7 +5986,7 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-06-29T02:57:28.790770",
+  "lastUpdated": "2026-06-30T02:50:51.366947",
   "stats": {
     "total": 399,
     "newToday": 0,
@@ -6002,10 +6002,10 @@
       "digital-twin": 35
     },
     "validation": {
-      "newCandidates": 1,
-      "afterTitleDedup": 1,
+      "newCandidates": 0,
+      "afterTitleDedup": 0,
       "validNew": 0,
-      "invalidNew": 1
+      "invalidNew": 0
     }
   }
 }
