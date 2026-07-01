@@ -8,13 +8,21 @@ on:
   # 支持手动触发
   workflow_dispatch:
 
+# 设置 GITHUB_TOKEN 的权限
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# 允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  update:
+  # 构建作业
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,21 +45,34 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      # 步骤 1：从两个来源增量抓取并合并，已内置 URL 去重 + 标题去重 + 链接有效性验证
-      - name: Fetch and validate articles from source sites
+      - name: Fetch articles from source sites
         run: python scripts/fetch_articles.py
-        continue-on-error: false
+        continue-on-error: true
 
-      # 步骤 2：生成分类页面
       - name: Generate category pages
         run: python scripts/generate_pages.py
 
-      # 步骤 3：提交并推送变更（GitHub Pages 配置为 "Deploy from a branch"，推送后自动部署）
       - name: Commit and push changes
         run: |
-          git stash
-          git pull --rebase origin main
-          git stash pop
           git add .nojekyll _data/*.json categories/*.html index.html all.html
-          git diff --staged --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')"
-          git push
+          git diff --staged --quiet || (git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')" && git pull --rebase origin main && git push)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  # 部署作业
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
