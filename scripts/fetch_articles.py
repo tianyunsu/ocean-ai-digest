@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-海洋AI进展汇总网站 - 增量抓取脚本 v7
+海洋AI进展汇总网站 - 增量抓取脚本 v8
 
 增量更新策略：
 - 只抓取最近 7 天的日报
@@ -9,13 +9,16 @@
 - 标题去重（title 级别，防止同一条目出现在多个日报）
 - 验证每条链接的有效性（HTTP 状态码 + 内容相关性）
 
-修复记录（v7 vs v6）：
+修复记录（v8 vs v7）：
 - 修复 parse_daily_report() 中 section 选择器错误
-  旧: soup.find_all('section', class_='section')  ← 错误，页面用 <div> 不是 <section>
-  新: soup.find_all('div', class_='section')
+  v7: soup.find_all('div', class_='section')  ← 错误，页面用 <section> 不是 <div>
+  v8: soup.find_all(class_='section')          ← 兼容 <section> 和 <div>
 - 修复 item 选择器错误
-  旧: section.find_all('div', class_='item-card')  ← 错误，class 不存在
-  新: section.find_all('div', class_='item')
+  v7: section.find_all('div', class_='item')   ← 错误，页面用 item-card 不是 item
+  v8: section.find_all(class_='item-card')     ← 兼容 item-card 和 item
+- 原因：日报模板已更新为 <section class="section"> + <div class="item-card">
+
+修复记录（v7 vs v6）：
 - 新增标题级去重：跨 reportDate 的相同标题只保留最新一条
 - 将 validate_links.py 的验证逻辑集成进增量抓取，确保新增内容有效
 """
@@ -33,8 +36,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 MAIN_URL = "https://tianyunsu.github.io/ocean-data-daily-report/"
 SUPPLEMENT_URL = "https://tianyunsu.github.io/ocean-data-daily-report/supplement/"
 
-# 抓取最近 N 天的日报
-DAYS_TO_FETCH = 7
+# 抓取最近 N 天的日报（设为 14 天以覆盖周末/节假日间隙）
+DAYS_TO_FETCH = 14
 
 # 首页/综合页面关键词（用于判断链接是否指向有效文章页）
 HOME_PAGE_KEYWORDS = [
@@ -196,23 +199,26 @@ def parse_daily_report(html, source_url, source_type):
     """
     解析每日日报页面，提取各板块下的文章条目。
 
-    HTML 结构（基于实际页面）：
-      <div class="section">
+    HTML 结构（当前页面）：
+      <section class="section" id="section-1">
         <div class="section-header">
-          <div class="section-title">一、海洋人工智能</div>
-        </div>
-        <div class="section-content">
-          <div class="item">
-            <div class="item-header">
-              <div class="item-title"><a href="...">标题</a></div>
-            </div>
-            <div class="item-abstract">摘要</div>
+          <span class="section-icon">🤖</span>
+          <div>
+            <div class="section-title">一、海洋人工智能</div>
+            <div class="section-en">Ocean AI</div>
           </div>
+          <div class="section-count">3 条</div>
         </div>
-      </div>
+        <div class="item-card">
+          <div class="item-header">
+            <span class="item-badge">[动态]</span>
+            <div class="item-title"><a href="...">标题</a></div>
+          </div>
+          <div class="item-abstract">摘要</div>
+        </div>
+      </section>
 
-    注意：页面中 section 容器是 <div class="section">，不是 <section> 标签；
-    条目容器是 <div class="item">，不是 <div class="item-card">。
+    兼容性：同时支持 <section> 和 <div> 标签，以及 item-card / item 两种 class。
     """
     soup = BeautifulSoup(html, 'html.parser')
     articles = []
@@ -224,8 +230,8 @@ def parse_daily_report(html, source_url, source_type):
         if date_match else datetime.now().strftime("%Y-%m-%d")
     )
 
-    # 关键修复：<div class="section">，不是 <section class="section">
-    sections = soup.find_all('div', class_='section')
+    # 兼容 <section class="section"> 和 <div class="section"> 两种写法
+    sections = soup.find_all(class_='section')
 
     for section in sections:
         # 获取板块标题
@@ -237,8 +243,10 @@ def parse_daily_report(html, source_url, source_type):
         section_title = section_title_elem.get_text(strip=True) if section_title_elem else ""
         category = get_category(section_title)
 
-        # 关键修复：<div class="item">，不是 <div class="item-card">
-        item_cards = section.find_all('div', class_='item')
+        # 兼容 item-card（当前）和 item（旧版）两种 class
+        item_cards = section.find_all(class_='item-card')
+        if not item_cards:
+            item_cards = section.find_all(class_='item')
 
         for card in item_cards:
             # 找到文章链接（在 item-title > a）
