@@ -6481,10 +6481,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-07-13T02:13:46.384129",
+  "lastUpdated": "2026-07-14T01:59:28.064910",
   "stats": {
     "total": 432,
-    "newToday": 15,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 42,
       "digital-twin": 38,
@@ -6497,9 +6497,9 @@
       "tools-resources": 62
     },
     "validation": {
-      "newCandidates": 19,
-      "afterTitleDedup": 19,
-      "validNew": 15,
+      "newCandidates": 4,
+      "afterTitleDedup": 4,
+      "validNew": 0,
       "invalidNew": 4
     }
   }
