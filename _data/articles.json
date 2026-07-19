@@ -6736,10 +6736,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-07-18T01:58:57.391683",
+  "lastUpdated": "2026-07-19T02:10:12.618682",
   "stats": {
     "total": 449,
-    "newToday": 19,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 45,
       "data-processing": 48,
@@ -6752,9 +6752,9 @@
       "data-center": 45
     },
     "validation": {
-      "newCandidates": 24,
-      "afterTitleDedup": 24,
-      "validNew": 19,
+      "newCandidates": 5,
+      "afterTitleDedup": 5,
+      "validNew": 0,
       "invalidNew": 5
     }
   }
