@@ -16,6 +16,246 @@
       "id": "2026-07-25-0001"
     },
     {
+      "url": "https://arxiv.org/abs/2607.03216",
+      "title": "斯特劳哈尔数感知模型预测控制——多鳍扑翼AUV能效提升8.8%至32%（豁免）",
+      "summary": "高效扑翼推进依赖于在狭窄斯特劳哈尔数（Strouhal）窗口内运行。研究将这一仿生经验法则转化为实时控制，在四软鳍驱动自主水下航行器上演示。提出斯特劳哈尔数感知模型预测控制（MPC），通过对斯特劳哈尔数偏差施加显式惩罚增强准稳态流体动力学模型，并以两阶段采样与梯度优化在板载25Hz运行。水池与实地试验表明，控制器将每鳍保持在最优斯特劳哈尔走廊（0.25—0.35）内同时精确跟踪指令力，巡航范围内机械功率平均降低8.8%至32%，并实现0.4 m/s速度（传统逆模型基准无法达到）。已被IEEE Journal of Oceanic Engineering录用。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826482",
+      "id": "2026-07-24-0002"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.03298",
+      "title": "WorldTensor：面向地球系统基础模型的统一协调数据集——0.25°网格对齐气候/陆地/海洋/人文（豁免）",
+      "summary": "地球系统基础模型迄今主要训练于物理气候与天气数据，对人类系统的表征有限。本文提出 WorldTensor——一个协调全球数据集，将数百项环境与社会经济变量对齐至标准0.25°空间网格与年度时间框架。WorldTensor整合再分析产品、遥感、排放清单、土地使用重建、水文观测、基础设施与灾害数据集及社会经济指标于单一表示，专为机器学习工作流设计。构建中跨异构原生分辨率与投影重网格化、将点矢量数据集栅格化、协调从日观测到多年社会经济快照的时间覆盖。所有输出以NetCDF分发，含标准坐标、变量元数据与通用CF元数据约定，为训练评估耦合环境—人类系统的地球系统基础模型提供可复现资源。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "data-processing"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827101",
+      "id": "2026-07-24-0003"
+    },
+    {
+      "url": "https://eartharxiv.org/repository/view/13909",
+      "title": "机器学习检测BGC-Argo生物附着退化——无监督VAE异常检测首个大尺度基准",
+      "summary": "自主海洋观测平台采集长期生物地球化学时序，但生物附着导致的传感器退化引入渐进偏差污染气候记录。本文聚焦BGC-Argo剖面浮标队，其中光学传感器（叶绿素-a、后向散射）尤其易受生物附着影响。现有检测依赖每浮标经验指数拟合与阈值质控。研究提出在86个地中海BGC-Argo浮标深度剖面训练的变分自编码器（VAE），以无监督异常检测生物附着漂移。VAE仅在早期部署（洁净）剖面训练，再评估每浮标完整时间轨迹。86个浮标中34个（40%）重建误差随部署时间增长，平均Pearson相关0.20、晚期/早期误差比1.70。据研究所知，这是首个大尺度ML生物附着检测基准，证明无监督形状VAE可跨异质舰队检测漂移。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "data-quality"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826934",
+      "id": "2026-07-24-0004"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.13666",
+      "title": "DREAM：领域感知推理赋能高效自主水下监测——VLM引导AUV牡蛎/沉船探索（ICRA 2026，豁免）",
+      "summary": "针对海洋变暖酸化导致牡蛎等温度敏感贝类大规模死亡风险，提出DREAM——由视觉语言模型（VLM）引导的自主水下探索与栖息地监测框架。该\"大脑\"使水下机器人在无人工干预下实时、环境感知决策。在牡蛎监测任务中，相同数量牡蛎下比基线节省31.5%时间；相比原始VLM减少23%步数同时多覆盖8.88%牡蛎。沉船场景中成功探索制图无碰撞，步数减少27.5%且覆盖率达100%（原始VLM仅60.23%）。预印本 arXiv:2509.13666 首发于 2025-09（2026-02 修订），2026 年被 ICRA 2026 正式录用。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826142",
+      "id": "2026-07-24-0005"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.08222",
+      "title": "多智能体RL扩展水下声学追踪——JaxLrauv实现3万倍仿真加速（ICRA 2026，豁免）",
+      "summary": "水下AUV多智能体强化学习（MARL）任务部署前需充分评估，但高保真仿真器（如Gazebo LRAUV）过慢使MARL训练不切实际。提出两阶段流水线：GPU加速JAX环境JaxLrauv（相较Gazebo最高3万倍加速，10分钟训练策略而非数周）与Python/ROS2接口PyLrauv（高保真评估与实船部署）；结合Transformer-based MAPPO（TransfMAPPO）通过课程学习学舰队规模不变策略。最终策略仅用5艘AUV跟踪5个同时快速移动目标，跟踪误差低于5米，而最优基线需多达12艘跟踪4个目标。预印本 arXiv:2505.08222 首发于 2025-05，2026 年被 ICRA 2026 正式录用。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826214",
+      "id": "2026-07-24-0006"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.18013",
+      "title": "AUV海底图像低带宽实时传输——AI筛选代表性图像实现近40万倍数据压缩",
+      "summary": "针对AUV海底探测图像受低带宽通信限制难以实时回传的问题，提出一种AI驱动的实时处理与传输方法。方法自动筛选最能代表整个数据集的图像，或根据查询图像检索最相似图像回传岸基操作员。结合元数据，压缩图像可经卫星通信或水下调制解调器传输，使操作员在AUV部署期间即获知所采集图像类型。UK和Gran Canaria三次实地部署验证：相比原始数据实现近40万倍数据量压缩，2小时47分钟测绘任务的数据摘要仅34分钟即经低带宽卫星链路回传。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826055",
+      "id": "2026-07-24-0007"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2511.07923",
+      "title": "CVPR 2026水下视觉集中爆发：Earth2Ocean开放词汇分割 + NemoNet/UDVSR-Net/AdaMSCol修复增强（豁免）",
+      "summary": "CVPR 2026汇集多项水下视觉进展。(1) Earth2Ocean（主会）：提出AquaOV255数据集 + UOVSBench基准 + Earth2Ocean框架，实现无需额外水下训练的水下开放词汇分割，陆地预训练VLM零成本迁移至复杂水下载体；(2) NemoNet（NTIRE Workshop）：相位引导表征学习的水下图像修复，融合傅里叶相位细化与空间注意力；(3) UDVSR-Net（NTIRE Workshop）：自适应谱上采样的水下退化视频超分辨率，含UDVSR数据集与代码开源；(4) AdaMSCol（WiCV Workshop）：自适应多尺度结构一致性无监督水下图像增强损失。四项工作共同推进水下视觉复原与理解（主会 Earth2Ocean 预印本 arXiv:2511.07923 首发于 2025-11，三项 workshop 论文同期公开）。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826287",
+      "id": "2026-07-24-0008"
+    },
+    {
+      "url": "https://oceanexplorer.noaa.gov/expedition/ex2605",
+      "title": "本周无新航次发布（NOAA EX2605库克群岛ROV探险正在直播，已于07-16日报收录）",
+      "summary": "NOAA Ship Okeanos Explorer 的 EX2605 库克群岛ROV探险（7月19日—8月13日）目前正在执行并每日直播，该航次已于07-16日报以\"即将开始\"形式收录。E/V Nautilus NA180马里亚纳群岛航次（7月25日起）亦已于07-13/07-16日报收录。本期无新增航次类内容。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "open-cruise"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827463",
+      "id": "2026-07-24-0009"
+    },
+    {
+      "url": "https://pypi.org/project/cstar-ocean/",
+      "title": "cstar-ocean v0.6.0发布——海洋碳循环计算系统Python库（豁免）",
+      "summary": "cstar-ocean（Computational systems for tracking ocean carbon）发布v0.6.0版本（同期0.5.0亦于2026年7月2日发布）。该Python工具包用于追踪海洋碳循环，依赖networkx、python-dotenv、typer等，支持海洋碳通量与储量的计算系统建模，采用Python 3.9+。为海洋碳通量评估与碳循环研究提供可复现的计算基础设施。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "tools-resources"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827805",
+      "id": "2026-07-24-0010"
+    },
+    {
+      "url": "https://pypi.org/project/pyo-oracle/1.0.0/",
+      "title": "pyo-oracle v1.0.0发布——Bio-ORACLE海洋学与ERDDAP检索Python工具（豁免）",
+      "summary": "pyo-oracle发布v1.0.0稳定版（Production/Stable）。该Python包面向海洋学与气候研究，提供对Bio-ORACLE数据库与ERDDAP数据服务器的便捷检索接口，标签含bio-oracle、erddap、oceanography、marine、climate、sdm。支持Python 3.9—3.13，采用MIT许可证。Bio-ORACLE提供基于物种出现与环境因子的生态位建模数据，pyo-oracle使其可被脚本化调用，便于大规模海洋生物气候数据分析。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "tools-resources"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827875",
+      "id": "2026-07-24-0011"
+    },
+    {
+      "url": "https://pypi.org/project/echosms/",
+      "title": "echosms v0.25.0发布——声学后向散射与鱼类目标强度模型Python库（豁免）",
+      "summary": "echosms发布v0.25.0版本。该Python库用于声学后向散射与鱼类目标强度建模，标签含acoustic、backscatter、model，支持Python 3.12—3.13，采用MIT许可证。当前处于Beta阶段，持续频繁更新（7月22日v0.25.0，由0.20.0快速迭代至0.25.0）。为渔业声学、海洋生物量评估与水下声学探测提供建模范式，是echopype等海洋声学互操作工具链的重要组成。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "tools-resources"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827940",
+      "id": "2026-07-24-0012"
+    },
+    {
+      "url": "https://aclanthology.org/2026.findings-acl.1067",
+      "title": "ClimAgent：作为智能体的LLM用于自主开放式气候科学分析——ACL 2026 首建气候发现基准（豁免）",
+      "summary": "气候研究对减缓全球环境危机至关重要，但多尺度数据集激增与分析工具复杂造成显著瓶颈。现有LLM探索多局限于简单问答，忽视专业气候科学的物理约束与数据驱动本质。本文提出 ClimAgent——一个执行广泛气候子领域研究任务的通用自主框架，通过统一工具使用环境与严谨推理协议，超越简单检索实现端到端建模与分析。为系统评估，提出 ClimaBench——首个面向真实气候发现的综合基准，涵盖源自2000—2025年专业场景的5类任务。ClimaBench实验显示ClimAgent显著优于最强基线，较原始LLM方案在解严谨性与实用性上提升40.21%。代码已开源。发表于ACL 2026 Findings。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "data-processing"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827163",
+      "id": "2026-07-24-0013"
+    },
+    {
+      "url": "http://aoc.ouc.edu.cn/2026/0716/c28894a534560/page.htm",
+      "title": "中科院烟台海岸带所实现台风风暴潮中长期智能预报与可解释性新突破",
+      "summary": "中科院烟台海岸带所毛淼华团队联合美国马里兰大学，在台风风暴潮中长期智能预报与模型可解释性上取得突破，成果刊于Ocean Modelling。以渤海塘沽、黄河、潍坊站点为对象，依托2000—2022年台风观测与ADCIRC模拟数据，分时效构建双套深度学习模型：CNN-BiLSTM-Attention负责24小时连续预报，独立BiLSTM用于24—72小时中长期预报，有效抑制误差累积。融合多类可解释工具验证台风纬度、中心气压、最大风速为核心驱动因子。经\"梅花\"\"烟花\"等台风实测检验，48小时内预报偏差满足业务预警标准。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826353",
+      "id": "2026-07-24-0014"
+    },
+    {
+      "url": "https://www.gebco.net/",
+      "title": "本周无新数据中心产品发布（GEBCO_2026网格等已于早前发布，超窗口期）",
+      "summary": "GEBCO_2026 Grid（2026年4月发布，全球海底测绘覆盖率升至28.7%）等重大数据中心更新已超出14天/60天窗口，未予收录。NASA PO.DAAC Sentinel-6B、GLODAPv3、SOCAT v2026等已于07-16/07-21日报收录。本期无新增数据中心产品。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "data-center"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827606",
+      "id": "2026-07-24-0015"
+    },
+    {
+      "url": "https://www.toutiao.com/article/7660060745983427072/",
+      "title": "2026海洋数据要素市场化迎实质突破——青岛建成全国首个海洋大数据交易服务平台",
+      "summary": "2026年\"十五五\"开局，海洋数据要素化与市场化被正式纳入重点研究方向。青岛国实科技集团建成全国首个海洋大数据交易服务平台，以技术手段绕开\"所有权\"争议——数据提供方将加密数据存入平台获取资产凭证，需求方付费解锁使用，全程依托区块链可追溯交易，锚定\"使用权\"与\"收益权\"。制度层面，国家数据局7月印发《数据产权登记工作指引（试行）》，从登记机构管理、流程规范、凭证应用作出系统部署；民盟山东省委会建议加快研究制定《山东省海洋数据分类分级与安全管理指南》。青岛已构建覆盖\"全球—海区—省—市—核心区域\"的立体化海洋数据资源体系，涵盖18大类、292小类海洋数据。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "data-management"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.827310",
+      "id": "2026-07-24-0016"
+    },
+    {
+      "url": "https://tech.china.com/articles/20260723/202607231924589.html",
+      "title": "\"云锦微\"发布MaM-GPT实景世界模型，联手浙大舟山海洋研究中心落地海洋具身智能",
+      "summary": "7月23日宁波人形机器人联盟大会，宁波云锦微智能科技发布自研 MaM-GPT 实景进化世界模型，并宣布与浙江大学舟山海洋研究中心达成海洋具身智能产业深度战略合作。双方通过合资公司\"深渊矩阵\"承载智慧海洋全赛道商业化，以实景进化技术路线打造\"海上高德\"\"水下大疆\"两大标杆产品。海洋覆盖地形、水文、声呐、气象等数十类异构数据，天然适配世界模型通用能力打磨；浙大舟山将开放海洋感知重点实验室及海上水下全流程试验场地。针对国内60万艘渔船与海事船舶存量改造及超200亿元港口运维市场，发布船载智能终端\"海上高德\"等规划。",
+      "date": "2026-07-24",
+      "reportDate": "2026-07-24",
+      "source": "main",
+      "sourceName": "",
+      "categories": [
+        "marine-ai"
+      ],
+      "tags": [],
+      "fetchedAt": "2026-07-24T02:10:05.826418",
+      "id": "2026-07-24-0017"
+    },
+    {
       "url": "https://arxiv.org/abs/2607.02708",
       "title": "SALT框架：冻结骨干网络分辨率自适应——海洋动物分割新SOTA（MAS3K mIoU 0.878）（豁免）",
       "summary": "研究冻结视觉基础模型适配细粒度分割时骨干网络选择的关键作用。提出SALT（Side-stem, Attention-gated U-Net, Low-rank Tuning）流程，发现等向性ViT因全局注意力机制随分辨率持续提升，而层次化骨干网络在低分辨率处饱和。六骨干网络对照实验确立规律，编辑骨干网络验证因果：池化保留收益，移除全局注意力则失效。在MAS3K和MAS3K+两个海洋动物基准上达到新SOTA（MAS3K mIoU 0.878），同时在四个伪装目标数据集上取得最佳S-measure。",
@@ -28,7 +268,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.560963",
-      "id": "2026-07-21-0002"
+      "id": "2026-07-21-0018"
     },
     {
       "url": "https://arxiv.org/abs/2607.04303",
@@ -43,7 +283,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561036",
-      "id": "2026-07-21-0003"
+      "id": "2026-07-21-0019"
     },
     {
       "url": "https://www.toutiao.com/article/7663850038334685696/",
@@ -58,7 +298,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561204",
-      "id": "2026-07-21-0004"
+      "id": "2026-07-21-0020"
     },
     {
       "url": "https://www.ioccp.org/news/glodapv3-a-new-version-release",
@@ -73,7 +313,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561586",
-      "id": "2026-07-21-0005"
+      "id": "2026-07-21-0021"
     },
     {
       "url": "https://www.sohu.com/a/1046430839_121271729",
@@ -88,7 +328,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561252",
-      "id": "2026-07-21-0006"
+      "id": "2026-07-21-0022"
     },
     {
       "url": "https://m.thepaper.cn/newsDetail_forward_33612766",
@@ -103,7 +343,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561097",
-      "id": "2026-07-21-0007"
+      "id": "2026-07-21-0023"
     },
     {
       "url": "https://pypi.org/project/pyglider/",
@@ -118,7 +358,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.562244",
-      "id": "2026-07-21-0008"
+      "id": "2026-07-21-0024"
     },
     {
       "url": "https://pypi.org/project/VirtualFleet/",
@@ -133,7 +373,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.562289",
-      "id": "2026-07-21-0009"
+      "id": "2026-07-21-0025"
     },
     {
       "url": "https://www.earthdata.nasa.gov/data/alerts-outages/sentinel-6b-altimetry-nrt-stc-datasets-release",
@@ -148,7 +388,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561698",
-      "id": "2026-07-21-0010"
+      "id": "2026-07-21-0026"
     },
     {
       "url": "https://help.marine.copernicus.eu/en/articles/8791030-what-s-new-in-the-latest-version-of-myocean-pro-viewer-v-10",
@@ -163,7 +403,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561465",
-      "id": "2026-07-21-0011"
+      "id": "2026-07-21-0027"
     },
     {
       "url": "https://www.ebiotrade.com/newsf/2026-7/20260718001145730.htm",
@@ -178,7 +418,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561897",
-      "id": "2026-07-21-0012"
+      "id": "2026-07-21-0028"
     },
     {
       "url": "https://wap.sciencenet.cn/mobile.php?cat=T&id=568162&mobile=1&type=detail",
@@ -193,7 +433,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561155",
-      "id": "2026-07-21-0013"
+      "id": "2026-07-21-0029"
     },
     {
       "url": "https://www.socat.info/",
@@ -208,7 +448,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-21T02:08:51.561943",
-      "id": "2026-07-21-0014"
+      "id": "2026-07-21-0030"
     },
     {
       "url": "https://prod-01-alb-www-oe.woc.noaa.gov/expedition/ex2605",
@@ -223,7 +463,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373354",
-      "id": "2026-07-20-0015"
+      "id": "2026-07-20-0031"
     },
     {
       "url": "https://arxiv.org/html/2607.11998v1",
@@ -238,7 +478,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372688",
-      "id": "2026-07-16-0016"
+      "id": "2026-07-16-0032"
     },
     {
       "url": "https://tinyurl.com/mr32fby2",
@@ -253,7 +493,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373023",
-      "id": "2026-07-16-0017"
+      "id": "2026-07-16-0033"
     },
     {
       "url": "https://www.sohu.com/a/973729694_122548498",
@@ -268,7 +508,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373092",
-      "id": "2026-07-16-0018"
+      "id": "2026-07-16-0034"
     },
     {
       "url": "https://marine.copernicus.eu/user-corner/product-roadmap/transition-information?roadmap_category=service",
@@ -283,7 +523,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372340",
-      "id": "2026-07-16-0019"
+      "id": "2026-07-16-0035"
     },
     {
       "url": "https://marine.copernicus.eu/user-corner/product-roadmap/transition-information?roadmap_category=All",
@@ -298,7 +538,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372496",
-      "id": "2026-07-16-0020"
+      "id": "2026-07-16-0036"
     },
     {
       "url": "http://www.jao.org.cn/article/doi/10.3969/J.ISSN.2095-4972.20250823001?viewType=HTML",
@@ -313,7 +553,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372756",
-      "id": "2026-07-15-0021"
+      "id": "2026-07-15-0037"
     },
     {
       "url": "https://os.copernicus.org/articles/22/2083/2026",
@@ -328,7 +568,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877397",
-      "id": "2026-07-13-0022"
+      "id": "2026-07-13-0038"
     },
     {
       "url": "https://arxiv.org/abs/2607.10575",
@@ -343,7 +583,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.371667",
-      "id": "2026-07-12-0023"
+      "id": "2026-07-12-0039"
     },
     {
       "url": "https://www.hinews.cn/page?n=2835454&m=1&s=1044",
@@ -358,7 +598,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877058",
-      "id": "2026-07-10-0024"
+      "id": "2026-07-10-0040"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/livestreams/welcome.html",
@@ -373,7 +613,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878495",
-      "id": "2026-07-10-0025"
+      "id": "2026-07-10-0041"
     },
     {
       "url": "https://wavespectra.readthedocs.io/en/v4.5.1/index.html",
@@ -388,7 +628,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373740",
-      "id": "2026-07-09-0026"
+      "id": "2026-07-09-0042"
     },
     {
       "url": "https://hkust.edu.hk/news/hkust-launches-next-generation-interactive-wavyocean-30-platform",
@@ -403,7 +643,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877317",
-      "id": "2026-07-09-0027"
+      "id": "2026-07-09-0043"
     },
     {
       "url": "https://www.sciencedirect.com/science/article/pii/S0924271626002170",
@@ -418,7 +658,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.159583",
-      "id": "2026-07-09-0028"
+      "id": "2026-07-09-0044"
     },
     {
       "url": "https://arxiv.org/abs/2607.07834",
@@ -433,7 +673,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.371747",
-      "id": "2026-07-08-0029"
+      "id": "2026-07-08-0045"
     },
     {
       "url": "https://marine.copernicus.eu/user-corner/user-notification-service/ins-835-insituphybgcwavdiscretemynrt-qc3-flagging-non",
@@ -448,7 +688,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877717",
-      "id": "2026-07-08-0030"
+      "id": "2026-07-08-0046"
     },
     {
       "url": "https://www.marinetechnologynews.com/news/subsea-hydrothermal-vents-discovered-664069",
@@ -463,7 +703,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.160420",
-      "id": "2026-07-08-0031"
+      "id": "2026-07-08-0047"
     },
     {
       "url": "https://www.edito.eu/",
@@ -478,7 +718,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.159715",
-      "id": "2026-07-08-0032"
+      "id": "2026-07-08-0048"
     },
     {
       "url": "https://k.sina.com.cn/article_5953466437_162dab0450670axor4.html",
@@ -493,7 +733,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.876893",
-      "id": "2026-07-07-0033"
+      "id": "2026-07-07-0049"
     },
     {
       "url": "https://marine.copernicus.eu/user-corner/user-notification-service",
@@ -508,7 +748,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878700",
-      "id": "2026-07-07-0034"
+      "id": "2026-07-07-0050"
     },
     {
       "url": "https://pypi.org/project/geoai-py/",
@@ -523,7 +763,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.159835",
-      "id": "2026-07-07-0035"
+      "id": "2026-07-07-0051"
     },
     {
       "url": "https://www.chinanews.com/dwq/2026/07-06/10653592.shtml",
@@ -538,7 +778,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.876985",
-      "id": "2026-07-06-0036"
+      "id": "2026-07-06-0052"
     },
     {
       "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1909612/full",
@@ -553,7 +793,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878182",
-      "id": "2026-07-06-0037"
+      "id": "2026-07-06-0053"
     },
     {
       "url": "https://www.theregister.com/on-prem/2026/07/06/samsung-floats-2028-launch-for-seaborne-datacenter/5266981",
@@ -568,7 +808,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.160629",
-      "id": "2026-07-06-0038"
+      "id": "2026-07-06-0054"
     },
     {
       "url": "https://www.oceansciencetechnology.com/news/deep-sea-rov-expedition-launched-to-map-critical-minerals/",
@@ -583,7 +823,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.227588",
-      "id": "2026-07-06-0039"
+      "id": "2026-07-06-0055"
     },
     {
       "url": "https://arxiv.org/abs/2607.04453",
@@ -598,7 +838,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877973",
-      "id": "2026-07-05-0040"
+      "id": "2026-07-05-0056"
     },
     {
       "url": "https://english.news.cn/20260704/427d39ef3b5245cabdab9340c2e26223/c.html",
@@ -613,7 +853,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.160514",
-      "id": "2026-07-04-0041"
+      "id": "2026-07-04-0057"
     },
     {
       "url": "http://portal.nstl.gov.cn/dynamic/recordShow/19468847/257/e06d70c1f4336c1cd5e0647b7377c43c",
@@ -628,7 +868,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878047",
-      "id": "2026-07-03-0042"
+      "id": "2026-07-03-0058"
     },
     {
       "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1805062/full",
@@ -643,7 +883,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.159527",
-      "id": "2026-07-03-0043"
+      "id": "2026-07-03-0059"
     },
     {
       "url": "https://english.news.cn/asiapacific/20260704/81441a212956406ca8cc83e7ef42301c/c.html",
@@ -658,7 +898,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.160467",
-      "id": "2026-07-03-0044"
+      "id": "2026-07-03-0060"
     },
     {
       "url": "https://arxiv.org/abs/2607.01676",
@@ -673,7 +913,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.226641",
-      "id": "2026-07-03-0045"
+      "id": "2026-07-03-0061"
     },
     {
       "url": "https://arxiv.org/abs/2607.01825",
@@ -688,7 +928,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.371578",
-      "id": "2026-07-02-0046"
+      "id": "2026-07-02-0062"
     },
     {
       "url": "https://qdio.cas.cn/2019Ver/News/zhdt/202607/t20260706_8242394.html",
@@ -703,7 +943,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373420",
-      "id": "2026-07-02-0047"
+      "id": "2026-07-02-0063"
     },
     {
       "url": "https://t.cj.sina.cn/articles/view/6192937794/17120bb4202002r3di",
@@ -718,7 +958,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878332",
-      "id": "2026-07-02-0048"
+      "id": "2026-07-02-0064"
     },
     {
       "url": "https://www.techtimes.com/articles/319566/20260702/china-begins-ocean-satellite-fleet-upgrade-haiyang-2e-two-more-follow.htm",
@@ -733,7 +973,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.160082",
-      "id": "2026-07-02-0049"
+      "id": "2026-07-02-0065"
     },
     {
       "url": "https://www.linkedin.com/pulse/welcome-june-2026-edition-emodnet-newsletter-emodnet-6spce",
@@ -748,7 +988,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.227428",
-      "id": "2026-07-02-0050"
+      "id": "2026-07-02-0066"
     },
     {
       "url": "https://aiatsea.com/news/2026-07-12-weekly-digest",
@@ -763,7 +1003,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.371892",
-      "id": "2026-07-01-0051"
+      "id": "2026-07-01-0067"
     },
     {
       "url": "https://arxiv.org/abs/2607.00324",
@@ -778,7 +1018,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372829",
-      "id": "2026-07-01-0052"
+      "id": "2026-07-01-0068"
     },
     {
       "url": "https://m.sohu.com/a/1045547680_122014422",
@@ -793,7 +1033,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.877134",
-      "id": "2026-07-01-0053"
+      "id": "2026-07-01-0069"
     },
     {
       "url": "https://arxiv.org/abs/2606.31248",
@@ -808,7 +1048,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.226706",
-      "id": "2026-07-01-0054"
+      "id": "2026-07-01-0070"
     },
     {
       "url": "https://arxiv.org/abs/2606.31957",
@@ -823,7 +1063,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.226763",
-      "id": "2026-07-01-0055"
+      "id": "2026-07-01-0071"
     },
     {
       "url": "https://www.mercator-ocean.eu/bulletin/ocean-temperature-bulletin-june-2026/",
@@ -838,7 +1078,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.227003",
-      "id": "2026-07-01-0056"
+      "id": "2026-07-01-0072"
     },
     {
       "url": "https://www.eunews.it/en/2026/07/01/warm-seas-ocean-temperatures-hit-a-record-20-98c-in-june/",
@@ -853,7 +1093,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.227706",
-      "id": "2026-07-01-0057"
+      "id": "2026-07-01-0073"
     },
     {
       "url": "https://www.xkb.com.cn/articleDetail/505903",
@@ -868,7 +1108,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.371821",
-      "id": "2026-06-29-0058"
+      "id": "2026-06-29-0074"
     },
     {
       "url": "https://doi.org/10.1038/s41561-026-02034-w",
@@ -883,7 +1123,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-13T02:13:39.878117",
-      "id": "2026-06-29-0059"
+      "id": "2026-06-29-0075"
     },
     {
       "url": "https://oceanexplorer.noaa.gov?p=26339/",
@@ -898,7 +1138,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.373284",
-      "id": "2026-06-28-0060"
+      "id": "2026-06-28-0076"
     },
     {
       "url": "https://www.pacioos.hawaii.edu/shoreline/slr-eastpalau/",
@@ -913,7 +1153,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-28T02:56:40.420283",
-      "id": "2026-06-26-0061"
+      "id": "2026-06-26-0077"
     },
     {
       "url": "https://arxiv.org/abs/2606.27094",
@@ -928,7 +1168,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.154609",
-      "id": "2026-06-26-0062"
+      "id": "2026-06-26-0078"
     },
     {
       "url": "https://awlw.aoos.org/historic-alaskan-tidal-station-bench-mark-sheets/",
@@ -943,7 +1183,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155160",
-      "id": "2026-06-26-0063"
+      "id": "2026-06-26-0079"
     },
     {
       "url": "https://ioos.noaa.gov/communications/eyes-on-the-ocean-ioos-bi-weekly/eyes-on-the-ocean-ioos-newsletter-june-2026/",
@@ -958,7 +1198,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155760",
-      "id": "2026-06-26-0064"
+      "id": "2026-06-26-0080"
     },
     {
       "url": "https://ioos.noaa.gov/ioos-regional-models-and-products/",
@@ -973,7 +1213,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.156158",
-      "id": "2026-06-26-0065"
+      "id": "2026-06-26-0081"
     },
     {
       "url": "https://arxiv.org/abs/2606.26389",
@@ -988,7 +1228,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.154510",
-      "id": "2026-06-24-0066"
+      "id": "2026-06-24-0082"
     },
     {
       "url": "https://marine.copernicus.eu/news/copernicus-marine-service-embarks-new-chapter-growth-9th-general-assembly",
@@ -1003,7 +1243,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.154685",
-      "id": "2026-06-23-0067"
+      "id": "2026-06-23-0083"
     },
     {
       "url": "https://blue-cloud.org/eosc-node-european-digital-twin-ocean",
@@ -1018,7 +1258,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.227381",
-      "id": "2026-06-22-0068"
+      "id": "2026-06-22-0084"
     },
     {
       "url": "https://clima.github.io/OceananigansDocumentation/stable/",
@@ -1033,7 +1273,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.110994",
-      "id": "2026-06-22-0069"
+      "id": "2026-06-22-0085"
     },
     {
       "url": "https://arxiv.org/abs/2606.19642",
@@ -1048,7 +1288,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109986",
-      "id": "2026-06-19-0070"
+      "id": "2026-06-19-0086"
     },
     {
       "url": "https://github.com/team-ocean/veros",
@@ -1063,7 +1303,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.110929",
-      "id": "2026-06-19-0071"
+      "id": "2026-06-19-0087"
     },
     {
       "url": "https://arxiv.org/abs/2606.20050",
@@ -1078,7 +1318,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109110",
-      "id": "2026-06-18-0072"
+      "id": "2026-06-18-0088"
     },
     {
       "url": "https://fj.sina.com.cn/news/2026-06-16/detail-inicqhiz4577420.shtml",
@@ -1093,7 +1333,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109016",
-      "id": "2026-06-18-0073"
+      "id": "2026-06-18-0089"
     },
     {
       "url": "https://distributeddigitaltwins.github.io/",
@@ -1108,7 +1348,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.286381",
-      "id": "2026-06-18-0074"
+      "id": "2026-06-18-0090"
     },
     {
       "url": "https://www.sciencedirect.com/science/article/pii/S0029801826008796",
@@ -1123,7 +1363,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.286820",
-      "id": "2026-06-18-0075"
+      "id": "2026-06-18-0091"
     },
     {
       "url": "https://oceanexplorer.noaa.gov/explorations/explorations.html",
@@ -1138,7 +1378,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287187",
-      "id": "2026-06-18-0076"
+      "id": "2026-06-18-0092"
     },
     {
       "url": "https://newcollege.asu.edu/sites/g/files/litvpz266/files/2026-02/2026%20AEROSE%20%20Student%20Opp.pdf",
@@ -1153,7 +1393,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287279",
-      "id": "2026-06-18-0077"
+      "id": "2026-06-18-0093"
     },
     {
       "url": "https://oceansoft.org/",
@@ -1168,7 +1408,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287671",
-      "id": "2026-06-18-0078"
+      "id": "2026-06-18-0094"
     },
     {
       "url": "https://www.earthcube.org/products",
@@ -1183,7 +1423,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287740",
-      "id": "2026-06-18-0079"
+      "id": "2026-06-18-0095"
     },
     {
       "url": "https://cordis.europa.eu/project/id/101094227",
@@ -1198,7 +1438,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287014",
-      "id": "2026-06-18-0080"
+      "id": "2026-06-18-0096"
     },
     {
       "url": "https://creati.ai/ai-news/2026-06-09/wind-powered-underwater-data-center-opens-in-china/",
@@ -1213,7 +1453,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.287499",
-      "id": "2026-06-18-0081"
+      "id": "2026-06-18-0097"
     },
     {
       "url": "https://arxiv.org/abs/2606.19093",
@@ -1228,7 +1468,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109183",
-      "id": "2026-06-17-0082"
+      "id": "2026-06-17-0098"
     },
     {
       "url": "https://www.nature.com/articles/s44183-026-00219-9",
@@ -1243,7 +1483,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.286540",
-      "id": "2026-06-17-0083"
+      "id": "2026-06-17-0099"
     },
     {
       "url": "https://www.chinadaily.com.cn/a/202606/16/WS6a30abe0a310986e2b460302.html",
@@ -1258,10 +1498,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.285858",
-      "id": "2026-06-16-0084"
+      "id": "2026-06-16-0100"
     },
     {
-      "id": "2026-06-16-0085",
+      "id": "2026-06-16-0101",
       "date": "2026-06-16",
       "reportDate": "2026-06-14",
       "title": "Our Ocean Conference 2026在肯尼亚蒙巴萨举行",
@@ -1288,7 +1528,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-09T09:36:31.159964",
-      "id": "2026-06-15-0086"
+      "id": "2026-06-15-0102"
     },
     {
       "url": "https://pypi.org/project/oceanspy/",
@@ -1303,7 +1543,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155536",
-      "id": "2026-06-15-0087"
+      "id": "2026-06-15-0103"
     },
     {
       "url": "https://goosocean.org/news/eu-and-ioc-unite-in-international-alliance-to-strengthen-global-ocean-observations/",
@@ -1318,7 +1558,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.154921",
-      "id": "2026-06-15-0088"
+      "id": "2026-06-15-0104"
     },
     {
       "url": "https://ouroceankenya.com/kenya-opens-our-ocean-2026-as-africa-takes-center-stage-in-the-future-of-ocean-action/",
@@ -1333,7 +1573,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T16:04:15.638867",
-      "id": "2026-06-14-0089"
+      "id": "2026-06-14-0105"
     },
     {
       "url": "https://www.nature.com/articles/s41597-026-07490-y",
@@ -1348,7 +1588,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.110055",
-      "id": "2026-06-13-0090"
+      "id": "2026-06-13-0106"
     },
     {
       "url": "https://pypi.org/project/cf-xarray/",
@@ -1363,7 +1603,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155599",
-      "id": "2026-06-12-0091"
+      "id": "2026-06-12-0107"
     },
     {
       "url": "https://baijiahao.baidu.com/s?id=1868315681802865391",
@@ -1378,10 +1618,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.156221",
-      "id": "2026-06-12-0092"
+      "id": "2026-06-12-0108"
     },
     {
-      "id": "2026-06-11-0093",
+      "id": "2026-06-11-0109",
       "date": "2026-06-11",
       "reportDate": "2026-06-14",
       "title": "OceanEye倡议迈出关键一步：Mercator Ocean与IOC-UNESCO签署合作协议",
@@ -1408,7 +1648,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155979",
-      "id": "2026-06-10-0094"
+      "id": "2026-06-10-0110"
     },
     {
       "url": "https://arxiv.org/abs/2606.17076",
@@ -1423,10 +1663,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.286001",
-      "id": "2026-06-10-0095"
+      "id": "2026-06-10-0111"
     },
     {
-      "id": "2026-06-10-0096",
+      "id": "2026-06-10-0112",
       "date": "2026-06-10",
       "reportDate": "2026-06-14",
       "title": "特立尼达和多巴哥首次本国主导深海航次",
@@ -1453,7 +1693,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109388",
-      "id": "2026-06-09-0097"
+      "id": "2026-06-09-0113"
     },
     {
       "url": "https://marine.copernicus.eu/news/understanding-our-ocean-iv-digital-twin-ocean",
@@ -1468,10 +1708,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109562",
-      "id": "2026-06-08-0098"
+      "id": "2026-06-08-0114"
     },
     {
-      "id": "2026-06-08-0099",
+      "id": "2026-06-08-0115",
       "date": "2026-06-08",
       "reportDate": "2026-06-14",
       "title": "自然资源部发布第二批海洋数据开放共享目录",
@@ -1486,7 +1726,7 @@
       "fetchedAt": "2026-06-15T03:40:36.064619"
     },
     {
-      "id": "2026-06-08-0100",
+      "id": "2026-06-08-0116",
       "date": "2026-06-08",
       "reportDate": "2026-06-07",
       "title": "Digital Ocean Week 2026即将开幕：OceanEye新倡议正式亮相，AI Ocean Forum聚焦海洋智能",
@@ -1501,7 +1741,7 @@
       "fetchedAt": "2026-06-08T03:29:52.551171"
     },
     {
-      "id": "2026-06-07-0101",
+      "id": "2026-06-07-0117",
       "date": "2026-06-07",
       "reportDate": "2026-06-07",
       "title": "Copernicus Marine推出COLAB MFC全球协作框架：7月首发加拿大CIOPS-E西北大西洋预报产品",
@@ -1516,7 +1756,7 @@
       "fetchedAt": "2026-06-08T03:29:53.531783"
     },
     {
-      "id": "2026-06-07-0102",
+      "id": "2026-06-07-0118",
       "date": "2026-06-07",
       "reportDate": "2026-06-07",
       "title": "SidescanTools：开源侧扫声呐数据处理工具发表于《国际海道测量评论》2026年第32卷",
@@ -1531,7 +1771,7 @@
       "fetchedAt": "2026-06-08T03:29:55.378356"
     },
     {
-      "id": "2026-06-07-0103",
+      "id": "2026-06-07-0119",
       "date": "2026-06-07",
       "reportDate": "2026-06-07",
       "title": "OBIS发布2026-2027年工作计划：强化全球海洋生物多样性数据基础设施",
@@ -1558,7 +1798,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155824",
-      "id": "2026-06-06-0104"
+      "id": "2026-06-06-0120"
     },
     {
       "url": "https://arxiv.org/abs/2606.17070",
@@ -1573,10 +1813,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.285933",
-      "id": "2026-06-06-0105"
+      "id": "2026-06-06-0121"
     },
     {
-      "id": "2026-06-05-0106",
+      "id": "2026-06-05-0122",
       "date": "2026-06-05",
       "reportDate": "2026-06-14",
       "title": "Schmidt发现31个深海新物种",
@@ -1591,7 +1831,7 @@
       "fetchedAt": "2026-06-15T03:40:37.573704"
     },
     {
-      "id": "2026-06-05-0107",
+      "id": "2026-06-05-0123",
       "date": "2026-06-05",
       "reportDate": "2026-06-14",
       "title": "MOTIS热红外观测气压估算数据集(arXiv:2606.06408)",
@@ -1606,7 +1846,7 @@
       "fetchedAt": "2026-06-15T03:40:35.135998"
     },
     {
-      "id": "2026-06-05-0108",
+      "id": "2026-06-05-0124",
       "date": "2026-06-05",
       "reportDate": "2026-06-14",
       "title": "IOC-UNESCO海洋数据管理在线培训课程",
@@ -1633,10 +1873,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-07-18T01:58:52.372181",
-      "id": "2026-06-04-0109"
+      "id": "2026-06-04-0125"
     },
     {
-      "id": "2026-06-01-0110",
+      "id": "2026-06-01-0126",
       "date": "2026-06-01",
       "reportDate": "2026-06-01",
       "title": "2026年度IOOS数据管理与网络基础设施（DMAC）会议将于6月2-4日在Silver Spring召开（IOOS, 2026年5月）",
@@ -1651,7 +1891,7 @@
       "fetchedAt": "2026-06-02T03:30:06.919734"
     },
     {
-      "id": "2026-05-30-0111",
+      "id": "2026-05-30-0127",
       "date": "2026-05-30",
       "reportDate": "2026-06-01",
       "title": "FuXi-Ocean：首个达到6小时分辨率与涡旋分辨率的深度学习全球海洋预报模型",
@@ -1666,7 +1906,7 @@
       "fetchedAt": "2026-06-02T03:30:05.331606"
     },
     {
-      "id": "2026-05-29-0112",
+      "id": "2026-05-29-0128",
       "date": "2026-05-29",
       "reportDate": "2026-06-01",
       "title": "CMEMS\"理解我们的海洋\"系列III发布：AI与机器学习如何赋能海洋预报",
@@ -1681,7 +1921,7 @@
       "fetchedAt": "2026-06-02T03:30:06.380025"
     },
     {
-      "id": "2026-05-28-0113",
+      "id": "2026-05-28-0129",
       "date": "2026-05-28",
       "reportDate": "2026-05-28",
       "title": "山东科技大学推出海洋时空智能大模型OceanAI：海洋数据\"开口说话\"",
@@ -1696,7 +1936,7 @@
       "fetchedAt": "2026-05-29T02:45:22.883772"
     },
     {
-      "id": "2026-05-28-0114",
+      "id": "2026-05-28-0130",
       "date": "2026-05-28",
       "reportDate": "2026-05-08",
       "title": "NOAA：NOAA Omics系列研讨会——从海水到序列：探索NOAA深海eDNA数据集",
@@ -1711,7 +1951,7 @@
       "fetchedAt": "2026-05-08T02:15:23.989692"
     },
     {
-      "id": "2026-05-27-0115",
+      "id": "2026-05-27-0131",
       "date": "2026-05-27",
       "reportDate": "2026-05-28",
       "title": "聚类算法表征西地中海海表海洋变率对比分析",
@@ -1726,7 +1966,7 @@
       "fetchedAt": "2026-05-29T02:45:22.884043"
     },
     {
-      "id": "2026-05-26-0116",
+      "id": "2026-05-26-0132",
       "date": "2026-05-26",
       "reportDate": "2026-06-07",
       "title": "Copernicus Marine Understanding Our Ocean II：海洋数据采集与多源融合处理体系",
@@ -1741,7 +1981,7 @@
       "fetchedAt": "2026-06-08T03:29:56.506618"
     },
     {
-      "id": "2026-05-26-0117",
+      "id": "2026-05-26-0133",
       "date": "2026-05-26",
       "reportDate": "2026-05-28",
       "title": "CMEMS原位数据组合Q1 2026扩展：北极至黑海多区域新增数据流",
@@ -1756,7 +1996,7 @@
       "fetchedAt": "2026-05-29T02:45:26.727288"
     },
     {
-      "id": "2026-05-25-0118",
+      "id": "2026-05-25-0134",
       "date": "2026-05-25",
       "reportDate": "2026-05-09",
       "title": "OCEANS 2026 IEEE/MTS：三亚大会注册开放——深海技术、海洋能源与海洋AI",
@@ -1771,7 +2011,7 @@
       "fetchedAt": "2026-05-15T02:42:21.217971"
     },
     {
-      "id": "2026-05-24-0119",
+      "id": "2026-05-24-0135",
       "date": "2026-05-24",
       "reportDate": "2026-05-25",
       "title": "CMEMS 5月产品质量月报发布：全球海洋物理分析预报产品性能更新",
@@ -1786,7 +2026,7 @@
       "fetchedAt": "2026-05-26T02:43:38.462316"
     },
     {
-      "id": "2026-05-22-0120",
+      "id": "2026-05-22-0136",
       "date": "2026-05-22",
       "reportDate": "2026-06-07",
       "title": "北大西洋春季浮游植物藻华：Copernicus Sentinel-3卫星揭示的海洋生态\"繁盛之景\"",
@@ -1801,7 +2041,7 @@
       "fetchedAt": "2026-06-08T03:29:54.270988"
     },
     {
-      "id": "2026-05-21-0121",
+      "id": "2026-05-21-0137",
       "date": "2026-05-21",
       "reportDate": "2026-05-28",
       "title": "Volador 1.0：基于MOE-Swin-Transformer的南海海气全耦合亚中尺度可分辨预报模型",
@@ -1816,7 +2056,7 @@
       "fetchedAt": "2026-05-29T02:45:22.883900"
     },
     {
-      "id": "2026-05-21-0122",
+      "id": "2026-05-21-0138",
       "date": "2026-05-21",
       "reportDate": "2026-05-25",
       "title": "海洋数字孪生助力全球海洋治理：Maritime Technology Review深度解析",
@@ -1831,7 +2071,7 @@
       "fetchedAt": "2026-05-25T02:56:02.153562"
     },
     {
-      "id": "2026-05-21-0123",
+      "id": "2026-05-21-0139",
       "date": "2026-05-21",
       "reportDate": "2026-05-25",
       "title": "Parcels粒子追踪库：4天前最新更新（GitHub / parcels-code.org, 2026-05）",
@@ -1858,10 +2098,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.155348",
-      "id": "2026-05-20-0124"
+      "id": "2026-05-20-0140"
     },
     {
-      "id": "2026-05-19-0125",
+      "id": "2026-05-19-0141",
       "date": "2026-05-19",
       "reportDate": "2026-06-07",
       "title": "NOAA-EDAB buoydata v1.0.5：浮标数据下载处理R包更新",
@@ -1876,7 +2116,7 @@
       "fetchedAt": "2026-06-08T03:29:57.130119"
     },
     {
-      "id": "2026-05-19-0126",
+      "id": "2026-05-19-0142",
       "date": "2026-05-19",
       "reportDate": "2026-05-28",
       "title": "中科院\"创新二\"号完成北黄海水文环境调查航次返回青岛",
@@ -1891,7 +2131,7 @@
       "fetchedAt": "2026-05-29T02:45:23.931580"
     },
     {
-      "id": "2026-05-19-0127",
+      "id": "2026-05-19-0143",
       "date": "2026-05-19",
       "reportDate": "2026-05-25",
       "title": "中科院\"琅琊\"海洋大模型：AI解码海洋奥秘，北极海冰预测全球第一",
@@ -1918,10 +2158,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.110224",
-      "id": "2026-05-18-0128"
+      "id": "2026-05-18-0144"
     },
     {
-      "id": "2026-05-18-0129",
+      "id": "2026-05-18-0145",
       "date": "2026-05-18",
       "reportDate": "2026-05-25",
       "title": "中国信通院发布《人工智能赋能海洋产业研究报告（2026年）》",
@@ -1936,7 +2176,7 @@
       "fetchedAt": "2026-05-25T02:55:58.737359"
     },
     {
-      "id": "2026-05-18-0130",
+      "id": "2026-05-18-0146",
       "date": "2026-05-18",
       "reportDate": "2026-05-25",
       "title": "DestinE气候数字孪生新一代模拟数据集正式发布",
@@ -1951,7 +2191,7 @@
       "fetchedAt": "2026-05-25T02:56:01.315882"
     },
     {
-      "id": "2026-05-18-0131",
+      "id": "2026-05-18-0147",
       "date": "2026-05-18",
       "reportDate": "2026-05-18",
       "title": "CopernicusLAC Chile：面向拉丁美洲和加勒比的海岸监测可视化平台（2026）",
@@ -1966,7 +2206,7 @@
       "fetchedAt": "2026-05-19T02:46:51.260755"
     },
     {
-      "id": "2026-05-16-0132",
+      "id": "2026-05-16-0148",
       "date": "2026-05-16",
       "reportDate": "2026-06-14",
       "title": "CVPR 2026 MARIS水下开放词汇分割",
@@ -1981,7 +2221,7 @@
       "fetchedAt": "2026-06-15T03:40:32.254156"
     },
     {
-      "id": "2026-05-16-0133",
+      "id": "2026-05-16-0149",
       "date": "2026-05-16",
       "reportDate": "2026-05-18",
       "title": "南加州海带森林连续海洋热浪群落变化研究",
@@ -1996,7 +2236,7 @@
       "fetchedAt": "2026-05-18T02:50:14.707956"
     },
     {
-      "id": "2026-05-16-0134",
+      "id": "2026-05-16-0150",
       "date": "2026-05-16",
       "reportDate": "2026-05-18",
       "title": "美国东北陆架浮游植物温度敏感性主导净初级生产力季节变化",
@@ -2011,7 +2251,7 @@
       "fetchedAt": "2026-05-18T02:50:15.930728"
     },
     {
-      "id": "2026-05-16-0135",
+      "id": "2026-05-16-0151",
       "date": "2026-05-16",
       "reportDate": "2026-05-18",
       "title": "Nature Communications：AMOC减弱驱动热带辐合带向南迁移",
@@ -2026,7 +2266,7 @@
       "fetchedAt": "2026-05-18T02:50:24.430354"
     },
     {
-      "id": "2026-05-16-0136",
+      "id": "2026-05-16-0152",
       "date": "2026-05-16",
       "reportDate": "2026-05-18",
       "title": "Nature Communications：地面沉降使人口密集海岸海平面上升速率翻倍",
@@ -2041,7 +2281,7 @@
       "fetchedAt": "2026-05-18T02:50:25.739609"
     },
     {
-      "id": "2026-05-15-0137",
+      "id": "2026-05-15-0153",
       "date": "2026-05-15",
       "reportDate": "2026-05-18",
       "title": "Eos观点：失去美国海平面科学的全球影响",
@@ -2056,7 +2296,7 @@
       "fetchedAt": "2026-05-18T02:50:18.255427"
     },
     {
-      "id": "2026-05-15-0138",
+      "id": "2026-05-15-0154",
       "date": "2026-05-15",
       "reportDate": "2026-05-18",
       "title": "全球首个海底数据中心正式投运——上海临港\"海风直连\"海底算力设施",
@@ -2071,7 +2311,7 @@
       "fetchedAt": "2026-05-18T02:50:23.365479"
     },
     {
-      "id": "2026-05-14-0139",
+      "id": "2026-05-14-0155",
       "date": "2026-05-14",
       "reportDate": "2026-05-18",
       "title": "Njord：首个概率性图神经网络海洋集成预报模型",
@@ -2086,7 +2326,7 @@
       "fetchedAt": "2026-05-18T02:50:09.410628"
     },
     {
-      "id": "2026-05-14-0140",
+      "id": "2026-05-14-0156",
       "date": "2026-05-14",
       "reportDate": "2026-05-15",
       "title": "第三届海洋计算挑战赛（MCC 2026）正式启动报名",
@@ -2101,7 +2341,7 @@
       "fetchedAt": "2026-05-16T02:32:04.824824"
     },
     {
-      "id": "2026-05-13-0141",
+      "id": "2026-05-13-0157",
       "date": "2026-05-13",
       "reportDate": "2026-05-18",
       "title": "STC：基于Swin-Transformer的全球深度学习海洋预报区域后处理校正模型",
@@ -2116,7 +2356,7 @@
       "fetchedAt": "2026-05-18T02:50:13.409872"
     },
     {
-      "id": "2026-05-13-0142",
+      "id": "2026-05-13-0158",
       "date": "2026-05-13",
       "reportDate": "2026-05-15",
       "title": "基于多气象因素与机器学习的南海SST短期与长期预测",
@@ -2131,7 +2371,7 @@
       "fetchedAt": "2026-05-16T02:31:47.722780"
     },
     {
-      "id": "2026-05-13-0143",
+      "id": "2026-05-13-0159",
       "date": "2026-05-13",
       "reportDate": "2026-05-15",
       "title": "王军成院士：我国海洋观测正加快走向智能化",
@@ -2146,7 +2386,7 @@
       "fetchedAt": "2026-05-16T02:31:48.669217"
     },
     {
-      "id": "2026-05-13-0144",
+      "id": "2026-05-13-0160",
       "date": "2026-05-13",
       "reportDate": "2026-05-15",
       "title": "IODE：PANGAEA社区研讨会与OBIS数据发布——IODE海洋数据管理最新动态",
@@ -2161,7 +2401,7 @@
       "fetchedAt": "2026-05-16T02:31:59.217548"
     },
     {
-      "id": "2026-05-13-0145",
+      "id": "2026-05-13-0161",
       "date": "2026-05-13",
       "reportDate": "2026-05-13",
       "title": "\"深蓝百万里\"2026西太平洋航次圆满收官——首次在深圳设立深海样品库",
@@ -2176,7 +2416,7 @@
       "fetchedAt": "2026-05-13T10:27:48.222132"
     },
     {
-      "id": "2026-05-12-0146",
+      "id": "2026-05-12-0162",
       "date": "2026-05-12",
       "reportDate": "2026-05-25",
       "title": "NASA PO.DAAC：ECCO V4r4数据集教程笔记本更新",
@@ -2191,7 +2431,7 @@
       "fetchedAt": "2026-05-25T02:56:16.952170"
     },
     {
-      "id": "2026-05-12-0147",
+      "id": "2026-05-12-0163",
       "date": "2026-05-12",
       "reportDate": "2026-05-18",
       "title": "ECMWF：IFS 50r1与AIFS v2正式上线——首次AI驱动波浪预报",
@@ -2206,7 +2446,7 @@
       "fetchedAt": "2026-05-18T02:50:11.621010"
     },
     {
-      "id": "2026-05-12-0148",
+      "id": "2026-05-12-0164",
       "date": "2026-05-12",
       "reportDate": "2026-05-18",
       "title": "NOAA NCEI：史上最大规模云迁移FAQ发布——AWS迁移进展与用户问答",
@@ -2221,7 +2461,7 @@
       "fetchedAt": "2026-05-18T02:50:20.582514"
     },
     {
-      "id": "2026-05-12-0149",
+      "id": "2026-05-12-0165",
       "date": "2026-05-12",
       "reportDate": "2026-05-15",
       "title": "GEOXYGEN：基于生物地球化学感知ML框架的全球长期溶解氧数据集",
@@ -2236,7 +2476,7 @@
       "fetchedAt": "2026-05-16T02:31:56.626026"
     },
     {
-      "id": "2026-05-12-0150",
+      "id": "2026-05-12-0166",
       "date": "2026-05-12",
       "reportDate": "2026-05-15",
       "title": "全球深渊探索计划太平洋穿越航次圆满完成——奋斗者号156天创纪录",
@@ -2251,7 +2491,7 @@
       "fetchedAt": "2026-05-16T02:32:01.541296"
     },
     {
-      "id": "2026-05-12-0151",
+      "id": "2026-05-12-0167",
       "date": "2026-05-12",
       "reportDate": "2026-05-13",
       "title": "BGC-Argo+——含二次质量控制的全球生物地球化学Argo浮标数据集",
@@ -2266,7 +2506,7 @@
       "fetchedAt": "2026-05-13T10:27:36.824046"
     },
     {
-      "id": "2026-05-12-0152",
+      "id": "2026-05-12-0168",
       "date": "2026-05-12",
       "reportDate": "2026-05-13",
       "title": "NCEI启动史上最大规模云迁移——全部数据和服务将迁移至AWS",
@@ -2281,7 +2521,7 @@
       "fetchedAt": "2026-05-13T10:27:49.561010"
     },
     {
-      "id": "2026-05-11-0153",
+      "id": "2026-05-11-0169",
       "date": "2026-05-11",
       "reportDate": "2026-05-25",
       "title": "eDNA技术在西澳大利亚深海峡谷中首次检测到巨型鱿鱼",
@@ -2296,7 +2536,7 @@
       "fetchedAt": "2026-05-25T02:56:06.309745"
     },
     {
-      "id": "2026-05-11-0154",
+      "id": "2026-05-11-0170",
       "date": "2026-05-11",
       "reportDate": "2026-05-18",
       "title": "\"深蓝百万里\"2026西太平洋航次圆满收官——首次在深圳设立\"深海共享\"数据节点",
@@ -2311,7 +2551,7 @@
       "fetchedAt": "2026-05-18T02:50:22.152919"
     },
     {
-      "id": "2026-05-11-0155",
+      "id": "2026-05-11-0171",
       "date": "2026-05-11",
       "reportDate": "2026-05-15",
       "title": "AxiomOcean：预测上层海洋的三维垂直结构",
@@ -2326,7 +2566,7 @@
       "fetchedAt": "2026-05-16T02:31:46.065429"
     },
     {
-      "id": "2026-05-11-0156",
+      "id": "2026-05-11-0172",
       "date": "2026-05-11",
       "reportDate": "2026-05-15",
       "title": "低云反馈在不可逆海平面上升中的关键作用",
@@ -2341,7 +2581,7 @@
       "fetchedAt": "2026-05-16T02:32:06.797865"
     },
     {
-      "id": "2026-05-11-0157",
+      "id": "2026-05-11-0173",
       "date": "2026-05-11",
       "reportDate": "2026-05-13",
       "title": "浙江大学构建OCEANPILE海洋多模态语料库——首个大规模海洋AI基础数据集",
@@ -2356,7 +2596,7 @@
       "fetchedAt": "2026-05-13T10:27:31.534675"
     },
     {
-      "id": "2026-05-11-0158",
+      "id": "2026-05-11-0174",
       "date": "2026-05-11",
       "reportDate": "2026-05-13",
       "title": "数字孪生支持自主船舶智能移动的挑战与机遇",
@@ -2371,7 +2611,7 @@
       "fetchedAt": "2026-05-13T10:27:34.972501"
     },
     {
-      "id": "2026-05-10-0159",
+      "id": "2026-05-10-0175",
       "date": "2026-05-10",
       "reportDate": "2026-05-25",
       "title": "\"探索一号\"搭载\"奋斗者\"号完成\"全球深渊探索计划\"太平洋穿越航次",
@@ -2386,7 +2626,7 @@
       "fetchedAt": "2026-05-25T02:56:06.189055"
     },
     {
-      "id": "2026-05-10-0160",
+      "id": "2026-05-10-0176",
       "date": "2026-05-10",
       "reportDate": "2026-05-13",
       "title": "\"探索一号\"搭载\"奋斗者\"号完成全球深渊探索计划太平洋穿越航次返回广州",
@@ -2401,7 +2641,7 @@
       "fetchedAt": "2026-05-13T10:27:38.142957"
     },
     {
-      "id": "2026-05-09-0161",
+      "id": "2026-05-09-0177",
       "date": "2026-05-09",
       "reportDate": "2026-05-13",
       "title": "海洋机器人融资数亿元——具身智能商业化加速推进",
@@ -2416,7 +2656,7 @@
       "fetchedAt": "2026-05-13T10:27:33.515753"
     },
     {
-      "id": "2026-05-09-0162",
+      "id": "2026-05-09-0178",
       "date": "2026-05-09",
       "reportDate": "2026-05-13",
       "title": "第9版哥白尼海洋状况报告（OSR 9）上线——海洋极端事件与生态系统影响全面评估",
@@ -2443,10 +2683,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-27T02:41:41.156483",
-      "id": "2026-05-08-0163"
+      "id": "2026-05-08-0179"
     },
     {
-      "id": "2026-05-08-0164",
+      "id": "2026-05-08-0180",
       "date": "2026-05-08",
       "reportDate": "2026-05-15",
       "title": "《海洋通报》海岸带时空智能与数字孪生专栏征稿启事",
@@ -2461,7 +2701,7 @@
       "fetchedAt": "2026-05-16T02:31:55.721300"
     },
     {
-      "id": "2026-05-08-0165",
+      "id": "2026-05-08-0181",
       "date": "2026-05-08",
       "reportDate": "2026-05-13",
       "title": "GDAL 3.13.0 \"Iowa City\"发布——新增Zarr V3、COG写入、SAR CPHD驱动等多项重要功能",
@@ -2476,7 +2716,7 @@
       "fetchedAt": "2026-05-13T10:27:50.687037"
     },
     {
-      "id": "2026-05-08-0166",
+      "id": "2026-05-08-0182",
       "date": "2026-05-08",
       "reportDate": "2026-05-08",
       "title": "EGU大会最后一天——海洋科学亮点总结",
@@ -2491,7 +2731,7 @@
       "fetchedAt": "2026-05-08T02:15:21.881199"
     },
     {
-      "id": "2026-05-07-0167",
+      "id": "2026-05-07-0183",
       "date": "2026-05-07",
       "reportDate": "2026-05-18",
       "title": "pyTMD v3.0.7发布——Python潮汐预测软件文档与工具函数更新",
@@ -2506,7 +2746,7 @@
       "fetchedAt": "2026-05-18T02:50:17.270644"
     },
     {
-      "id": "2026-05-07-0168",
+      "id": "2026-05-07-0184",
       "date": "2026-05-07",
       "reportDate": "2026-05-18",
       "title": "PANGAEA社区工作坊2026年5月：数据发现与检索实践培训",
@@ -2521,7 +2761,7 @@
       "fetchedAt": "2026-05-18T02:50:17.874484"
     },
     {
-      "id": "2026-05-07-0169",
+      "id": "2026-05-07-0185",
       "date": "2026-05-07",
       "reportDate": "2026-05-18",
       "title": "pyTMD v3.0.7发布——Python潮汐预测工具文档与功能更新",
@@ -2536,7 +2776,7 @@
       "fetchedAt": "2026-05-18T02:50:25.740112"
     },
     {
-      "id": "2026-05-07-0170",
+      "id": "2026-05-07-0186",
       "date": "2026-05-07",
       "reportDate": "2026-05-15",
       "title": "NOAA Ocean Exploration（2026年航季）：Okeanos Explorer全年航次计划发布——太平洋深度探索",
@@ -2551,7 +2791,7 @@
       "fetchedAt": "2026-05-16T02:32:06.987190"
     },
     {
-      "id": "2026-05-07-0171",
+      "id": "2026-05-07-0187",
       "date": "2026-05-07",
       "reportDate": "2026-05-15",
       "title": "5月简报发布——J-SCOPE数据上线AWS、HF雷达历史数据归档至NCEI",
@@ -2566,7 +2806,7 @@
       "fetchedAt": "2026-05-16T02:32:07.478358"
     },
     {
-      "id": "2026-05-07-0172",
+      "id": "2026-05-07-0188",
       "date": "2026-05-07",
       "reportDate": "2026-05-13",
       "title": "E/V Nautilus 2026太平洋深海探索航季启动——6-10月中西部太平洋深海栖息地调查",
@@ -2581,7 +2821,7 @@
       "fetchedAt": "2026-05-13T10:27:48.494599"
     },
     {
-      "id": "2026-05-07-0173",
+      "id": "2026-05-07-0189",
       "date": "2026-05-07",
       "reportDate": "2026-05-09",
       "title": "PANGAEA：EGU大会期间社区研讨会——数据发现与获取实操培训",
@@ -2596,7 +2836,7 @@
       "fetchedAt": "2026-05-09T02:02:32.642126"
     },
     {
-      "id": "2026-05-07-0174",
+      "id": "2026-05-07-0190",
       "date": "2026-05-07",
       "reportDate": "2026-05-08",
       "title": "南极冰架通道化地形放大融冰敏感性——冷冰架更脆弱",
@@ -2611,7 +2851,7 @@
       "fetchedAt": "2026-05-08T02:14:52.726983"
     },
     {
-      "id": "2026-05-07-0175",
+      "id": "2026-05-07-0191",
       "date": "2026-05-07",
       "reportDate": "2026-05-08",
       "title": "大西洋海洋热浪质心向赤道偏移——人为变暖驱动",
@@ -2626,7 +2866,7 @@
       "fetchedAt": "2026-05-08T02:14:53.954273"
     },
     {
-      "id": "2026-05-07-0176",
+      "id": "2026-05-07-0192",
       "date": "2026-05-07",
       "reportDate": "2026-05-08",
       "title": "NOAA Thomas Jefferson号重返五大湖测绘——DriX无人艇加速海底制图",
@@ -2641,7 +2881,7 @@
       "fetchedAt": "2026-05-08T02:15:16.037273"
     },
     {
-      "id": "2026-05-07-0177",
+      "id": "2026-05-07-0193",
       "date": "2026-05-07",
       "reportDate": "2026-05-08",
       "title": "热带气旋年最大生命史最大强度的次表层\"信使\"——可提前数年预测",
@@ -2656,7 +2896,7 @@
       "fetchedAt": "2026-05-08T02:15:18.770197"
     },
     {
-      "id": "2026-05-07-0178",
+      "id": "2026-05-07-0194",
       "date": "2026-05-07",
       "reportDate": "2026-05-07",
       "title": "PANGAEA（2026-05）：PANGAEA社区研讨会5月7-8日举行",
@@ -2671,7 +2911,7 @@
       "fetchedAt": "2026-05-07T12:12:22.347522"
     },
     {
-      "id": "2026-05-07-0179",
+      "id": "2026-05-07-0195",
       "date": "2026-05-07",
       "reportDate": "2026-05-06",
       "title": "PANGAEA：PANGAEA社区研讨会——数据发现与获取实操工作坊（即将举行）",
@@ -2686,7 +2926,7 @@
       "fetchedAt": "2026-05-07T12:12:39.046259"
     },
     {
-      "id": "2026-05-06-0180",
+      "id": "2026-05-06-0196",
       "date": "2026-05-06",
       "reportDate": "2026-05-13",
       "title": "NOAA发布更新版ADT-HURSAT飓风分析数据集——扩展至2024年",
@@ -2701,7 +2941,7 @@
       "fetchedAt": "2026-05-13T10:27:49.741204"
     },
     {
-      "id": "2026-05-06-0181",
+      "id": "2026-05-06-0197",
       "date": "2026-05-06",
       "reportDate": "2026-05-13",
       "title": "Data Tour Notebooks项目——ADT-HURSAT数据集交互式Python探索教程开源",
@@ -2716,7 +2956,7 @@
       "fetchedAt": "2026-05-13T10:27:50.687190"
     },
     {
-      "id": "2026-05-06-0182",
+      "id": "2026-05-06-0198",
       "date": "2026-05-06",
       "reportDate": "2026-05-09",
       "title": "OceanPile——大规模多模态海洋语料库发布，填补海洋AI基础模型数据空白",
@@ -2731,7 +2971,7 @@
       "fetchedAt": "2026-05-09T02:02:27.999058"
     },
     {
-      "id": "2026-05-06-0183",
+      "id": "2026-05-06-0199",
       "date": "2026-05-06",
       "reportDate": "2026-05-09",
       "title": "地中海海表温度热区识别——基于卷积协方差框架的统计建模方法",
@@ -2746,7 +2986,7 @@
       "fetchedAt": "2026-05-09T02:02:30.104620"
     },
     {
-      "id": "2026-05-06-0184",
+      "id": "2026-05-06-0200",
       "date": "2026-05-06",
       "reportDate": "2026-05-09",
       "title": "EMODnet Biology数据下载新增物种缺失记录",
@@ -2761,7 +3001,7 @@
       "fetchedAt": "2026-05-09T02:02:31.629665"
     },
     {
-      "id": "2026-05-06-0185",
+      "id": "2026-05-06-0201",
       "date": "2026-05-06",
       "reportDate": "2026-05-08",
       "title": "NOAA：NOAA授予2,160万美元合同采购无人海洋系统——支持新一代测绘船Surveyor和Navigator",
@@ -2776,7 +3016,7 @@
       "fetchedAt": "2026-05-08T02:15:15.458734"
     },
     {
-      "id": "2026-05-06-0186",
+      "id": "2026-05-06-0202",
       "date": "2026-05-06",
       "reportDate": "2026-05-08",
       "title": "Water World Genomics——eDNA解锁深海秘密",
@@ -2791,7 +3031,7 @@
       "fetchedAt": "2026-05-08T02:15:22.200072"
     },
     {
-      "id": "2026-05-06-0187",
+      "id": "2026-05-06-0203",
       "date": "2026-05-06",
       "reportDate": "2026-05-07",
       "title": "长心卡帕藻超大型藻株培育通过专家验收",
@@ -2806,7 +3046,7 @@
       "fetchedAt": "2026-05-07T12:12:20.728285"
     },
     {
-      "id": "2026-05-05-0188",
+      "id": "2026-05-05-0204",
       "date": "2026-05-05",
       "reportDate": "2026-05-15",
       "title": "Euro-Argo ERIC：Argo叶绿素数据将于2026年6月起全面重新处理和重新分发",
@@ -2821,7 +3061,7 @@
       "fetchedAt": "2026-05-16T02:31:57.588432"
     },
     {
-      "id": "2026-05-05-0189",
+      "id": "2026-05-05-0205",
       "date": "2026-05-05",
       "reportDate": "2026-05-13",
       "title": "Woolpert与Chance Maritime完成NOAA首个全无人近海水文测量——墨西哥湾1391平方海里",
@@ -2836,7 +3076,7 @@
       "fetchedAt": "2026-05-13T10:27:49.310715"
     },
     {
-      "id": "2026-05-05-0190",
+      "id": "2026-05-05-0206",
       "date": "2026-05-05",
       "reportDate": "2026-05-13",
       "title": "HyperCP v1.2.15发布——PACE高光谱数据社区处理器新增完整不确定性传播",
@@ -2851,7 +3091,7 @@
       "fetchedAt": "2026-05-13T10:27:50.687107"
     },
     {
-      "id": "2026-05-05-0191",
+      "id": "2026-05-05-0207",
       "date": "2026-05-05",
       "reportDate": "2026-05-08",
       "title": "DestinE气候数字孪生能力论文在EGU展示——5~10km分辨率多十年气候预测",
@@ -2866,7 +3106,7 @@
       "fetchedAt": "2026-05-08T02:15:14.658065"
     },
     {
-      "id": "2026-05-05-0192",
+      "id": "2026-05-05-0208",
       "date": "2026-05-05",
       "reportDate": "2026-05-08",
       "title": "HyperInSPACE社区处理器HyperCP v1.2.15发布",
@@ -2881,7 +3121,7 @@
       "fetchedAt": "2026-05-08T02:15:20.003798"
     },
     {
-      "id": "2026-05-05-0193",
+      "id": "2026-05-05-0209",
       "date": "2026-05-05",
       "reportDate": "2026-05-08",
       "title": "NOAA海洋探索办公室与AOML合作发布Okeanos Explorer首套深海eDNA数据集",
@@ -2896,7 +3136,7 @@
       "fetchedAt": "2026-05-08T02:15:20.477316"
     },
     {
-      "id": "2026-05-05-0194",
+      "id": "2026-05-05-0210",
       "date": "2026-05-05",
       "reportDate": "2026-05-07",
       "title": "NOAA发布首套深海环境DNA（eDNA）数据集",
@@ -2911,7 +3151,7 @@
       "fetchedAt": "2026-05-07T12:12:18.838662"
     },
     {
-      "id": "2026-05-05-0195",
+      "id": "2026-05-05-0211",
       "date": "2026-05-05",
       "reportDate": "2026-05-07",
       "title": "EGU（2026-05）：Tillys Petit荣获EGU海洋科学2026年杰出早期职业科学家奖",
@@ -2926,7 +3166,7 @@
       "fetchedAt": "2026-05-07T07:42:56.529806"
     },
     {
-      "id": "2026-05-04-0196",
+      "id": "2026-05-04-0212",
       "date": "2026-05-04",
       "reportDate": "2026-05-06",
       "title": "AI如何推动下一代业务化海洋产品",
@@ -2941,7 +3181,7 @@
       "fetchedAt": "2026-05-07T12:12:30.557662"
     },
     {
-      "id": "2026-05-03-0197",
+      "id": "2026-05-03-0213",
       "date": "2026-05-03",
       "reportDate": "2026-05-13",
       "title": "中国科学院院士陈大可：AI为海洋基础理论研究开辟新路径",
@@ -2956,7 +3196,7 @@
       "fetchedAt": "2026-05-13T10:27:30.785603"
     },
     {
-      "id": "2026-05-01-0198",
+      "id": "2026-05-01-0214",
       "date": "2026-05-01",
       "reportDate": "2026-05-13",
       "title": "美国海洋地籍Hub平台更新——支持多格式数据下载与API服务",
@@ -2971,7 +3211,7 @@
       "fetchedAt": "2026-05-13T10:27:36.170513"
     },
     {
-      "id": "2026-05-01-0199",
+      "id": "2026-05-01-0215",
       "date": "2026-05-01",
       "reportDate": "2026-05-07",
       "title": "GeoAquaWatch（2026-05）：Argo叶绿素-a数据将于6月起全面再处理",
@@ -2986,7 +3226,7 @@
       "fetchedAt": "2026-05-07T12:12:16.978233"
     },
     {
-      "id": "2026-05-01-0200",
+      "id": "2026-05-01-0216",
       "date": "2026-05-01",
       "reportDate": "2026-05-07",
       "title": "JAMSTEC（2026）：2026年国际海洋数字孪生峰会（DITTO Summit）将于日本召开",
@@ -3001,7 +3241,7 @@
       "fetchedAt": "2026-05-07T07:42:46.362991"
     },
     {
-      "id": "2026-05-01-0201",
+      "id": "2026-05-01-0217",
       "date": "2026-05-01",
       "reportDate": "2026-05-06",
       "title": "深海观测网络数字孪生原型——虚拟环境重建与数据驱动预测",
@@ -3016,7 +3256,7 @@
       "fetchedAt": "2026-05-07T12:12:35.840240"
     },
     {
-      "id": "2026-05-01-0202",
+      "id": "2026-05-01-0218",
       "date": "2026-05-01",
       "reportDate": "2026-05-06",
       "title": "数百个新增浮游生物数据图层正式上线",
@@ -3031,7 +3271,7 @@
       "fetchedAt": "2026-05-07T12:12:36.022268"
     },
     {
-      "id": "2026-04-30-0203",
+      "id": "2026-04-30-0219",
       "date": "2026-04-30",
       "reportDate": "2026-05-09",
       "title": "EMODnet首次新增滨海旅游数据主题，拓展社会经济数据维度",
@@ -3046,7 +3286,7 @@
       "fetchedAt": "2026-05-09T02:02:29.672868"
     },
     {
-      "id": "2026-04-30-0204",
+      "id": "2026-04-30-0220",
       "date": "2026-04-30",
       "reportDate": "2026-05-07",
       "title": "CORA沿海海洋再分析数据集在AWS开放数据注册中心上线",
@@ -3061,7 +3301,7 @@
       "fetchedAt": "2026-05-07T12:12:21.239297"
     },
     {
-      "id": "2026-04-30-0205",
+      "id": "2026-04-30-0221",
       "date": "2026-04-30",
       "reportDate": "2026-05-06",
       "title": "One Ocean Expedition 2025-2026数据集成入CMEMS",
@@ -3076,7 +3316,7 @@
       "fetchedAt": "2026-05-07T07:43:14.640612"
     },
     {
-      "id": "2026-04-29-0206",
+      "id": "2026-04-29-0222",
       "date": "2026-04-29",
       "reportDate": "2026-05-13",
       "title": "产品路线图更新——加拿大东海岸48小时逐时海洋预报产品7月上线",
@@ -3091,7 +3331,7 @@
       "fetchedAt": "2026-05-13T10:27:37.433233"
     },
     {
-      "id": "2026-04-29-0207",
+      "id": "2026-04-29-0223",
       "date": "2026-04-29",
       "reportDate": "2026-05-07",
       "title": "基于路径签名的Argo剖面自动质量控制方法改进",
@@ -3106,7 +3346,7 @@
       "fetchedAt": "2026-05-07T12:12:16.415959"
     },
     {
-      "id": "2026-04-29-0208",
+      "id": "2026-04-29-0224",
       "date": "2026-04-29",
       "reportDate": "2026-05-07",
       "title": "Bio-Geochemical Argo社区确认叶绿素计算方法更新",
@@ -3121,7 +3361,7 @@
       "fetchedAt": "2026-05-07T07:42:50.340348"
     },
     {
-      "id": "2026-04-29-0209",
+      "id": "2026-04-29-0225",
       "date": "2026-04-29",
       "reportDate": "2026-05-06",
       "title": "DestinE气候数字孪生能力论文在GMD发表",
@@ -3136,7 +3376,7 @@
       "fetchedAt": "2026-05-07T12:12:34.489101"
     },
     {
-      "id": "2026-04-29-0210",
+      "id": "2026-04-29-0226",
       "date": "2026-04-29",
       "reportDate": "2026-05-06",
       "title": "了解我们的海洋——海洋观测新系列文章首发",
@@ -3151,7 +3391,7 @@
       "fetchedAt": "2026-05-07T12:12:40.708466"
     },
     {
-      "id": "2026-04-29-0211",
+      "id": "2026-04-29-0227",
       "date": "2026-04-29",
       "reportDate": "2026-04-30",
       "title": "Node Spotlight——印度洋生物多样性信息系统（IndOBIS）推进数据协调",
@@ -3166,7 +3406,7 @@
       "fetchedAt": "2026-05-07T07:43:36.669859"
     },
     {
-      "id": "2026-04-28-0212",
+      "id": "2026-04-28-0228",
       "date": "2026-04-28",
       "reportDate": "2026-05-18",
       "title": "北太平洋历史营养盐数据集（1895-2024）：基于机器学习与水文观测重建",
@@ -3181,7 +3421,7 @@
       "fetchedAt": "2026-05-19T02:46:52.293294"
     },
     {
-      "id": "2026-04-28-0213",
+      "id": "2026-04-28-0229",
       "date": "2026-04-28",
       "reportDate": "2026-05-18",
       "title": "Seabed 2030：全球海底测绘达28.7%里程碑——年增近500万平方公里",
@@ -3196,7 +3436,7 @@
       "fetchedAt": "2026-05-18T02:50:17.270435"
     },
     {
-      "id": "2026-04-28-0214",
+      "id": "2026-04-28-0230",
       "date": "2026-04-28",
       "reportDate": "2026-05-06",
       "title": "2025年用户使用报告发布——年数据请求超110亿次",
@@ -3211,7 +3451,7 @@
       "fetchedAt": "2026-05-07T12:12:37.400246"
     },
     {
-      "id": "2026-04-28-0215",
+      "id": "2026-04-28-0231",
       "date": "2026-04-28",
       "reportDate": "2026-05-06",
       "title": "PANGAEA数据库Event-Campaign Merge架构升级进行中",
@@ -3226,7 +3466,7 @@
       "fetchedAt": "2026-05-07T12:12:42.460144"
     },
     {
-      "id": "2026-04-27-0216",
+      "id": "2026-04-27-0232",
       "date": "2026-04-27",
       "reportDate": "2026-05-13",
       "title": "2026年4月全球海表温度创历史第二高——赤道太平洋首破4月纪录",
@@ -3241,7 +3481,7 @@
       "fetchedAt": "2026-05-13T10:27:35.927799"
     },
     {
-      "id": "2026-04-27-0217",
+      "id": "2026-04-27-0233",
       "date": "2026-04-27",
       "reportDate": "2026-05-06",
       "title": "GEBCO_2026 Grid正式发布可下载",
@@ -3256,7 +3496,7 @@
       "fetchedAt": "2026-05-07T07:43:21.001670"
     },
     {
-      "id": "2026-04-24-0218",
+      "id": "2026-04-24-0234",
       "date": "2026-04-24",
       "reportDate": "2026-05-08",
       "title": "WMO全球季节性气候更新——厄尔尼诺很可能于2026年5-7月回归",
@@ -3271,7 +3511,7 @@
       "fetchedAt": "2026-05-08T02:15:17.656513"
     },
     {
-      "id": "2026-04-24-0219",
+      "id": "2026-04-24-0235",
       "date": "2026-04-24",
       "reportDate": "2026-04-30",
       "title": "海洋AI前沿——人工智能与海洋治理综述专题",
@@ -3286,7 +3526,7 @@
       "fetchedAt": "2026-05-07T12:12:59.860001"
     },
     {
-      "id": "2026-04-24-0220",
+      "id": "2026-04-24-0236",
       "date": "2026-04-24",
       "reportDate": "2026-04-28",
       "title": "arXiv:2604.21233：面向E3SMv2气候模式的模态气溶胶微物理参数化神经网络仿真器设计",
@@ -3301,7 +3541,7 @@
       "fetchedAt": "2026-05-07T07:54:28.212803"
     },
     {
-      "id": "2026-04-24-0221",
+      "id": "2026-04-24-0237",
       "date": "2026-04-24",
       "reportDate": "2026-04-25",
       "title": "Argo 全球数据仓库（GDAC）：2026年4月月报——新增4.2万个剖面入库",
@@ -3316,7 +3556,7 @@
       "fetchedAt": "2026-05-07T07:54:50.008696"
     },
     {
-      "id": "2026-04-24-0222",
+      "id": "2026-04-24-0238",
       "date": "2026-04-24",
       "reportDate": "2026-04-24",
       "title": "DITTO Programme（2026）：联合国海洋十年数字孪生海洋计划——全球DTO治理框架与协作平台",
@@ -3331,7 +3571,7 @@
       "fetchedAt": "2026-05-07T07:44:19.600654"
     },
     {
-      "id": "2026-04-24-0223",
+      "id": "2026-04-24-0239",
       "date": "2026-04-24",
       "reportDate": "2026-04-24",
       "title": "Argo盐度延迟模式质量控制工具发布v2.4.2更新",
@@ -3358,7 +3598,7 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.109815",
-      "id": "2026-04-23-0224"
+      "id": "2026-04-23-0240"
     },
     {
       "url": "https://www.gebco.net/data_and_products/gridded_bathymetry_data/",
@@ -3373,10 +3613,10 @@
       ],
       "tags": [],
       "fetchedAt": "2026-06-24T12:25:24.110698",
-      "id": "2026-04-23-0225"
+      "id": "2026-04-23-0241"
     },
     {
-      "id": "2026-04-23-0226",
+      "id": "2026-04-23-0242",
       "date": "2026-04-23",
       "reportDate": "2026-04-30",
       "title": "GEBCO_2026 Grid全球海底地形网格正式发布",
@@ -3391,7 +3631,7 @@
       "fetchedAt": "2026-05-07T12:13:07.427818"
     },
     {
-      "id": "2026-04-23-0227",
+      "id": "2026-04-23-0243",
       "date": "2026-04-23",
       "reportDate": "2026-04-28",
       "title": "arXiv:2604.21180：扩散模型驱动的不确定性感知时空超分辨率数据同化框架",
@@ -3406,7 +3646,7 @@
       "fetchedAt": "2026-05-07T07:54:28.212349"
     },
     {
-      "id": "2026-04-23-0228",
+      "id": "2026-04-23-0244",
       "date": "2026-04-23",
       "reportDate": "2026-04-28",
       "title": "arXiv:2604.20467：AI天气模型可解释性工具——机制可解释性在海洋预报评估中的应用",
@@ -3421,7 +3661,7 @@
       "fetchedAt": "2026-05-07T07:54:28.212551"
     },
     {
-      "id": "2026-04-23-0229",
+      "id": "2026-04-23-0245",
       "date": "2026-04-23",
       "reportDate": "2026-04-28",
       "title": "arXiv:2604.19901：基于图像一致性姿态精化的侧扫声呐图像几何校正方法",
@@ -3436,7 +3676,7 @@
       "fetchedAt": "2026-05-07T07:54:28.212723"
     },
     {
-      "id": "2026-04-23-0230",
+      "id": "2026-04-23-0246",
       "date": "2026-04-23",
       "reportDate": "2026-04-25",
       "title": "arXiv:2604.18931：使用 Transformer 架构从 BGC-Argo 剖面反演海洋净初级生产力",
@@ -3451,7 +3691,7 @@
       "fetchedAt": "2026-05-07T07:54:45.219080"
     },
     {
-      "id": "2026-04-22-0231",
+      "id": "2026-04-22-0247",
       "date": "2026-04-22",
       "reportDate": "2026-05-07",
       "title": "AI揭示前所未见的海洋洋流细节",
@@ -3466,7 +3706,7 @@
       "fetchedAt": "2026-05-07T12:12:12.101530"
     },
     {
-      "id": "2026-04-22-0232",
+      "id": "2026-04-22-0248",
       "date": "2026-04-22",
       "reportDate": "2026-04-30",
       "title": "海底地形数据查看器重大升级——响应式设计与移动端优化",
@@ -3481,7 +3721,7 @@
       "fetchedAt": "2026-05-07T12:13:00.208118"
     },
     {
-      "id": "2026-04-22-0233",
+      "id": "2026-04-22-0249",
       "date": "2026-04-22",
       "reportDate": "2026-04-25",
       "title": "arXiv:2604.17192：基于扩散模型的深海水声信道冲激响应预测框架",
@@ -3496,7 +3736,7 @@
       "fetchedAt": "2026-05-07T07:54:33.258895"
     },
     {
-      "id": "2026-04-22-0234",
+      "id": "2026-04-22-0250",
       "date": "2026-04-22",
       "reportDate": "2026-04-22",
       "title": "NASA Earthdata（持续更新）：WorldView卫星影像实时可视化——海洋颜色与温度遥感监测门户",
@@ -3511,7 +3751,7 @@
       "fetchedAt": "2026-05-07T07:45:03.411423"
     },
     {
-      "id": "2026-04-22-0235",
+      "id": "2026-04-22-0251",
       "date": "2026-04-22",
       "reportDate": "2026-04-22",
       "title": "Argo GDAC（2026-04月）：全球Argo数据中心实时数据服务——当前约4000枚活跃浮标状态",
@@ -3526,7 +3766,7 @@
       "fetchedAt": "2026-05-07T07:45:12.655097"
     },
     {
-      "id": "2026-04-21-0236",
+      "id": "2026-04-21-0252",
       "date": "2026-04-21",
       "reportDate": "2026-05-06",
       "title": "基于自适应时空聚类框架的三维海洋次表层温度重建",
@@ -3541,7 +3781,7 @@
       "fetchedAt": "2026-05-07T07:43:02.520287"
     },
     {
-      "id": "2026-04-21-0237",
+      "id": "2026-04-21-0253",
       "date": "2026-04-21",
       "reportDate": "2026-05-06",
       "title": "自适应时空聚类+深度学习——海洋次表层温度重建框架开源",
@@ -3556,7 +3796,7 @@
       "fetchedAt": "2026-05-07T07:43:22.903271"
     },
     {
-      "id": "2026-04-21-0238",
+      "id": "2026-04-21-0254",
       "date": "2026-04-21",
       "reportDate": "2026-04-30",
       "title": "Copernicus Marine Toolbox v2.4.0发布——支持稀疏数据集与CSV导出",
@@ -3571,7 +3811,7 @@
       "fetchedAt": "2026-05-07T07:43:33.660660"
     },
     {
-      "id": "2026-04-21-0239",
+      "id": "2026-04-21-0255",
       "date": "2026-04-21",
       "reportDate": "2026-04-25",
       "title": "Nature Machine Intelligence：AI驱动的全球中尺度涡旋自动识别与三维结构重建",
@@ -3586,7 +3826,7 @@
       "fetchedAt": "2026-05-07T07:54:34.295040"
     },
     {
-      "id": "2026-04-21-0240",
+      "id": "2026-04-21-0256",
       "date": "2026-04-21",
       "reportDate": "2026-04-25",
       "title": "Frontiers in Marine Science：基于集成学习的 Argo 剖面生物地球化学参数自动异常检测",
@@ -3601,7 +3841,7 @@
       "fetchedAt": "2026-05-07T07:54:42.716950"
     },
     {
-      "id": "2026-04-21-0241",
+      "id": "2026-04-21-0257",
       "date": "2026-04-21",
       "reportDate": "2026-04-25",
       "title": "GitHub：oceanhackweek/ohw-tutorials 2026版发布——覆盖 ERDDAP、xarray、cartopy 海洋数据分析全流程",
@@ -3616,7 +3856,7 @@
       "fetchedAt": "2026-05-07T07:54:57.282039"
     },
     {
-      "id": "2026-04-21-0242",
+      "id": "2026-04-21-0258",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "Ferret（NOAA/PMEL）：海洋气候数据分析与可视化经典工具——持续维护中",
@@ -3631,7 +3871,7 @@
       "fetchedAt": "2026-05-07T07:45:16.578836"
     },
     {
-      "id": "2026-04-21-0243",
+      "id": "2026-04-21-0259",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "SEANOE（海洋与环境科学开放数据平台）：可视化支持数据集在线预览——Ifremer主导",
@@ -3646,7 +3886,7 @@
       "fetchedAt": "2026-05-07T07:45:18.237580"
     },
     {
-      "id": "2026-04-21-0244",
+      "id": "2026-04-21-0260",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "gsw-python（TEOS-10）：国际海洋状态方程Python库——海水热力学处理的国际标准工具",
@@ -3661,7 +3901,7 @@
       "fetchedAt": "2026-05-07T07:45:23.254008"
     },
     {
-      "id": "2026-04-21-0245",
+      "id": "2026-04-21-0261",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "GOOS（全球海洋观测系统）：开放航次观测数据FAIR共享政策框架——推进全球航次数据开放",
@@ -3676,7 +3916,7 @@
       "fetchedAt": "2026-05-07T07:45:30.260160"
     },
     {
-      "id": "2026-04-21-0246",
+      "id": "2026-04-21-0262",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "Euro-Argo ERIC（2026年活跃）：欧洲Argo区域数据中心——提供Argo数据质控工具和技术支持",
@@ -3691,7 +3931,7 @@
       "fetchedAt": "2026-05-07T07:45:34.173195"
     },
     {
-      "id": "2026-04-21-0247",
+      "id": "2026-04-21-0263",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "erddapy（Python ERDDAP客户端）：通过Python访问全球ERDDAP数据服务器的标准接口库",
@@ -3706,7 +3946,7 @@
       "fetchedAt": "2026-05-07T07:45:37.996980"
     },
     {
-      "id": "2026-04-21-0248",
+      "id": "2026-04-21-0264",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "cmocean（海洋学专用色图库）：感知均匀的海洋数据可视化色标——matplotlib/cartopy标准配套",
@@ -3721,7 +3961,7 @@
       "fetchedAt": "2026-05-07T07:45:38.230356"
     },
     {
-      "id": "2026-04-21-0249",
+      "id": "2026-04-21-0265",
       "date": "2026-04-21",
       "reportDate": "2026-04-21",
       "title": "intake-esm（Pangeo生态系统）：CMIP/CESM等大规模模型数据的Python目录驱动访问工具",
@@ -3736,7 +3976,7 @@
       "fetchedAt": "2026-05-07T07:45:38.230553"
     },
     {
-      "id": "2026-04-21-0250",
+      "id": "2026-04-21-0266",
       "date": "2026-04-21",
       "reportDate": "2026-04-16",
       "title": "GeoBlueplanet渔业工作坊（4月21-22日，伦敦）——海洋数据支撑全球可持续渔业管理",
@@ -3751,7 +3991,7 @@
       "fetchedAt": "2026-05-07T07:48:00.316114"
     },
     {
-      "id": "2026-04-20-0251",
+      "id": "2026-04-20-0267",
       "date": "2026-04-20",
       "reportDate": "2026-05-07",
       "title": "全球海底测绘达到新里程碑——28.7%海底已完成测绘",
@@ -3766,7 +4006,7 @@
       "fetchedAt": "2026-05-07T12:12:19.794173"
     },
     {
-      "id": "2026-04-20-0252",
+      "id": "2026-04-20-0268",
       "date": "2026-04-20",
       "reportDate": "2026-05-06",
       "title": "copernicusmarine v2.4.0 正式发布",
@@ -3781,7 +4021,7 @@
       "fetchedAt": "2026-05-07T07:43:22.903183"
     },
     {
-      "id": "2026-04-20-0253",
+      "id": "2026-04-20-0269",
       "date": "2026-04-20",
       "reportDate": "2026-04-25",
       "title": "DestinE（Destination Earth）：海洋极端事件数字孪生组件完成第一阶段里程碑验收",
@@ -3796,7 +4036,7 @@
       "fetchedAt": "2026-05-07T07:54:36.961906"
     },
     {
-      "id": "2026-04-20-0254",
+      "id": "2026-04-20-0270",
       "date": "2026-04-20",
       "reportDate": "2026-04-25",
       "title": "OBIS（Ocean Biodiversity Information System）：海洋生物多样性数据库突破1.2亿条记录",
@@ -3811,7 +4051,7 @@
       "fetchedAt": "2026-05-07T07:54:49.474285"
     },
     {
-      "id": "2026-04-20-0255",
+      "id": "2026-04-20-0271",
       "date": "2026-04-20",
       "reportDate": "2026-04-25",
       "title": "GitHub：MITgcm/MITgcm v67i——麻省理工通用环流模式年度更新，支持嵌套加密与机器学习参数化",
@@ -3826,7 +4066,7 @@
       "fetchedAt": "2026-05-07T07:54:57.282226"
     },
     {
-      "id": "2026-04-20-0256",
+      "id": "2026-04-20-0272",
       "date": "2026-04-20",
       "reportDate": "2026-04-24",
       "title": "南极绕极流观测数据地图集——航次与锚系数据一键查询",
@@ -3841,7 +4081,7 @@
       "fetchedAt": "2026-05-07T07:44:26.640621"
     },
     {
-      "id": "2026-04-20-0257",
+      "id": "2026-04-20-0273",
       "date": "2026-04-20",
       "reportDate": "2026-04-23",
       "title": "NOAA NCEI（近期）：全球海洋数据服务持续运营——多源数据集托管与公开访问",
@@ -3856,7 +4096,7 @@
       "fetchedAt": "2026-05-07T07:45:00.114464"
     },
     {
-      "id": "2026-04-20-0258",
+      "id": "2026-04-20-0274",
       "date": "2026-04-20",
       "reportDate": "2026-04-23",
       "title": "Copernicus Marine Toolbox v2.0.0（近期文档更新）：重大版本——Python客户端API架构全面重构",
@@ -3871,7 +4111,7 @@
       "fetchedAt": "2026-05-07T07:45:00.827963"
     },
     {
-      "id": "2026-04-20-0259",
+      "id": "2026-04-20-0275",
       "date": "2026-04-20",
       "reportDate": "2026-04-23",
       "title": "海洋基础模型缺失生化通道——开源社区评估与路线图讨论",
@@ -3886,7 +4126,7 @@
       "fetchedAt": "2026-05-07T07:45:00.828073"
     },
     {
-      "id": "2026-04-20-0260",
+      "id": "2026-04-20-0276",
       "date": "2026-04-20",
       "reportDate": "2026-04-22",
       "title": "Skillful全球海洋模拟与相关感知损失函数——新一代深度学习海洋仿真",
@@ -3901,7 +4141,7 @@
       "fetchedAt": "2026-05-07T07:45:01.124139"
     },
     {
-      "id": "2026-04-20-0261",
+      "id": "2026-04-20-0277",
       "date": "2026-04-20",
       "reportDate": "2026-04-22",
       "title": "Schmidt Ocean Institute（2026-04月）：R/V Falkor(too) 2026航次计划公布——开放科学优先",
@@ -3916,7 +4156,7 @@
       "fetchedAt": "2026-05-07T07:45:09.724801"
     },
     {
-      "id": "2026-04-20-0262",
+      "id": "2026-04-20-0278",
       "date": "2026-04-20",
       "reportDate": "2026-04-21",
       "title": "次季节海洋-大气预报概率偏差校正——AI与动力学模型融合新方法",
@@ -3931,7 +4171,7 @@
       "fetchedAt": "2026-05-07T07:45:12.858296"
     },
     {
-      "id": "2026-04-20-0263",
+      "id": "2026-04-20-0279",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "Schmidt Ocean Institute（活跃）：R/V Falkor(too)持续开放航次申请——ROV深潜数据全程开放共享",
@@ -3946,7 +4186,7 @@
       "fetchedAt": "2026-05-07T07:45:56.445474"
     },
     {
-      "id": "2026-04-20-0264",
+      "id": "2026-04-20-0280",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "kval（GitHub/PyPI，Norwegian Polar Institute）：挪威极地研究所Python海洋数据处理工具集",
@@ -3961,7 +4201,7 @@
       "fetchedAt": "2026-05-07T07:45:58.763258"
     },
     {
-      "id": "2026-04-20-0265",
+      "id": "2026-04-20-0281",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "ODV（Ocean Data View）：AWI开发的海洋剖面数据交互探索与分析软件——持续更新",
@@ -3976,7 +4216,7 @@
       "fetchedAt": "2026-05-07T07:45:59.556584"
     },
     {
-      "id": "2026-04-20-0266",
+      "id": "2026-04-20-0282",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "OceanSpy（ReadTheDocs）：MIT海洋集群数字孪生接口Python库——专为海洋模型数据分析设计",
@@ -3991,7 +4231,7 @@
       "fetchedAt": "2026-05-07T07:45:59.720205"
     },
     {
-      "id": "2026-04-20-0267",
+      "id": "2026-04-20-0283",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "EMODnet（欧洲海洋观测与数据网）：Human Activities 门户2026版上线——海底电缆、采矿许可可视化（持续更新）",
@@ -4006,7 +4246,7 @@
       "fetchedAt": "2026-05-07T07:55:10.154098"
     },
     {
-      "id": "2026-04-20-0268",
+      "id": "2026-04-20-0284",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "Argo Float Visualization Tool（EuroArgo / Coriolis）：全球 BGC-Argo 数据交互探索平台（持续更新）",
@@ -4021,7 +4261,7 @@
       "fetchedAt": "2026-05-07T07:55:11.123632"
     },
     {
-      "id": "2026-04-20-0269",
+      "id": "2026-04-20-0285",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "IODE OceanExpert 系统：全球海洋数据专家档案库持续更新，支持专家能力建设评估（持续更新）",
@@ -4036,7 +4276,7 @@
       "fetchedAt": "2026-05-07T07:55:12.202524"
     },
     {
-      "id": "2026-04-20-0270",
+      "id": "2026-04-20-0286",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "SeaDataNet CDI（Common Data Index）：欧洲海洋数据元数据目录持续扩充，收录历史剖面超750万条（持续运营）",
@@ -4051,7 +4291,7 @@
       "fetchedAt": "2026-05-07T07:55:12.846185"
     },
     {
-      "id": "2026-04-20-0271",
+      "id": "2026-04-20-0287",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "AWS Open Data Registry：新增 NOAA GOES-R GLM（全球闪电测绘仪）海洋闪电与大气对流数据集（持续更新）",
@@ -4066,7 +4306,7 @@
       "fetchedAt": "2026-05-07T07:55:16.261100"
     },
     {
-      "id": "2026-04-20-0272",
+      "id": "2026-04-20-0288",
       "date": "2026-04-20",
       "reportDate": "2026-04-20",
       "title": "pyGEOS-Ocean：地理空间海洋数据 Python 工具包 v0.9——支持 GEBCO 网格、EEZ 矢量与洋盆掩膜（持续更新）",
@@ -4081,7 +4321,7 @@
       "fetchedAt": "2026-05-07T07:55:16.261504"
     },
     {
-      "id": "2026-04-19-0273",
+      "id": "2026-04-19-0289",
       "date": "2026-04-19",
       "reportDate": "2026-04-27",
       "title": "NOAA CoastWatch卫星海洋数据门户——近实时遥感产品入口",
@@ -4096,7 +4336,7 @@
       "fetchedAt": "2026-05-07T07:43:56.116722"
     },
     {
-      "id": "2026-04-19-0274",
+      "id": "2026-04-19-0290",
       "date": "2026-04-19",
       "reportDate": "2026-04-25",
       "title": "OceanOPS（WMO/IOC）：全球海洋观测网实时状态地图平台更新——新增波浪浮标和水下滑翔机图层",
@@ -4111,7 +4351,7 @@
       "fetchedAt": "2026-05-07T07:54:40.553036"
     },
     {
-      "id": "2026-04-19-0275",
+      "id": "2026-04-19-0291",
       "date": "2026-04-19",
       "reportDate": "2026-04-20",
       "title": "Copernicus Marine数据仓：统一平台整合全球海洋物理、生化和海冰产品",
@@ -4126,7 +4366,7 @@
       "fetchedAt": "2026-05-07T07:45:52.478181"
     },
     {
-      "id": "2026-04-18-0276",
+      "id": "2026-04-18-0292",
       "date": "2026-04-18",
       "reportDate": "2026-04-30",
       "title": "Nautilus 2026年科学与工程实习生名单公布",
@@ -4141,7 +4381,7 @@
       "fetchedAt": "2026-05-07T07:43:38.764580"
     },
     {
-      "id": "2026-04-18-0277",
+      "id": "2026-04-18-0293",
       "date": "2026-04-18",
       "reportDate": "2026-04-20",
       "title": "arXiv:2604.15783：用于全球海洋热含量变化预测的时空图神经网络框架",
@@ -4156,7 +4396,7 @@
       "fetchedAt": "2026-05-07T07:54:57.630577"
     },
     {
-      "id": "2026-04-18-0278",
+      "id": "2026-04-18-0294",
       "date": "2026-04-18",
       "reportDate": "2026-04-18",
       "title": "Mercator Ocean：马尾藻近实时监测新产品上线——多卫星融合，覆盖大西洋与加勒比海（持续运营）",
@@ -4171,7 +4411,7 @@
       "fetchedAt": "2026-05-07T07:55:23.438643"
     },
     {
-      "id": "2026-04-18-0279",
+      "id": "2026-04-18-0295",
       "date": "2026-04-18",
       "reportDate": "2026-04-18",
       "title": "Argo GDAC 全球实时海洋剖面数据中心：持续提供全球浮标质量控制数据（持续运营）",
@@ -4186,7 +4426,7 @@
       "fetchedAt": "2026-05-07T07:55:25.229559"
     },
     {
-      "id": "2026-04-18-0280",
+      "id": "2026-04-18-0296",
       "date": "2026-04-18",
       "reportDate": "2026-04-18",
       "title": "Copernicus Marine Toolbox v2.0：哥白尼海洋数据访问 Python 工具持续更新（持续更新）",
@@ -4201,7 +4441,7 @@
       "fetchedAt": "2026-05-07T07:55:33.120095"
     },
     {
-      "id": "2026-04-18-0281",
+      "id": "2026-04-18-0297",
       "date": "2026-04-18",
       "reportDate": "2026-04-09",
       "title": "One Ocean Week 2026(4月18-24日):卑尔根海洋开放科学周——科考船Statsraad Lehmkuhl回港",
@@ -4216,7 +4456,7 @@
       "fetchedAt": "2026-05-07T07:49:34.535743"
     },
     {
-      "id": "2026-04-17-0282",
+      "id": "2026-04-17-0298",
       "date": "2026-04-17",
       "reportDate": "2026-04-30",
       "title": "ERDDAP with xarray教程——海表温度与叶绿素轨迹匹配分析",
@@ -4231,7 +4471,7 @@
       "fetchedAt": "2026-05-07T07:43:34.851243"
     },
     {
-      "id": "2026-04-17-0283",
+      "id": "2026-04-17-0299",
       "date": "2026-04-17",
       "reportDate": "2026-04-23",
       "title": "EDITO-Infra Beta测试第三阶段：新集成与MODELLAB统一化",
@@ -4246,7 +4486,7 @@
       "fetchedAt": "2026-05-07T07:44:45.834016"
     },
     {
-      "id": "2026-04-17-0284",
+      "id": "2026-04-17-0300",
       "date": "2026-04-17",
       "reportDate": "2026-04-21",
       "title": "arXiv（2026-04月）：ILIAD项目——海洋信息模型OIM语义协调Python框架（arXiv 2604.13042）",
@@ -4261,7 +4501,7 @@
       "fetchedAt": "2026-05-07T07:45:12.858801"
     },
     {
-      "id": "2026-04-17-0285",
+      "id": "2026-04-17-0301",
       "date": "2026-04-17",
       "reportDate": "2026-04-20",
       "title": "GitHub：ioos/compliance-checker v6.1——海洋数据 CF/ACDD 合规性检查工具新版发布",
@@ -4276,7 +4516,7 @@
       "fetchedAt": "2026-05-07T07:55:16.261357"
     },
     {
-      "id": "2026-04-17-0286",
+      "id": "2026-04-17-0302",
       "date": "2026-04-17",
       "reportDate": "2026-04-19",
       "title": "EDITO 2期项目（EDITO 2）正式立项（CORDIS）：欧洲数字孪生海洋进入扩展阶段",
@@ -4291,7 +4531,7 @@
       "fetchedAt": "2026-05-07T07:46:04.498929"
     },
     {
-      "id": "2026-04-16-0287",
+      "id": "2026-04-16-0303",
       "date": "2026-04-16",
       "reportDate": "2026-05-25",
       "title": "SwinIR+两阶段训练：南海海面风场深度学习降尺度新方法",
@@ -4306,7 +4546,7 @@
       "fetchedAt": "2026-05-25T02:55:59.779333"
     },
     {
-      "id": "2026-04-16-0288",
+      "id": "2026-04-16-0304",
       "date": "2026-04-16",
       "reportDate": "2026-04-27",
       "title": "World Ocean Database — 全球最大公开海洋剖面数据集持续更新",
@@ -4321,7 +4561,7 @@
       "fetchedAt": "2026-05-07T07:43:56.508193"
     },
     {
-      "id": "2026-04-16-0289",
+      "id": "2026-04-16-0305",
       "date": "2026-04-16",
       "reportDate": "2026-04-21",
       "title": "Monthly Diffusion v0.9——首个AI月度气候预测潜在扩散模型（AI-MIP基准）",
@@ -4336,7 +4576,7 @@
       "fetchedAt": "2026-05-07T07:45:12.858391"
     },
     {
-      "id": "2026-04-16-0290",
+      "id": "2026-04-16-0306",
       "date": "2026-04-16",
       "reportDate": "2026-04-20",
       "title": "arXiv:2604.14009：SWOT卫星沿轨观测中二维滤波对白噪声频谱的影响分析",
@@ -4351,7 +4591,7 @@
       "fetchedAt": "2026-05-07T07:55:11.581963"
     },
     {
-      "id": "2026-04-16-0291",
+      "id": "2026-04-16-0307",
       "date": "2026-04-16",
       "reportDate": "2026-04-19",
       "title": "IOC海洋数据与信息系统战略计划（ODIS）：IOC推进联合国海洋数据治理体系升级",
@@ -4366,7 +4606,7 @@
       "fetchedAt": "2026-05-07T07:46:37.708785"
     },
     {
-      "id": "2026-04-16-0292",
+      "id": "2026-04-16-0308",
       "date": "2026-04-16",
       "reportDate": "2026-04-19",
       "title": "GitHub Jesse Cusack/ocean_data_tools：海洋数据工具汇总——覆盖主流编程语言与数据格式",
@@ -4381,7 +4621,7 @@
       "fetchedAt": "2026-05-07T07:46:38.191302"
     },
     {
-      "id": "2026-04-16-0293",
+      "id": "2026-04-16-0309",
       "date": "2026-04-16",
       "reportDate": "2026-04-18",
       "title": "Nature Scientific Data：World Ocean Database 2023（WOD23）数据描述论文正式发表",
@@ -4396,7 +4636,7 @@
       "fetchedAt": "2026-05-07T07:55:26.632197"
     },
     {
-      "id": "2026-04-16-0294",
+      "id": "2026-04-16-0310",
       "date": "2026-04-16",
       "reportDate": "2026-04-17",
       "title": "Oceanography Society期刊（TOS）：最新一期开放获取内容涵盖海洋观测数据可视化方法",
@@ -4411,7 +4651,7 @@
       "fetchedAt": "2026-05-07T07:47:07.033367"
     },
     {
-      "id": "2026-04-16-0295",
+      "id": "2026-04-16-0311",
       "date": "2026-04-16",
       "reportDate": "2026-04-17",
       "title": "Nature Scientific Data：WOD2023数据论文发布——全球最大海洋剖面数据库基础资源描述",
@@ -4426,7 +4666,7 @@
       "fetchedAt": "2026-05-07T07:47:08.481301"
     },
     {
-      "id": "2026-04-15-0296",
+      "id": "2026-04-15-0312",
       "date": "2026-04-15",
       "reportDate": "2026-05-06",
       "title": "中科院海洋研究所——海洋现象智能预报方法体系研究取得重要进展",
@@ -4441,7 +4681,7 @@
       "fetchedAt": "2026-05-07T12:12:32.529337"
     },
     {
-      "id": "2026-04-15-0297",
+      "id": "2026-04-15-0313",
       "date": "2026-04-15",
       "reportDate": "2026-04-30",
       "title": "标准化与FAIR——释放近75年的鱼类幼体和鱼卵记录",
@@ -4456,7 +4696,7 @@
       "fetchedAt": "2026-05-07T12:13:01.745491"
     },
     {
-      "id": "2026-04-15-0298",
+      "id": "2026-04-15-0314",
       "date": "2026-04-15",
       "reportDate": "2026-04-30",
       "title": "Schmidt Ocean Institute：DeSIGNING THE FUTURE 3——南大西洋中层水域生物多样性探测航次",
@@ -4471,7 +4711,7 @@
       "fetchedAt": "2026-05-07T07:43:38.213676"
     },
     {
-      "id": "2026-04-15-0299",
+      "id": "2026-04-15-0315",
       "date": "2026-04-15",
       "reportDate": "2026-04-19",
       "title": "GitHub ArgoDMQC：Argo延时模式质控脚本库持续更新——涵盖SBE和RBR传感器双平台",
@@ -4486,7 +4726,7 @@
       "fetchedAt": "2026-05-07T07:46:28.830194"
     },
     {
-      "id": "2026-04-15-0300",
+      "id": "2026-04-15-0316",
       "date": "2026-04-15",
       "reportDate": "2026-04-19",
       "title": "HUB Ocean蓝色云数据平台：汇聚千余个海洋、气候与生物多样性数据集实现一站式检索",
@@ -4501,7 +4741,7 @@
       "fetchedAt": "2026-05-07T07:46:33.643683"
     },
     {
-      "id": "2026-04-15-0301",
+      "id": "2026-04-15-0317",
       "date": "2026-04-15",
       "reportDate": "2026-04-17",
       "title": "Frontiers in Marine Science：AI赋能海洋能力转化与绿色发展——来自中国沿海省份的实证研究",
@@ -4516,7 +4756,7 @@
       "fetchedAt": "2026-05-07T07:46:41.517924"
     },
     {
-      "id": "2026-04-14-0302",
+      "id": "2026-04-14-0318",
       "date": "2026-04-14",
       "reportDate": "2026-04-22",
       "title": "珊瑚礁热力场深度分层重建——卫星SST与物理信息神经网络融合",
@@ -4531,7 +4771,7 @@
       "fetchedAt": "2026-05-07T07:45:01.124228"
     },
     {
-      "id": "2026-04-14-0303",
+      "id": "2026-04-14-0319",
       "date": "2026-04-14",
       "reportDate": "2026-04-22",
       "title": "CycloneMAE——全球热带气旋概率预报的可扩展多任务学习模型",
@@ -4546,7 +4786,7 @@
       "fetchedAt": "2026-05-07T07:45:01.124305"
     },
     {
-      "id": "2026-04-14-0304",
+      "id": "2026-04-14-0320",
       "date": "2026-04-14",
       "reportDate": "2026-04-21",
       "title": "EMIT高光谱+深度学习——全球海洋/大气甲烷点源实时监测新范式",
@@ -4561,7 +4801,7 @@
       "fetchedAt": "2026-05-07T07:45:12.858492"
     },
     {
-      "id": "2026-04-14-0305",
+      "id": "2026-04-14-0321",
       "date": "2026-04-14",
       "reportDate": "2026-04-21",
       "title": "大西洋表层洋流体制转变——揭示AMOC经向翻转环流的阶梯式衰退",
@@ -4576,7 +4816,7 @@
       "fetchedAt": "2026-05-07T07:45:12.858571"
     },
     {
-      "id": "2026-04-14-0306",
+      "id": "2026-04-14-0322",
       "date": "2026-04-14",
       "reportDate": "2026-04-20",
       "title": "Springer Marine Systems：深度学习目标检测与图像增强在海洋视觉系统中的应用综述",
@@ -4591,7 +4831,7 @@
       "fetchedAt": "2026-05-07T07:45:41.937842"
     },
     {
-      "id": "2026-04-14-0307",
+      "id": "2026-04-14-0323",
       "date": "2026-04-14",
       "reportDate": "2026-04-17",
       "title": "Springer Ocean Dynamics：近岸有效波高深度学习降尺度预测——克服粗网格数值模型局限",
@@ -4606,7 +4846,7 @@
       "fetchedAt": "2026-05-07T07:46:47.305334"
     },
     {
-      "id": "2026-04-14-0308",
+      "id": "2026-04-14-0324",
       "date": "2026-04-14",
       "reportDate": "2026-04-17",
       "title": "EMODnet 2026年事件日历：多场海洋数据合作活动即将启动",
@@ -4621,7 +4861,7 @@
       "fetchedAt": "2026-05-07T07:47:13.393554"
     },
     {
-      "id": "2026-04-14-0309",
+      "id": "2026-04-14-0325",
       "date": "2026-04-14",
       "reportDate": "2026-04-15",
       "title": "E/V Nautilus 2026年新科学传播研究员公布——开放海洋探索教育资源",
@@ -4636,7 +4876,7 @@
       "fetchedAt": "2026-05-07T07:48:25.856922"
     },
     {
-      "id": "2026-04-13-0310",
+      "id": "2026-04-13-0326",
       "date": "2026-04-13",
       "reportDate": "2026-04-30",
       "title": "AI赋能NOAA全球温度数据集——NOAAGlobalTemp v6.1.0全面转型人工神经网络",
@@ -4651,7 +4891,7 @@
       "fetchedAt": "2026-05-07T12:12:56.865041"
     },
     {
-      "id": "2026-04-13-0311",
+      "id": "2026-04-13-0327",
       "date": "2026-04-13",
       "reportDate": "2026-04-30",
       "title": "OceanPredict：AI-TT Workshop——机器学习海洋预报国际研讨会蒙特利尔召开",
@@ -4666,7 +4906,7 @@
       "fetchedAt": "2026-05-07T12:12:57.848555"
     },
     {
-      "id": "2026-04-13-0312",
+      "id": "2026-04-13-0328",
       "date": "2026-04-13",
       "reportDate": "2026-04-30",
       "title": "海洋十年公民科学数据共享指南发布",
@@ -4681,7 +4921,7 @@
       "fetchedAt": "2026-05-07T07:43:35.139427"
     },
     {
-      "id": "2026-04-13-0313",
+      "id": "2026-04-13-0329",
       "date": "2026-04-13",
       "reportDate": "2026-04-30",
       "title": "Python多维数组处理库发布——zarr 3.0支持与性能优化",
@@ -4696,7 +4936,7 @@
       "fetchedAt": "2026-05-07T07:43:40.676338"
     },
     {
-      "id": "2026-04-13-0314",
+      "id": "2026-04-13-0330",
       "date": "2026-04-13",
       "reportDate": "2026-04-23",
       "title": "N维标注数组科学计算库新版本发布",
@@ -4711,7 +4951,7 @@
       "fetchedAt": "2026-05-07T07:45:00.553348"
     },
     {
-      "id": "2026-04-13-0315",
+      "id": "2026-04-13-0331",
       "date": "2026-04-13",
       "reportDate": "2026-04-22",
       "title": "最新版本发布——zarr 3.0支持与新数据树功能",
@@ -4726,7 +4966,7 @@
       "fetchedAt": "2026-05-07T07:45:03.412310"
     },
     {
-      "id": "2026-04-13-0316",
+      "id": "2026-04-13-0332",
       "date": "2026-04-13",
       "reportDate": "2026-04-20",
       "title": "OceanPredict AI-TT国际研讨会：机器学习用于海洋预报——方法、应用与挑战",
@@ -4741,7 +4981,7 @@
       "fetchedAt": "2026-05-07T07:45:40.515271"
     },
     {
-      "id": "2026-04-13-0317",
+      "id": "2026-04-13-0333",
       "date": "2026-04-13",
       "reportDate": "2026-04-19",
       "title": "Nature Geoscience：GOFLOW——静止卫星热成像深度学习框架，首次实现卫星级次中尺度海流观测",
@@ -4756,7 +4996,7 @@
       "fetchedAt": "2026-05-07T07:46:01.633383"
     },
     {
-      "id": "2026-04-13-0318",
+      "id": "2026-04-13-0334",
       "date": "2026-04-13",
       "reportDate": "2026-04-19",
       "title": "xarray 文档：v2026.04.0 维护稳定——海洋数据处理工具链近期持续活跃",
@@ -4771,7 +5011,7 @@
       "fetchedAt": "2026-05-07T07:46:38.059990"
     },
     {
-      "id": "2026-04-13-0319",
+      "id": "2026-04-13-0335",
       "date": "2026-04-13",
       "reportDate": "2026-04-18",
       "title": "Nature Geoscience：GOFLOW——地球静止卫星深度学习框架实现亚中尺度海表流场小时级观测",
@@ -4786,7 +5026,7 @@
       "fetchedAt": "2026-05-07T07:55:18.042215"
     },
     {
-      "id": "2026-04-12-0320",
+      "id": "2026-04-12-0336",
       "date": "2026-04-12",
       "reportDate": "2026-04-19",
       "title": "POGO官网：Ocean Training Partnership 2026船上培训项目开放申请",
@@ -4801,7 +5041,7 @@
       "fetchedAt": "2026-05-07T07:46:34.753905"
     },
     {
-      "id": "2026-04-12-0321",
+      "id": "2026-04-12-0337",
       "date": "2026-04-12",
       "reportDate": "2026-04-15",
       "title": "Thermal Science期刊：非线性海洋系统数据同化混合粒子滤波新方法",
@@ -4816,7 +5056,7 @@
       "fetchedAt": "2026-05-07T07:48:21.248516"
     },
     {
-      "id": "2026-04-11-0322",
+      "id": "2026-04-11-0338",
       "date": "2026-04-11",
       "reportDate": "2026-04-11",
       "title": "xarray-MHW（xrMHW）：基于 xarray+Dask 的高性能海洋热浪检测工具（2026年持续更新）",
@@ -4831,7 +5071,7 @@
       "fetchedAt": "2026-05-07T07:55:58.056252"
     },
     {
-      "id": "2026-04-10-0323",
+      "id": "2026-04-10-0339",
       "date": "2026-04-10",
       "reportDate": "2026-05-06",
       "title": "IODE/OBIS招募OBIS数据专家——推进Marco-Bolo项目海洋生物多样性数据协调",
@@ -4846,7 +5086,7 @@
       "fetchedAt": "2026-05-07T12:12:41.640638"
     },
     {
-      "id": "2026-04-10-0324",
+      "id": "2026-04-10-0340",
       "date": "2026-04-10",
       "reportDate": "2026-04-22",
       "title": "SeaDataNet（2026-04月）：欧洲海洋数据基础设施——元数据目录CDI与海洋数据库ODV接口优化",
@@ -4861,7 +5101,7 @@
       "fetchedAt": "2026-05-07T07:45:05.820928"
     },
     {
-      "id": "2026-04-10-0325",
+      "id": "2026-04-10-0341",
       "date": "2026-04-10",
       "reportDate": "2026-04-22",
       "title": "NOAA NCEI（2026-04月）：世界海洋图集2023（WOA23）补充更新——新增2022-2024气候时段数据",
@@ -4876,7 +5116,7 @@
       "fetchedAt": "2026-05-07T07:45:11.035816"
     },
     {
-      "id": "2026-04-10-0326",
+      "id": "2026-04-10-0342",
       "date": "2026-04-10",
       "reportDate": "2026-04-19",
       "title": "Ocean Virtual Laboratory（OVL）：ESA开放卫星与现场综合数据可视化平台",
@@ -4891,7 +5131,7 @@
       "fetchedAt": "2026-05-07T07:46:21.341183"
     },
     {
-      "id": "2026-04-10-0327",
+      "id": "2026-04-10-0343",
       "date": "2026-04-10",
       "reportDate": "2026-04-15",
       "title": "The Innovation Informatics: 数字海洋智能基础挑战与发展路径综述",
@@ -4906,7 +5146,7 @@
       "fetchedAt": "2026-05-07T07:48:11.502623"
     },
     {
-      "id": "2026-04-10-0328",
+      "id": "2026-04-10-0344",
       "date": "2026-04-10",
       "reportDate": "2026-04-14",
       "title": "CMEMS MyOcean Viewer更新——全球海洋数据交互可视化入口",
@@ -4921,7 +5161,7 @@
       "fetchedAt": "2026-05-07T07:48:48.490935"
     },
     {
-      "id": "2026-04-10-0329",
+      "id": "2026-04-10-0345",
       "date": "2026-04-10",
       "reportDate": "2026-04-14",
       "title": "GitHub:oceanTACO代码开源——支持SWOT/SST/SSS/Argo的云优化多传感器数据集生成",
@@ -4936,7 +5176,7 @@
       "fetchedAt": "2026-05-07T07:49:01.681823"
     },
     {
-      "id": "2026-04-10-0330",
+      "id": "2026-04-10-0346",
       "date": "2026-04-10",
       "reportDate": "2026-04-12",
       "title": "arXiv:2604.07301：OceanBench v2——海洋AI基准平台扩展至多变量时序预测与观测系统模拟",
@@ -4951,7 +5191,7 @@
       "fetchedAt": "2026-05-07T07:55:33.339962"
     },
     {
-      "id": "2026-04-10-0331",
+      "id": "2026-04-10-0347",
       "date": "2026-04-10",
       "reportDate": "2026-04-10",
       "title": "Digital Twin Ocean（DTO）：Mercator Ocean 近实时全球海洋数字孪生平台（持续运营）",
@@ -4966,7 +5206,7 @@
       "fetchedAt": "2026-05-07T07:55:59.071457"
     },
     {
-      "id": "2026-04-10-0332",
+      "id": "2026-04-10-0348",
       "date": "2026-04-10",
       "reportDate": "2026-04-08",
       "title": "CROCO GPU能力研讨会（4月10日）:沿海区域海洋模型GPU加速开发进展",
@@ -4981,7 +5221,7 @@
       "fetchedAt": "2026-05-07T07:50:06.480998"
     },
     {
-      "id": "2026-04-09-0333",
+      "id": "2026-04-09-0349",
       "date": "2026-04-09",
       "reportDate": "2026-05-25",
       "title": "NOAA世界海洋数据库（WOD）季度更新：2026年Q1新增数据可检索",
@@ -4996,7 +5236,7 @@
       "fetchedAt": "2026-05-25T02:56:04.607872"
     },
     {
-      "id": "2026-04-09-0334",
+      "id": "2026-04-09-0350",
       "date": "2026-04-09",
       "reportDate": "2026-04-27",
       "title": "ML大气强迫 vs. NWP大气强迫驱动海洋预报——首次系统性对比评估",
@@ -5011,7 +5251,7 @@
       "fetchedAt": "2026-05-07T07:43:41.872801"
     },
     {
-      "id": "2026-04-09-0335",
+      "id": "2026-04-09-0351",
       "date": "2026-04-09",
       "reportDate": "2026-04-17",
       "title": "GitHub ocean_python_tutorial：为海洋学家设计的Python入门与可复现研究一日教程",
@@ -5026,7 +5266,7 @@
       "fetchedAt": "2026-05-07T07:47:23.005153"
     },
     {
-      "id": "2026-04-09-0336",
+      "id": "2026-04-09-0352",
       "date": "2026-04-09",
       "reportDate": "2026-04-16",
       "title": "IOOS QARTOD实时质控旗标手册持续更新——ioos_qc Python库支撑标准化实施",
@@ -5041,7 +5281,7 @@
       "fetchedAt": "2026-05-07T07:47:51.589794"
     },
     {
-      "id": "2026-04-09-0337",
+      "id": "2026-04-09-0353",
       "date": "2026-04-09",
       "reportDate": "2026-04-16",
       "title": "NOAA Ship Discoverer新船建设进展——专为深海探索开放科学直播设计",
@@ -5056,7 +5296,7 @@
       "fetchedAt": "2026-05-07T07:48:02.797461"
     },
     {
-      "id": "2026-04-09-0338",
+      "id": "2026-04-09-0354",
       "date": "2026-04-09",
       "reportDate": "2026-04-15",
       "title": "arXiv:MARINER——海上开放水域细粒度感知与复杂推理3E驱动基准数据集",
@@ -5071,7 +5311,7 @@
       "fetchedAt": "2026-05-07T07:48:09.583946"
     },
     {
-      "id": "2026-04-09-0339",
+      "id": "2026-04-09-0355",
       "date": "2026-04-09",
       "reportDate": "2026-04-13",
       "title": "E/V Nautilus 2026年太平洋探险计划发布——马里亚纳、威克岛、夏威夷深海ROV探索",
@@ -5086,7 +5326,7 @@
       "fetchedAt": "2026-05-07T07:49:21.813475"
     },
     {
-      "id": "2026-04-09-0340",
+      "id": "2026-04-09-0356",
       "date": "2026-04-09",
       "reportDate": "2026-04-12",
       "title": "GitHub：OceanParcels/parcels v3.1.0——海洋粒子轨迹拉格朗日框架重大版本发布",
@@ -5101,7 +5341,7 @@
       "fetchedAt": "2026-05-07T07:55:44.529994"
     },
     {
-      "id": "2026-04-09-0341",
+      "id": "2026-04-09-0357",
       "date": "2026-04-09",
       "reportDate": "2026-04-10",
       "title": "arXiv:2604.07137：多分支变分自编码器探索热带太平洋耦合变率潜在空间",
@@ -5116,7 +5356,7 @@
       "fetchedAt": "2026-05-07T07:56:00.519867"
     },
     {
-      "id": "2026-04-08-0342",
+      "id": "2026-04-08-0358",
       "date": "2026-04-08",
       "reportDate": "2026-04-30",
       "title": "德国海平面时间序列回溯至1990年代并统一基准",
@@ -5131,7 +5371,7 @@
       "fetchedAt": "2026-05-07T12:13:05.628361"
     },
     {
-      "id": "2026-04-08-0343",
+      "id": "2026-04-08-0359",
       "date": "2026-04-08",
       "reportDate": "2026-04-23",
       "title": "神经网络海洋闭合参数化——基于EKI的涡旋参数调优校准",
@@ -5146,7 +5386,7 @@
       "fetchedAt": "2026-05-07T07:44:41.043899"
     },
     {
-      "id": "2026-04-08-0344",
+      "id": "2026-04-08-0360",
       "date": "2026-04-08",
       "reportDate": "2026-04-16",
       "title": "Euro-Argo ERIC报道第二届BGC-Argo DMQC研讨会——60位专家能力建设",
@@ -5161,7 +5401,7 @@
       "fetchedAt": "2026-05-07T07:47:51.126869"
     },
     {
-      "id": "2026-04-08-0345",
+      "id": "2026-04-08-0361",
       "date": "2026-04-08",
       "reportDate": "2026-04-15",
       "title": "Argo韩国国家报告（AST27）——BGC-Argo数据质控成就与挑战汇报",
@@ -5176,7 +5416,7 @@
       "fetchedAt": "2026-05-07T07:48:17.214711"
     },
     {
-      "id": "2026-04-08-0346",
+      "id": "2026-04-08-0362",
       "date": "2026-04-08",
       "reportDate": "2026-04-15",
       "title": "cioos-siooc/ocean-data-parser：Python海洋数据格式解析库——多源专有格式转xarray",
@@ -5191,7 +5431,7 @@
       "fetchedAt": "2026-05-07T07:48:28.043557"
     },
     {
-      "id": "2026-04-08-0347",
+      "id": "2026-04-08-0363",
       "date": "2026-04-08",
       "reportDate": "2026-04-14",
       "title": "Mercator Ocean本周宣布支持PIRATA预测计划启航——强化全球海洋实时预报",
@@ -5206,7 +5446,7 @@
       "fetchedAt": "2026-05-07T07:48:41.840620"
     },
     {
-      "id": "2026-04-08-0348",
+      "id": "2026-04-08-0364",
       "date": "2026-04-08",
       "reportDate": "2026-04-14",
       "title": "IAPS OECS发布R/V Thomas G. Thompson研究船航次参与机会",
@@ -5221,7 +5461,7 @@
       "fetchedAt": "2026-05-07T07:48:58.618550"
     },
     {
-      "id": "2026-04-08-0349",
+      "id": "2026-04-08-0365",
       "date": "2026-04-08",
       "reportDate": "2026-04-11",
       "title": "arXiv:2604.06567：PMP框架评估深度学习地球系统模型ACE2与NeuralGCM气候模拟能力",
@@ -5236,7 +5476,7 @@
       "fetchedAt": "2026-05-07T07:55:44.864510"
     },
     {
-      "id": "2026-04-08-0350",
+      "id": "2026-04-08-0366",
       "date": "2026-04-08",
       "reportDate": "2026-04-10",
       "title": "arXiv:2604.07129：AegirJAX——端到端可微分海岸水动力学求解器嵌套框架",
@@ -5251,7 +5491,7 @@
       "fetchedAt": "2026-05-07T07:55:58.423252"
     },
     {
-      "id": "2026-04-08-0351",
+      "id": "2026-04-08-0367",
       "date": "2026-04-08",
       "reportDate": "2026-04-08",
       "title": "DITTO 2026国际峰会公告:11月横滨湾举行，聚焦互操作与假设情景分析",
@@ -5266,7 +5506,7 @@
       "fetchedAt": "2026-05-07T07:49:44.256547"
     },
     {
-      "id": "2026-04-08-0352",
+      "id": "2026-04-08-0368",
       "date": "2026-04-08",
       "reportDate": "2026-04-08",
       "title": "UNESCO公民科学数据共享指南（2026年2月）:推动公民观测数据质量与互操作",
@@ -5281,7 +5521,7 @@
       "fetchedAt": "2026-05-07T07:49:53.544605"
     },
     {
-      "id": "2026-04-07-0353",
+      "id": "2026-04-07-0369",
       "date": "2026-04-07",
       "reportDate": "2026-04-16",
       "title": "PANGAEA Data Warehouse Beta——Python/R+Jupyter Notebook编程接口批量数据检索",
@@ -5296,7 +5536,7 @@
       "fetchedAt": "2026-05-07T07:48:07.284903"
     },
     {
-      "id": "2026-04-06-0354",
+      "id": "2026-04-06-0370",
       "date": "2026-04-06",
       "reportDate": "2026-04-17",
       "title": "NF-POGO 2026年船上培训奖学金开放申请",
@@ -5311,7 +5551,7 @@
       "fetchedAt": "2026-05-07T07:47:14.127940"
     },
     {
-      "id": "2026-04-06-0355",
+      "id": "2026-04-06-0371",
       "date": "2026-04-06",
       "reportDate": "2026-04-16",
       "title": "夏威夷海洋时间序列（HOT）SS-1航次近日完成——长期开放监测持续",
@@ -5326,7 +5566,7 @@
       "fetchedAt": "2026-05-07T07:48:02.547347"
     },
     {
-      "id": "2026-04-06-0356",
+      "id": "2026-04-06-0372",
       "date": "2026-04-06",
       "reportDate": "2026-04-14",
       "title": "Communications Earth & Environ.:BGC-Argo浮标揭示深海氮碳循环动态",
@@ -5341,7 +5581,7 @@
       "fetchedAt": "2026-05-07T07:48:38.958868"
     },
     {
-      "id": "2026-04-06-0357",
+      "id": "2026-04-06-0373",
       "date": "2026-04-06",
       "reportDate": "2026-04-13",
       "title": "Communications Earth & Environ.:BGC-Argo浮标揭示东热带北太平洋ODZ氮碳循环动态",
@@ -5356,7 +5596,7 @@
       "fetchedAt": "2026-05-07T07:49:17.604725"
     },
     {
-      "id": "2026-04-06-0358",
+      "id": "2026-04-06-0374",
       "date": "2026-04-06",
       "reportDate": "2026-04-07",
       "title": "Copernicus Marine Toolbox持续更新:CLI与Python API双模式海洋数据访问",
@@ -5371,7 +5611,7 @@
       "fetchedAt": "2026-05-07T07:50:29.833697"
     },
     {
-      "id": "2026-04-06-0359",
+      "id": "2026-04-06-0375",
       "date": "2026-04-06",
       "reportDate": "2026-04-06",
       "title": "OceanTeacher Global Academy SP_ODM2026：IOC海洋数据管理培训课程正式上线",
@@ -5386,7 +5626,7 @@
       "fetchedAt": "2026-05-07T07:56:19.357585"
     },
     {
-      "id": "2026-04-06-0360",
+      "id": "2026-04-06-0376",
       "date": "2026-04-06",
       "reportDate": "2026-04-06",
       "title": "Ocean MCP：AI助手访问海洋科学数据的 MCP 服务器工具集",
@@ -5401,7 +5641,7 @@
       "fetchedAt": "2026-05-07T07:56:24.156898"
     },
     {
-      "id": "2026-04-04-0361",
+      "id": "2026-04-04-0377",
       "date": "2026-04-04",
       "reportDate": "2026-04-10",
       "title": "Schmidt Ocean Institute SUBSEA Part 1 科考完成：南大西洋亚热带环流生物地球化学研究",
@@ -5416,7 +5656,7 @@
       "fetchedAt": "2026-05-07T07:56:05.296129"
     },
     {
-      "id": "2026-04-04-0362",
+      "id": "2026-04-04-0378",
       "date": "2026-04-04",
       "reportDate": "2026-04-09",
       "title": "NOAA IOOS 4月简报:太平洋西北低成本溶氧传感器部署——实时数据向渔业开放",
@@ -5431,7 +5671,7 @@
       "fetchedAt": "2026-05-07T07:49:34.969363"
     },
     {
-      "id": "2026-04-04-0363",
+      "id": "2026-04-04-0379",
       "date": "2026-04-04",
       "reportDate": "2026-04-09",
       "title": "OceanographyWithPython:海洋数据分析Python开源教程仓库持续更新",
@@ -5446,7 +5686,7 @@
       "fetchedAt": "2026-05-07T07:49:37.286270"
     },
     {
-      "id": "2026-04-03-0364",
+      "id": "2026-04-03-0380",
       "date": "2026-04-03",
       "reportDate": "2026-04-09",
       "title": "arXiv:扩散概率模型从稀疏海面数据高分辨率重建三维海洋状态",
@@ -5461,7 +5701,7 @@
       "fetchedAt": "2026-05-07T07:49:24.312163"
     },
     {
-      "id": "2026-04-03-0365",
+      "id": "2026-04-03-0381",
       "date": "2026-04-03",
       "reportDate": "2026-04-06",
       "title": "Nature Scientific Reports：生成式稳定扩散增强提升深海稀有物种检测精度",
@@ -5476,7 +5716,7 @@
       "fetchedAt": "2026-05-07T07:56:12.832789"
     },
     {
-      "id": "2026-04-02-0366",
+      "id": "2026-04-02-0382",
       "date": "2026-04-02",
       "reportDate": "2026-05-18",
       "title": "Gribstream：ECMWF IFS 50r1/AIFS v2用户迁移指南——GRIB2流参数变更说明",
@@ -5491,7 +5731,7 @@
       "fetchedAt": "2026-05-18T02:50:26.007014"
     },
     {
-      "id": "2026-04-02-0367",
+      "id": "2026-04-02-0383",
       "date": "2026-04-02",
       "reportDate": "2026-04-08",
       "title": "Ocean Observatories Initiative(OOI):900+仪器实时数据流持续开放访问",
@@ -5506,7 +5746,7 @@
       "fetchedAt": "2026-05-07T07:50:07.204643"
     },
     {
-      "id": "2026-04-02-0368",
+      "id": "2026-04-02-0384",
       "date": "2026-04-02",
       "reportDate": "2026-04-07",
       "title": "Springer Blue Biotechnology综述:AI技术赋能可持续海洋资源管理",
@@ -5521,7 +5761,7 @@
       "fetchedAt": "2026-05-07T07:50:08.662255"
     },
     {
-      "id": "2026-04-02-0369",
+      "id": "2026-04-02-0385",
       "date": "2026-04-02",
       "reportDate": "2026-04-07",
       "title": "Ocean Aero环境动力无人艇:世界首艘AUSV推动海洋自主观测",
@@ -5536,7 +5776,7 @@
       "fetchedAt": "2026-05-07T07:50:09.540840"
     },
     {
-      "id": "2026-04-02-0370",
+      "id": "2026-04-02-0386",
       "date": "2026-04-02",
       "reportDate": "2026-04-07",
       "title": "Posidonia 2026:海事AI技术将集中亮相全球航运盛会",
@@ -5551,7 +5791,7 @@
       "fetchedAt": "2026-05-07T07:50:09.926643"
     },
     {
-      "id": "2026-04-02-0371",
+      "id": "2026-04-02-0387",
       "date": "2026-04-02",
       "reportDate": "2026-04-07",
       "title": "MAGICA暑期学校:沿海海洋数据开放科学分析与可视化实践（4月20-24日）",
@@ -5566,7 +5806,7 @@
       "fetchedAt": "2026-05-07T07:50:09.926910"
     },
     {
-      "id": "2026-04-02-0372",
+      "id": "2026-04-02-0388",
       "date": "2026-04-02",
       "reportDate": "2026-04-02",
       "title": "JOSS开源框架:海洋学数据质量控制通用框架",
@@ -5581,7 +5821,7 @@
       "fetchedAt": "2026-05-07T07:50:43.958508"
     },
     {
-      "id": "2026-04-02-0373",
+      "id": "2026-04-02-0389",
       "date": "2026-04-02",
       "reportDate": "2026-04-02",
       "title": "OceanHackWeek MHW项目:基于Xarray+Dask的多维海洋热浪检测器",
@@ -5596,7 +5836,7 @@
       "fetchedAt": "2026-05-07T07:50:54.795575"
     },
     {
-      "id": "2026-04-01-0374",
+      "id": "2026-04-01-0390",
       "date": "2026-04-01",
       "reportDate": "2026-05-25",
       "title": "Destination Earth Analysis平台（DEA）：无代码海洋数据故事创作工具",
@@ -5611,7 +5851,7 @@
       "fetchedAt": "2026-05-25T02:56:04.095970"
     },
     {
-      "id": "2026-04-01-0375",
+      "id": "2026-04-01-0391",
       "date": "2026-04-01",
       "reportDate": "2026-04-22",
       "title": "arXiv（2026-04月）：基于数字孪生的自主船只分布外检测——海事安全智能保障新方案",
@@ -5626,7 +5866,7 @@
       "fetchedAt": "2026-05-07T07:45:02.234689"
     },
     {
-      "id": "2026-04-01-0376",
+      "id": "2026-04-01-0392",
       "date": "2026-04-01",
       "reportDate": "2026-04-22",
       "title": "arXiv（2026-04月）：深海观测AI交互平台Sensorium Arc——实时海洋数据驱动的生态艺术装置",
@@ -5641,7 +5881,7 @@
       "fetchedAt": "2026-05-07T07:45:03.129426"
     },
     {
-      "id": "2026-04-01-0377",
+      "id": "2026-04-01-0393",
       "date": "2026-04-01",
       "reportDate": "2026-04-09",
       "title": "Nature Scientific Reports:YOLOv12融合CNN与Transformer编码器实现珊瑚形态自动检测",
@@ -5656,7 +5896,7 @@
       "fetchedAt": "2026-05-07T07:49:27.720496"
     },
     {
-      "id": "2026-04-01-0378",
+      "id": "2026-04-01-0394",
       "date": "2026-04-01",
       "reportDate": "2026-04-07",
       "title": "Ocean Connect Asia 2026:自主系统与海洋数据技术区域会议",
@@ -5671,7 +5911,7 @@
       "fetchedAt": "2026-05-07T07:50:18.117597"
     },
     {
-      "id": "2026-04-01-0379",
+      "id": "2026-04-01-0395",
       "date": "2026-04-01",
       "reportDate": "2026-04-01",
       "title": "海洋知圈：中国\"瞰海\"大模型首批行业落地应用场景发布",
@@ -5686,7 +5926,7 @@
       "fetchedAt": "2026-05-07T07:56:25.272553"
     },
     {
-      "id": "2026-03-31-0380",
+      "id": "2026-03-31-0396",
       "date": "2026-03-31",
       "reportDate": "2026-04-30",
       "title": "EMODnet参与欧洲海洋日活动——OceanEye欧洲海洋监测倡议发布",
@@ -5701,7 +5941,7 @@
       "fetchedAt": "2026-05-07T12:13:08.781680"
     },
     {
-      "id": "2026-03-31-0381",
+      "id": "2026-03-31-0397",
       "date": "2026-03-31",
       "reportDate": "2026-04-22",
       "title": "ACE2-NEMO（arXiv 2603.28704）：ML大气模拟器与全深度动力海洋模型全耦合——首个完整ML-物理耦合系统",
@@ -5716,7 +5956,7 @@
       "fetchedAt": "2026-05-07T07:45:03.412231"
     },
     {
-      "id": "2026-03-31-0382",
+      "id": "2026-03-31-0398",
       "date": "2026-03-31",
       "reportDate": "2026-04-07",
       "title": "Global Fishing Watch更新:海洋透明度可视化数据持续扩充",
@@ -5731,7 +5971,7 @@
       "fetchedAt": "2026-05-07T07:50:10.214345"
     },
     {
-      "id": "2026-03-31-0383",
+      "id": "2026-03-31-0399",
       "date": "2026-03-31",
       "reportDate": "2026-03-31",
       "title": "[活跃] OceanDataTools/openrvdas：科考船实时数据采集开源系统",
@@ -5746,7 +5986,7 @@
       "fetchedAt": "2026-05-07T07:51:41.128755"
     },
     {
-      "id": "2026-03-30-0384",
+      "id": "2026-03-30-0400",
       "date": "2026-03-30",
       "reportDate": "2026-03-30",
       "title": "Mercator Ocean:EDITO 平台持续对外开放，汇聚欧洲海洋数据资产与数字孪生工具",
@@ -5761,7 +6001,7 @@
       "fetchedAt": "2026-05-07T07:51:47.058876"
     },
     {
-      "id": "2026-03-30-0385",
+      "id": "2026-03-30-0401",
       "date": "2026-03-30",
       "reportDate": "2026-03-30",
       "title": "One Ocean Expedition 2025-2026:挪威深海考察船环球航行",
@@ -5776,7 +6016,7 @@
       "fetchedAt": "2026-05-07T07:51:53.016685"
     },
     {
-      "id": "2026-03-30-0386",
+      "id": "2026-03-30-0402",
       "date": "2026-03-30",
       "reportDate": "2026-03-30",
       "title": "Cartopy海洋地图绘制:基于matplotlib的地理数据处理",
@@ -5791,7 +6031,7 @@
       "fetchedAt": "2026-05-07T07:52:04.241196"
     },
     {
-      "id": "2026-03-30-0387",
+      "id": "2026-03-30-0403",
       "date": "2026-03-30",
       "reportDate": "2026-03-30",
       "title": "Ocean Toolbox:Python海洋科学工具集",
@@ -5806,7 +6046,7 @@
       "fetchedAt": "2026-05-07T07:52:04.241363"
     },
     {
-      "id": "2026-03-29-0388",
+      "id": "2026-03-29-0404",
       "date": "2026-03-29",
       "reportDate": "2026-03-29",
       "title": "NOAA NCEI Argo 全球数据仓库：美国国家环境信息中心海洋档案",
@@ -5821,7 +6061,7 @@
       "fetchedAt": "2026-05-07T07:52:14.078735"
     },
     {
-      "id": "2026-03-29-0389",
+      "id": "2026-03-29-0405",
       "date": "2026-03-29",
       "reportDate": "2026-03-29",
       "title": "Euro-Argo ERIC：欧洲 Argo 数据系统——观测后数小时内免费公开数据",
@@ -5836,7 +6076,7 @@
       "fetchedAt": "2026-05-07T07:52:14.777718"
     },
     {
-      "id": "2026-03-29-0390",
+      "id": "2026-03-29-0406",
       "date": "2026-03-29",
       "reportDate": "2026-03-29",
       "title": "LibHunt 海洋学开源项目 Top 榜：iris、VIAME、PlanktoScope、clouddrift 等工具汇总",
@@ -5851,7 +6091,7 @@
       "fetchedAt": "2026-05-07T07:52:15.185330"
     },
     {
-      "id": "2026-03-28-0391",
+      "id": "2026-03-28-0407",
       "date": "2026-03-28",
       "reportDate": "2026-04-02",
       "title": "Global Fishing Watch 2026研究路线图:AI与卫星驱动海洋透明度",
@@ -5866,7 +6106,7 @@
       "fetchedAt": "2026-05-07T07:50:44.539208"
     },
     {
-      "id": "2026-03-28-0392",
+      "id": "2026-03-28-0408",
       "date": "2026-03-28",
       "reportDate": "2026-03-28",
       "title": "Frontiers in Marine Science：深度学习近岸海表温度预测（2026年3月）",
@@ -5881,7 +6121,7 @@
       "fetchedAt": "2026-05-07T07:52:17.758946"
     },
     {
-      "id": "2026-03-27-0393",
+      "id": "2026-03-27-0409",
       "date": "2026-03-27",
       "reportDate": "2026-04-22",
       "title": "arXiv（2026-03月）：SWOT观测深度学习增强——细尺度海洋动力学高质量数据产品生成",
@@ -5896,7 +6136,7 @@
       "fetchedAt": "2026-05-07T07:45:03.411742"
     },
     {
-      "id": "2026-03-27-0394",
+      "id": "2026-03-27-0410",
       "date": "2026-03-27",
       "reportDate": "2026-04-17",
       "title": "Frontiers in Marine Science：近岸海表温度深度学习预测——克服数值模型分辨率局限的新方法",
@@ -5911,7 +6151,7 @@
       "fetchedAt": "2026-05-07T07:47:10.466853"
     },
     {
-      "id": "2026-03-27-0395",
+      "id": "2026-03-27-0411",
       "date": "2026-03-27",
       "reportDate": "2026-04-13",
       "title": "PyPI:Python oceans包更新——海洋科学辅助函数库持续维护",
@@ -5926,7 +6166,7 @@
       "fetchedAt": "2026-05-07T07:49:23.801775"
     },
     {
-      "id": "2026-03-27-0396",
+      "id": "2026-03-27-0412",
       "date": "2026-03-27",
       "reportDate": "2026-03-27",
       "title": "HKUST WavyOcean 2.0：香港科技大学发布下一代三维沉浸式海洋数字孪生平台",
@@ -5941,7 +6181,7 @@
       "fetchedAt": "2026-05-07T07:52:36.745404"
     },
     {
-      "id": "2026-03-27-0397",
+      "id": "2026-03-27-0413",
       "date": "2026-03-27",
       "reportDate": "2026-03-27",
       "title": "NOAA OceanReports：面向美国 EEZ 的综合海洋空间数据评估工具",
@@ -5956,7 +6196,7 @@
       "fetchedAt": "2026-05-07T07:52:40.669908"
     },
     {
-      "id": "2026-03-27-0398",
+      "id": "2026-03-27-0414",
       "date": "2026-03-27",
       "reportDate": "2026-03-27",
       "title": "Cape Cod OceanWatch：近实时沿岸海洋条件交互地图仪表板",
@@ -5971,7 +6211,7 @@
       "fetchedAt": "2026-05-07T07:52:40.945401"
     },
     {
-      "id": "2026-03-27-0399",
+      "id": "2026-03-27-0415",
       "date": "2026-03-27",
       "reportDate": "2026-03-27",
       "title": "CloudDrift：专为 Argo 和漂流浮标拉格朗日数据设计的 Python 分析工具包",
@@ -5986,7 +6226,7 @@
       "fetchedAt": "2026-05-07T07:52:57.689234"
     },
     {
-      "id": "2026-03-27-0400",
+      "id": "2026-03-27-0416",
       "date": "2026-03-27",
       "reportDate": "2026-03-27",
       "title": "QARTOD GitHub 开源实现：实时海洋质控算法 Python 代码库（physoce/qartod）",
@@ -6001,7 +6241,7 @@
       "fetchedAt": "2026-05-07T07:52:57.768662"
     },
     {
-      "id": "2026-03-26-0401",
+      "id": "2026-03-26-0417",
       "date": "2026-03-26",
       "reportDate": "2026-03-30",
       "title": "World Ocean Observatory可视化剧场:4天前更新，现代化海洋数据可视化展示",
@@ -6016,7 +6256,7 @@
       "fetchedAt": "2026-05-07T07:51:48.754747"
     },
     {
-      "id": "2026-03-26-0402",
+      "id": "2026-03-26-0418",
       "date": "2026-03-26",
       "reportDate": "2026-03-26",
       "title": "EGU26 OS2.4/OS2.5 议题：海岸韧性与海洋观测系统——联合国海洋十年框架下的航次与观测",
@@ -6031,7 +6271,7 @@
       "fetchedAt": "2026-05-07T07:53:18.501709"
     },
     {
-      "id": "2026-03-26-0403",
+      "id": "2026-03-26-0419",
       "date": "2026-03-26",
       "reportDate": "2026-03-26",
       "title": "China Argo 实时数据中心：中国自主北斗Argo浮标数据服务",
@@ -6046,7 +6286,7 @@
       "fetchedAt": "2026-05-07T07:53:21.840779"
     },
     {
-      "id": "2026-03-26-0404",
+      "id": "2026-03-26-0420",
       "date": "2026-03-26",
       "reportDate": "2026-03-26",
       "title": "xarray-EOPF：ESA EOPF Zarr 格式 xarray 后端——哨兵卫星数据云端分析新接口",
@@ -6061,7 +6301,7 @@
       "fetchedAt": "2026-05-07T07:53:23.785408"
     },
     {
-      "id": "2026-03-25-0405",
+      "id": "2026-03-25-0421",
       "date": "2026-03-25",
       "reportDate": "2026-04-19",
       "title": "Frontiers in Marine Science：物理增强SST深度学习预测——知识引导模型克服纯数据驱动的外推局限",
@@ -6076,7 +6316,7 @@
       "fetchedAt": "2026-05-07T07:46:30.979512"
     },
     {
-      "id": "2026-03-25-0406",
+      "id": "2026-03-25-0422",
       "date": "2026-03-25",
       "reportDate": "2026-03-30",
       "title": "IOC 海洋数据信息管理战略计划（2023-2029）：OceanBestPractices 5天前更新",
@@ -6091,7 +6331,7 @@
       "fetchedAt": "2026-05-07T07:56:37.131252"
     },
     {
-      "id": "2026-03-25-0407",
+      "id": "2026-03-25-0423",
       "date": "2026-03-25",
       "reportDate": "2026-03-29",
       "title": "Argo GDAC AWS 开放数据集：2天前更新，覆盖全球浮标数据与元数据",
@@ -6106,7 +6346,7 @@
       "fetchedAt": "2026-05-07T07:52:13.725025"
     },
     {
-      "id": "2026-03-25-0408",
+      "id": "2026-03-25-0424",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "Fish and Fisheries：AI应用于海洋生态系统的透明度、安全性与验证实用指南",
@@ -6121,7 +6361,7 @@
       "fetchedAt": "2026-05-07T07:53:30.443244"
     },
     {
-      "id": "2026-03-25-0409",
+      "id": "2026-03-25-0425",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "EDITO North：波罗的海与北海区域数字孪生申请EU Horizon 2026资助",
@@ -6136,7 +6376,7 @@
       "fetchedAt": "2026-05-07T07:53:34.087331"
     },
     {
-      "id": "2026-03-25-0410",
+      "id": "2026-03-25-0426",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "计算机系统应用：基于深度学习的海洋中尺度涡旋检测与可视化",
@@ -6151,7 +6391,7 @@
       "fetchedAt": "2026-05-07T07:53:36.909071"
     },
     {
-      "id": "2026-03-25-0411",
+      "id": "2026-03-25-0427",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "GitHub awesome-sustainable-technology：leaflet-velocity 等海洋流场可视化工具集持续更新",
@@ -6166,7 +6406,7 @@
       "fetchedAt": "2026-05-07T07:53:37.037921"
     },
     {
-      "id": "2026-03-25-0412",
+      "id": "2026-03-25-0428",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "NOAA World Ocean Database (WOD)：最大公开历史次表层海洋数据库持续更新",
@@ -6181,7 +6421,7 @@
       "fetchedAt": "2026-05-07T07:53:50.165580"
     },
     {
-      "id": "2026-03-25-0413",
+      "id": "2026-03-25-0429",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "Pangeo Oceanography：大规模开放海洋数据分析云平台持续迭代",
@@ -6196,7 +6436,7 @@
       "fetchedAt": "2026-05-07T07:53:53.055376"
     },
     {
-      "id": "2026-03-25-0414",
+      "id": "2026-03-25-0430",
       "date": "2026-03-25",
       "reportDate": "2026-03-25",
       "title": "CF Conventions v1.12 发布：海洋气候模型元数据标准重要升级",
@@ -6211,7 +6451,7 @@
       "fetchedAt": "2026-05-07T07:53:54.499003"
     },
     {
-      "id": "2026-03-24-0415",
+      "id": "2026-03-24-0431",
       "date": "2026-03-24",
       "reportDate": "2026-04-22",
       "title": "arXiv（2026-03月）：深渊物理信息神经网络——深海数据同化分层策略与深层质量控制",
@@ -6226,7 +6466,7 @@
       "fetchedAt": "2026-05-07T07:45:03.411862"
     },
     {
-      "id": "2026-03-24-0416",
+      "id": "2026-03-24-0432",
       "date": "2026-03-24",
       "reportDate": "2026-03-24",
       "title": "SeaDataNet 数据质量控制标准：欧洲海洋数据互操作性与质量体系",
@@ -6241,7 +6481,7 @@
       "fetchedAt": "2026-05-07T07:54:06.099563"
     },
     {
-      "id": "2026-03-24-0417",
+      "id": "2026-03-24-0433",
       "date": "2026-03-24",
       "reportDate": "2026-03-24",
       "title": "Scientific Reports：基于图神经网络的深度学习实现精确地中海预报",
@@ -6256,7 +6496,7 @@
       "fetchedAt": "2026-05-07T07:54:08.969121"
     },
     {
-      "id": "2026-03-24-0418",
+      "id": "2026-03-24-0434",
       "date": "2026-03-24",
       "reportDate": "2026-03-24",
       "title": "Copernicus R 包 CopernicusMarine 更新：云端 R 和 Python 直接访问海洋数据",
@@ -6271,7 +6511,7 @@
       "fetchedAt": "2026-05-07T07:54:10.996112"
     },
     {
-      "id": "2026-03-24-0419",
+      "id": "2026-03-24-0435",
       "date": "2026-03-24",
       "reportDate": "2026-03-24",
       "title": "Copernicus Marine 发布浮游马尾藻业务化监测产品：全球海洋数据服务新岭",
@@ -6286,7 +6526,7 @@
       "fetchedAt": "2026-05-07T07:54:17.526813"
     },
     {
-      "id": "2026-03-24-0420",
+      "id": "2026-03-24-0436",
       "date": "2026-03-24",
       "reportDate": "2026-03-24",
       "title": "Ocean-Data-Tools (ODT) v2.1：开源 MATLAB/Python 海洋数据处理工具包",
@@ -6301,7 +6541,7 @@
       "fetchedAt": "2026-05-07T07:54:27.131699"
     },
     {
-      "id": "2026-03-23-0421",
+      "id": "2026-03-23-0437",
       "date": "2026-03-23",
       "reportDate": "2026-04-16",
       "title": "arXiv: FuXi-ONS——首个机器学习全球海洋集合预报系统，预报期达365天",
@@ -6316,7 +6556,7 @@
       "fetchedAt": "2026-05-07T07:47:26.360080"
     },
     {
-      "id": "2026-03-23-0422",
+      "id": "2026-03-23-0438",
       "date": "2026-03-23",
       "reportDate": "2026-03-29",
       "title": "Copernicus Marine Service（CMEMS）：4天前持续更新，全球海洋数据产品服务",
@@ -6331,7 +6571,7 @@
       "fetchedAt": "2026-05-07T07:52:07.017092"
     },
     {
-      "id": "2026-03-23-0423",
+      "id": "2026-03-23-0439",
       "date": "2026-03-23",
       "reportDate": "2026-03-27",
       "title": "IODE 国际海洋数据信息交换：全球100+国家海洋数据中心网络（4天前更新）",
@@ -6346,7 +6586,7 @@
       "fetchedAt": "2026-05-07T07:52:47.300809"
     },
     {
-      "id": "2026-03-22-0424",
+      "id": "2026-03-22-0440",
       "date": "2026-03-22",
       "reportDate": "2026-04-07",
       "title": "Open Waters平台发布:开源海洋软件与数据导航门户",
@@ -6361,7 +6601,7 @@
       "fetchedAt": "2026-05-07T07:50:14.378724"
     },
     {
-      "id": "2026-03-21-0425",
+      "id": "2026-03-21-0441",
       "date": "2026-03-21",
       "reportDate": "2026-04-22",
       "title": "PIER（arXiv 2603.17319）：物理信息离线强化学习海事路由优化——燃油浪费削减AI工具",
@@ -6376,7 +6616,7 @@
       "fetchedAt": "2026-05-07T07:45:12.655507"
     },
     {
-      "id": "2026-03-21-0426",
+      "id": "2026-03-21-0442",
       "date": "2026-03-21",
       "reportDate": "2026-03-26",
       "title": "AI海洋数据同化论文资源库 GitHub 持续更新：收录最新研究成果",
@@ -6391,7 +6631,7 @@
       "fetchedAt": "2026-05-07T07:53:03.319555"
     },
     {
-      "id": "2026-03-21-0427",
+      "id": "2026-03-21-0443",
       "date": "2026-03-21",
       "reportDate": "2026-03-26",
       "title": "AI数据同化论文 GitHub 资源库：5天前更新，紧跟最新研究进展",
@@ -6406,7 +6646,7 @@
       "fetchedAt": "2026-05-07T07:53:23.785611"
     },
     {
-      "id": "2026-03-21-0428",
+      "id": "2026-03-21-0444",
       "date": "2026-03-21",
       "reportDate": "2026-03-24",
       "title": "EGU26会议专题：海洋数字孪生支撑可持续蓝色经济（抄要发布）",
@@ -6421,7 +6661,7 @@
       "fetchedAt": "2026-05-07T07:53:59.879466"
     },
     {
-      "id": "2026-03-20-0429",
+      "id": "2026-03-20-0445",
       "date": "2026-03-20",
       "reportDate": "2026-04-07",
       "title": "WMO发布全球海洋监测最新简报:海表温度偏高持续",
@@ -6436,7 +6676,7 @@
       "fetchedAt": "2026-05-07T07:50:29.833321"
     },
     {
-      "id": "2026-03-20-0430",
+      "id": "2026-03-20-0446",
       "date": "2026-03-20",
       "reportDate": "2026-03-31",
       "title": "《海洋预报》发布专刊征稿：人工智能与海洋预警报交叉创新研究",
@@ -6451,7 +6691,7 @@
       "fetchedAt": "2026-05-07T07:50:58.045536"
     },
     {
-      "id": "2026-03-20-0431",
+      "id": "2026-03-20-0447",
       "date": "2026-03-20",
       "reportDate": "2026-03-26",
       "title": "EGU25 EDITO 进展报告：欧洲数字孪生海洋的新发展与互补性分析",
@@ -6466,7 +6706,7 @@
       "fetchedAt": "2026-05-07T07:53:06.847309"
     },
     {
-      "id": "2026-03-19-0432",
+      "id": "2026-03-19-0448",
       "date": "2026-03-19",
       "reportDate": "2026-03-24",
       "title": "CMEMS 海洋气候门户持续更新：全球海洋关键指标可视化开放访问",
@@ -6481,7 +6721,7 @@
       "fetchedAt": "2026-05-07T07:54:24.197135"
     },
     {
-      "id": "2026-03-17-0433",
+      "id": "2026-03-17-0449",
       "date": "2026-03-17",
       "reportDate": "2026-05-09",
       "title": "HyperInSPACE社区处理器HyperCP v1.2.15发布——引入全面不确定性预算系统",
@@ -6496,7 +6736,7 @@
       "fetchedAt": "2026-05-09T02:02:30.104525"
     },
     {
-      "id": "2026-03-16-0434",
+      "id": "2026-03-16-0450",
       "date": "2026-03-16",
       "reportDate": "2026-04-22",
       "title": "FloeNet（arXiv 2603.12449）：质量守恒全球海冰仿真器——跨气候场景泛化的神经网络",
@@ -6511,7 +6751,7 @@
       "fetchedAt": "2026-05-07T07:45:03.412425"
     },
     {
-      "id": "2026-03-14-0435",
+      "id": "2026-03-14-0451",
       "date": "2026-03-14",
       "reportDate": "2026-04-22",
       "title": "arXiv（2026-03月）：神经网络海洋颜色测绘——缺口卫星数据的无监督自学习方案",
@@ -6526,7 +6766,7 @@
       "fetchedAt": "2026-05-07T07:45:03.411979"
     },
     {
-      "id": "2026-03-12-0436",
+      "id": "2026-03-12-0452",
       "date": "2026-03-12",
       "reportDate": "2026-04-16",
       "title": "NECCTON Ocean Viewer正式上线——下一代海洋生态系统交互可视化平台开放获取",
@@ -6541,7 +6781,7 @@
       "fetchedAt": "2026-05-07T07:47:48.832050"
     },
     {
-      "id": "2026-03-07-0437",
+      "id": "2026-03-07-0453",
       "date": "2026-03-07",
       "reportDate": "2026-03-24",
       "title": "arXiv: LLM辅助脚本生成实现干全番级时变海洋数据动画可视化",
@@ -6556,7 +6796,7 @@
       "fetchedAt": "2026-05-07T07:54:02.263433"
     },
     {
-      "id": "2026-03-03-0438",
+      "id": "2026-03-03-0454",
       "date": "2026-03-03",
       "reportDate": "2026-05-07",
       "title": "海平面变化可视化——\"透过舷窗看海平面\"",
@@ -6571,7 +6811,7 @@
       "fetchedAt": "2026-05-07T12:12:15.304348"
     },
     {
-      "id": "2026-03-03-0439",
+      "id": "2026-03-03-0455",
       "date": "2026-03-03",
       "reportDate": "2026-04-09",
       "title": "xoa 2026.2.1发布:基于xarray的专业海洋分析库持续迭代",
@@ -6586,7 +6826,7 @@
       "fetchedAt": "2026-05-07T07:49:37.286100"
     },
     {
-      "id": "2026-02-27-0440",
+      "id": "2026-02-27-0456",
       "date": "2026-02-27",
       "reportDate": "2026-04-16",
       "title": "IEEE TGRS综述：AI在卫星海洋遥感参数反演中的系统性进展",
@@ -6601,7 +6841,7 @@
       "fetchedAt": "2026-05-07T07:47:57.347321"
     },
     {
-      "id": "2026-02-26-0441",
+      "id": "2026-02-26-0457",
       "date": "2026-02-26",
       "reportDate": "2026-05-15",
       "title": "厦门大学柴扉教授团队：海洋数字孪生赋能蓝色经济创新综述",
@@ -6616,7 +6856,7 @@
       "fetchedAt": "2026-05-16T02:31:50.569680"
     },
     {
-      "id": "2026-02-16-0442",
+      "id": "2026-02-16-0458",
       "date": "2026-02-16",
       "reportDate": "2026-03-30",
       "title": "xarray 2026.2.0正式发布:多维海洋数据处理核心库",
@@ -6631,7 +6871,7 @@
       "fetchedAt": "2026-05-07T07:51:50.360907"
     },
     {
-      "id": "2026-02-01-0443",
+      "id": "2026-02-01-0459",
       "date": "2026-02-01",
       "reportDate": "2026-04-23",
       "title": "CIESM Workshop Monograph No.53（2026-02）：迈向高分辨率海洋数据3D可视化与制图",
@@ -6646,7 +6886,7 @@
       "fetchedAt": "2026-05-07T07:44:49.250946"
     },
     {
-      "id": "2026-02-01-0444",
+      "id": "2026-02-01-0460",
       "date": "2026-02-01",
       "reportDate": "2026-04-22",
       "title": "HybridOM（arXiv 2602.00598）：物理-数据驱动混合全球海洋建模——高效空间降尺度数字孪生框架",
@@ -6661,7 +6901,7 @@
       "fetchedAt": "2026-05-07T07:45:02.234824"
     },
     {
-      "id": "2026-01-19-0445",
+      "id": "2026-01-19-0461",
       "date": "2026-01-19",
       "reportDate": "2026-04-20",
       "title": "DFO Ocean Navigator：加拿大渔业海洋部开源3D海洋模型输出可视化工具",
@@ -6676,7 +6916,7 @@
       "fetchedAt": "2026-05-07T07:45:43.763359"
     },
     {
-      "id": "2026-01-19-0446",
+      "id": "2026-01-19-0462",
       "date": "2026-01-19",
       "reportDate": "2026-03-24",
       "title": "arXiv新预印本：多尺度图神经网络实现全球海洋涋流溅流解析密高精度预报",
@@ -6691,7 +6931,7 @@
       "fetchedAt": "2026-05-07T07:53:55.040842"
     },
     {
-      "id": "2026-01-08-0447",
+      "id": "2026-01-08-0463",
       "date": "2026-01-08",
       "reportDate": "2026-05-08",
       "title": "第7届IOCCG海洋光学暑期课程开放申请——威尼斯7月5-19日",
@@ -6706,7 +6946,7 @@
       "fetchedAt": "2026-05-08T02:15:23.798563"
     },
     {
-      "id": "2026-01-07-0448",
+      "id": "2026-01-07-0464",
       "date": "2026-01-07",
       "reportDate": "2026-05-07",
       "title": "GitHub（2026-01）：GOFLOW——基于深度学习的海洋表面流场预测框架开源",
@@ -6721,7 +6961,7 @@
       "fetchedAt": "2026-05-07T07:42:58.983929"
     },
     {
-      "id": "2026-01-05-0449",
+      "id": "2026-01-05-0465",
       "date": "2026-01-05",
       "reportDate": "2026-04-19",
       "title": "argopy v0.1.x：Python Argo数据访问工具库——支持多数据源与QC标志筛选",
@@ -6736,7 +6976,7 @@
       "fetchedAt": "2026-05-07T07:46:38.060134"
     },
     {
-      "id": "2025-12-04-0450",
+      "id": "2025-12-04-0466",
       "date": "2025-12-04",
       "reportDate": "2026-03-26",
       "title": "NOAA NCEI：全球 Argo 数据存档库——定期更新浮标剖面与元数据",
@@ -6751,7 +6991,7 @@
       "fetchedAt": "2026-05-07T07:53:19.259325"
     },
     {
-      "id": "2025-11-26-0451",
+      "id": "2025-11-26-0467",
       "date": "2025-11-26",
       "reportDate": "2026-03-27",
       "title": "Copernicus Marine MyOcean 可定制仪表板（Beta）：交互式海洋数据可视化工作台",
@@ -6766,7 +7006,7 @@
       "fetchedAt": "2026-05-07T07:52:40.224747"
     },
     {
-      "id": "2025-11-08-0452",
+      "id": "2025-11-08-0468",
       "date": "2025-11-08",
       "reportDate": "2026-03-27",
       "title": "高效可扩展 AI 驱动海洋状态估计（arXiv:2511.06041）：解决计算可扩展性瓶颈",
@@ -6781,7 +7021,7 @@
       "fetchedAt": "2026-05-07T07:52:44.627560"
     },
     {
-      "id": "2025-11-06-0453",
+      "id": "2025-11-06-0469",
       "date": "2025-11-06",
       "reportDate": "2026-03-24",
       "title": "GRU-Mean Teacher框架：海洋浮标剖面数据智能质量控制新方法",
@@ -6796,7 +7036,7 @@
       "fetchedAt": "2026-05-07T07:54:05.377428"
     },
     {
-      "id": "2025-09-30-0454",
+      "id": "2025-09-30-0470",
       "date": "2025-09-30",
       "reportDate": "2026-03-25",
       "title": "Copernicus Ocean State Report第9期：三重星球危机正在影响海洋",
@@ -6811,7 +7051,7 @@
       "fetchedAt": "2026-05-07T07:53:49.891173"
     },
     {
-      "id": "2025-07-21-0455",
+      "id": "2025-07-21-0471",
       "date": "2025-07-21",
       "reportDate": "2026-03-24",
       "title": "NSFC 共享航次 15 年成果综述：开放共享模式支撑海洋突破性进展",
@@ -6826,7 +7066,7 @@
       "fetchedAt": "2026-05-07T07:54:15.680120"
     },
     {
-      "id": "2025-04-08-0456",
+      "id": "2025-04-08-0472",
       "date": "2025-04-08",
       "reportDate": "2026-04-20",
       "title": "Springer Data Mining and Knowledge Discovery：主动学习用于海洋数据质量评估——结合Argo、GLOSS和EMSO的方法研究",
@@ -6841,7 +7081,7 @@
       "fetchedAt": "2026-05-07T07:45:48.785029"
     },
     {
-      "id": "2025-04-01-0457",
+      "id": "2025-04-01-0473",
       "date": "2025-04-01",
       "reportDate": "2026-04-08",
       "title": "IEEE TGRS综述:深度学习海洋预报全面评述——从传统模型到数据驱动范式",
@@ -6856,7 +7096,7 @@
       "fetchedAt": "2026-05-07T07:49:41.704193"
     },
     {
-      "id": "2025-03-06-0458",
+      "id": "2025-03-06-0474",
       "date": "2025-03-06",
       "reportDate": "2026-03-24",
       "title": "Nature Communications：WenHai深度神经网络预报溅流海洋，表现超过顶级数値模型",
@@ -6871,7 +7111,7 @@
       "fetchedAt": "2026-05-07T07:53:58.008578"
     },
     {
-      "id": "2025-01-09-0459",
+      "id": "2025-01-09-0475",
       "date": "2025-01-09",
       "reportDate": "2026-04-20",
       "title": "arXiv：pyParaOcean——专为海洋数据设计的可扩展交互式可视化系统",
@@ -6886,7 +7126,7 @@
       "fetchedAt": "2026-05-07T07:45:43.763257"
     },
     {
-      "id": "2025-01-09-0460",
+      "id": "2025-01-09-0476",
       "date": "2025-01-09",
       "reportDate": "2026-03-31",
       "title": "arXiv预印本：大规模海洋数据可视化分析系统架构",
@@ -6901,7 +7141,7 @@
       "fetchedAt": "2026-05-07T07:51:10.340116"
     },
     {
-      "id": "2024-07-22-0461",
+      "id": "2024-07-22-0477",
       "date": "2024-07-22",
       "reportDate": "2026-03-26",
       "title": "Nature Machine Intelligence：DeepDA——偏卷积生成深度学习全球海洋数据同化系统",
@@ -6916,7 +7156,7 @@
       "fetchedAt": "2026-05-07T07:53:09.924101"
     },
     {
-      "id": "2023-12-18-0462",
+      "id": "2023-12-18-0478",
       "date": "2023-12-18",
       "reportDate": "2026-04-20",
       "title": "arXiv预印本（2023-12）：通过离群点检测的海洋数据质量评估——适用于Argo等大型观测网络",
@@ -6931,25 +7171,25 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-07-23T02:13:18.536582",
+  "lastUpdated": "2026-07-24T02:10:07.806243",
   "stats": {
-    "total": 462,
-    "newToday": 0,
+    "total": 478,
+    "newToday": 16,
     "byCategory": {
-      "open-cruise": 45,
-      "marine-ai": 91,
-      "data-quality": 35,
-      "tools-resources": 65,
-      "data-processing": 49,
+      "open-cruise": 46,
+      "marine-ai": 98,
+      "data-processing": 51,
+      "data-quality": 36,
+      "tools-resources": 68,
+      "data-center": 46,
+      "data-management": 47,
       "visualization": 47,
-      "data-management": 46,
-      "digital-twin": 39,
-      "data-center": 45
+      "digital-twin": 39
     },
     "validation": {
-      "newCandidates": 4,
-      "afterTitleDedup": 4,
-      "validNew": 0,
+      "newCandidates": 20,
+      "afterTitleDedup": 20,
+      "validNew": 16,
       "invalidNew": 4
     }
   }
