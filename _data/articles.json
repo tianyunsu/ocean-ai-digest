@@ -7186,10 +7186,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-07-25T02:09:18.513972",
+  "lastUpdated": "2026-07-26T02:14:42.458671",
   "stats": {
     "total": 479,
-    "newToday": 1,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 46,
       "marine-ai": 98,
@@ -7202,9 +7202,9 @@
       "digital-twin": 39
     },
     "validation": {
-      "newCandidates": 4,
-      "afterTitleDedup": 4,
-      "validNew": 1,
+      "newCandidates": 3,
+      "afterTitleDedup": 3,
+      "validNew": 0,
       "invalidNew": 3
     }
   }
