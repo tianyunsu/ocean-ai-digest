@@ -254,10 +254,10 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">69</span> 条进展
+                <span class="stat-value">74</span> 条进展
             </div>
             <div class="stat-item">
-                📅 最后更新: 2026-07-28
+                📅 最后更新: 2026-07-29
             </div>
         </div>
     </div>
@@ -304,6 +304,18 @@
             
             <article class="article-card">
                 <div class="article-header">
+                    <span class="article-date">📅 2026-07-23</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pypi.org/project/wavespectra/" target="_blank">wavespectra v4.8.0发布——海洋波谱数据分析Python库持续快速迭代</a>
+                </h3>
+                <p class="article-summary">海洋波谱数据分析Python库wavespectra发布v4.8.0版本（7月23日），这是继v4.7.0（7月9日）和v4.6.0（7月8日）后的又一快速迭代。该库基于xarray构建，支持读取15+格式（WW3、SWAN、ERA5、NDBC、Datawell、AWAC等），提供60+波参数计算和波谱变换方法，含多种风浪/涌浪分离算法（PTM1-5、流域分割、波龄）和参数化波谱构造（JONSWAP、TMA、高斯、Pierson-Moskowitz），利用dask实现大数据集高效处理。新版还支持Python 3.14。MIT许可证，GitHub 107 stars。07-16日报收录的为v4.5.1，此后已连续发布5个版本。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
                     <span class="article-date">📅 2026-07-21</span>
                     <span class="article-source main">日报</span>
                 </div>
@@ -344,9 +356,57 @@
                     <span class="article-source main">日报</span>
                 </div>
                 <h3 class="article-title">
+                    <a href="https://pypi.org/project/pingmapper/" target="_blank">pingmapper v5.5.0发布——侧扫声纳数据处理与底栖生境制图Python库</a>
+                </h3>
+                <p class="article-summary">pingmapper发布v5.5.0版本（7月9日，紧随v5.4.9同日发布）。该Python库用于处理侧扫声纳（sidescan sonar）数据，支持Humminbird和Lowrance设备，提供声纳图像校正、底质分类、底栖生境制图等功能，可输出GIS兼容产品。标签含sonar、ecology、remotesensing、sidescan-sonar、oceanography、limnology，支持Python 3.6+，MIT许可证。该库持续高频迭代（2026年已发布20+版本），提供[ml]可选依赖用于机器学习增强的底质分类。适用于水下生态调查、底栖生境测绘与海洋遥感应用。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-09</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
                     <a href="https://wavespectra.readthedocs.io/en/v4.5.1/index.html" target="_blank">wavespectra v4.5.1发布——海洋波谱数据分析Python库持续更新</a>
                 </h3>
                 <p class="article-summary">海洋波谱数据分析Python库wavespectra发布v4.5.1版本。该库基于xarray构建，支持读取15+格式(WW3、SWAN、ERA5、NDBC等)，提供60+波参数计算和波谱变换方法，含多种风浪/涌浪分离算法(PTM1-5、流域分割、波龄)和参数化波谱构造(JONSWAP、TMA、高斯、Pierson-Moskowitz)，利用dask实现大数据集高效处理。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-07</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pypi.org/project/raschii/" target="_blank">raschii v2.0.0发布——非线性规则波理论Python库重大版本更新，新增向量化与流体粒子加速度</a>
+                </h3>
+                <p class="article-summary">raschii发布v2.0.0大版本更新。主要新特性：输入向量化扩展，可同时计算多个位置与多个时间步的海面高度与速度；新增Fenton波流体粒子加速度计算（感谢jasperpato, PR#7）。重要不兼容变更：类RasciiError更名为RaschiiError；波类属性T更名为period；标量输入返回标量输出（遵循numpy约定）；除height/depth/length外所有构造函数参数必须为关键字参数；*_cpp方法移至独立raschii.cpp模块。最低Python版本提升至3.11，numpy最低版本2.2。Apache-2.0许可证。07-16日报收录的为v1.2.0，v2.0.0为API重构后的首个大版本。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-07</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://anaconda.org/conda-forge/xoa/" target="_blank">xoa 2026.7.0发布——基于xarray的海洋分析库最新版本</a>
+                </h3>
+                <p class="article-summary">xoa（xarray-based ocean analysis library）发布2026.7.0版本。该库由法国SHOM（海军水文局）开发，专为海洋数据分析设计，基于xarray构建，支持读取和处理观测与模拟海洋数据。提供海洋学坐标系统管理、垂向插值、位温/位密计算、温盐图绘制等海洋学特定功能，与CROCO、NEMO等区域海洋模式输出兼容。Apache-2.0许可证，可通过conda-forge安装。03-30/04-09日报收录的为2026.2.1版本，本次为4个月后的首次更新。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-02</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://pypi.org/project/physoce-datasets/" target="_blank">physoce-datasets v0.4.0发布——统一物理海洋数据集下载Python包与CLI</a>
+                </h3>
+                <p class="article-summary">physoce-datasets发布v0.4.0版本。该Python包与命令行工具旨在标准化各种物理海洋数据集的访问，提供跨数据提供机构（NASA、ECMWF等）的统一接口。当前支持Copernicus Marine Service（涡动能）、ERA5（风应力，采用COARE 3.5算法）和NSF OOI Endurance Array（CTD、叶绿素）数据下载，计算风应力、涡动能、混合层深度等导出参数。采用uv包管理，支持Python 3.12+。注：NASA Harmony API问题导致SST数据集暂不可用。为物理海洋研究者提供简化、标准化的数据获取途径。</p>
                 <div class="article-tags"></div>
             </article>
             

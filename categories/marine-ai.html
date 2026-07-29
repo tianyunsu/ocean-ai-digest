@@ -254,10 +254,10 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">98</span> 条进展
+                <span class="stat-value">103</span> 条进展
             </div>
             <div class="stat-item">
-                📅 最后更新: 2026-07-28
+                📅 最后更新: 2026-07-29
             </div>
         </div>
     </div>
@@ -266,6 +266,66 @@
         <div class="container">
             <div class="articles-list" id="articlesList">
                 
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://arxiv.org/abs/2607.24064" target="_blank">MarineEVT：事件驱动的海洋视频理解——首个海洋视频VQA数据集与视觉工具推理框架EVT-R1（ECCV 2026接收）</a>
+                </h3>
+                <p class="article-summary">视觉语言模型（VLM）在图像理解上已取得显著进展，但在视频领域因时序理解需求与标注数据稀缺而性能下降，海洋视频尤甚——信息事件稀疏、不可预测且分布不均。本文构建首个事件驱动的海洋视频理解数据集MarineEVT，包含20K多任务视频级视觉问答对，覆盖海洋理解与分析多维度。同时提出EVT-R1（Event-centric Visual Tool-integrated Reasoning），将海洋视频理解分解为事件中心的视觉工具集成推理过程，利用视觉工具驱动模型定位与解读关键信息。EVT-R1在多种设置下超越11个SOTA VLM，分别比最强开源模型和最强商业模型高出5.22和11.09分。该工作为生态发现与海洋教育奠定基础。已被ECCV 2026接收。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://arxiv.org/abs/2607.19147" target="_blank">不完整观测提升海洋建模进化性能——生成状态空间模型从稀疏噪声观测直接学习</a>
+                </h3>
+                <p class="article-summary">数据驱动方法已革新海洋建模，但现有方法严重依赖完整再分析数据集，带来计算约束并限制模型性能。本文提出一种生成状态空间模型与优化框架，可直接从稀疏噪声观测中学习。模型本质上是连续状态空间的隐马尔可夫模型，将海洋物理量视为隐状态、测量值为观测，实现海洋场与观测数据的统一表示。初始状态与状态转移模块均由神经网络实现，发射模块建模为掩蔽高斯分布。为从稀疏观测训练模型，推导出基于期望最大化（EM）算法的优化框架，交替通过朗之万动力学重建高保真海洋场并优化深度神经网络以捕获时间演化。CMIP6模拟数据与FY-3D卫星数据实验表明，稀疏观测可直接改善模型对海洋状态动力学的表征，为下一代地球系统模型从稀疏不完整真实观测中学习提供可扩展路径。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RHCNet_Residual-Guided_Hierarchical_Calibration_Network_for_Robust_Underwater_Object_Detection_CVPR_2026_paper.html" target="_blank">RHCNet：残差引导层次校准网络实现鲁棒水下目标检测——DUO基准AP 70.53%（CVPR 2026，豁免）</a>
+                </h3>
+                <p class="article-summary">水下图像普遍存在前景-背景模糊、结构细节丢失与对比度严重降低等问题。本文提出残差引导层次校准网络RHCNet，包含残差引导特征增强模块（RGFE）和层次特征校准金字塔模块（HFCP）。RGFE嵌入ResNet-50骨干网络，通过卷积与注意力机制联合强化模糊区域边缘与纹理特征表征；HFCP集成自底向上语义增强路径与自顶向下细粒度特征补偿路径，并采用K-means聚类引导的特征校准模块确保多级跨尺度语义一致性与显著区域特征精确对齐。在DUO和UTDAC基准数据集上分别达到AP 70.53%和53.35%，在COCCO陆地场景上也保持优异检测精度与泛化能力。代码开源于github.com/YitengGuo/RHCNet。CVPR 2026会议论文（会议于2026年6月召开）。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_MARIS_Marine_Open-Vocabulary_Instance_Segmentation_CVPR_2026_paper.html" target="_blank">MARIS：首个海洋开放词汇实例分割基准与框架——几何先验增强+语义对齐注入（CVPR 2026，豁免）</a>
+                </h3>
+                <p class="article-summary">现有水下实例分割方法受限于闭集预测，无法识别新型海洋类别。本文构建MARIS（Marine Open-Vocabulary Instance Segmentation）——首个大规模细粒度水下开放词汇实例分割基准，包含有限已见类别与多样未见类别。分析揭示水下场景转移面临严重视觉退化（如色彩衰减）与语义不对齐两大挑战。提出统一框架含两个互补组件：几何先验增强模块（GPEM）利用稳定的部件级与结构线索在退化视觉条件下保持目标一致性；语义对齐注入机制（SAIM）用领域特定先验丰富语言嵌入，缓解语义歧义并提升未见类别识别。框架在MARIS上In-Domain和Cross-Domain设置中均持续优于现有OV基线。代码已开源。CVPR 2026会议论文（会议于2026年6月召开，含arXiv预印本）。</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-07-28</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Ma_BiPA_Bilevel_Prompt_Adaptation_for_Underwater_Instance_Segmentation_CVPR_2026_paper.html" target="_blank">BiPA：双层提示适配将SAM迁移至水下实例分割——贝叶斯优化+两阶段学习（CVPR 2026，豁免）</a>
+                </h3>
+                <p class="article-summary">水下实例分割对精细场景理解至关重要，但水下影像因严重退化（如浑浊）与空气中视觉存在巨大域间隙，导致SAM在水下性能急剧下降。本文提出BiPA，有效将SAM适配至水下领域。具体地，构建含双提示的水下SAM并引入前景注意力注入块增强局部前景表征；将密集提示学习建模为双层优化，显式捕获提示与模型间的相互依赖。为使优化可行，设计两阶段学习策略：第一阶段以贝叶斯优化适配密集提示本身，第二阶段在冻结优化提示下微调模型参数，实现有效跨域适配。大量实验验证了BiPA的优越性与效率。代码开源于github.com/ZeAstra/BiPA。CVPR 2026会议论文（会议于2026年6月召开）。</p>
+                <div class="article-tags"></div>
+            </article>
+            
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-07-24</span>
