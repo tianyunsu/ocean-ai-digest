@@ -7786,10 +7786,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-08-10T02:55:16.374323",
+  "lastUpdated": "2026-08-11T01:16:18.125136",
   "stats": {
     "total": 519,
-    "newToday": 18,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 52,
       "tools-resources": 79,
@@ -7802,9 +7802,9 @@
       "visualization": 47
     },
     "validation": {
-      "newCandidates": 29,
-      "afterTitleDedup": 29,
-      "validNew": 18,
+      "newCandidates": 11,
+      "afterTitleDedup": 11,
+      "validNew": 0,
       "invalidNew": 11
     }
   }
