@@ -7921,10 +7921,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-08-17T00:56:38.620452",
+  "lastUpdated": "2026-08-18T00:54:50.753495",
   "stats": {
     "total": 528,
-    "newToday": 1,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 53,
       "marine-ai": 116,
@@ -7937,10 +7937,10 @@
       "visualization": 47
     },
     "validation": {
-      "newCandidates": 10,
-      "afterTitleDedup": 9,
-      "validNew": 1,
-      "invalidNew": 8
+      "newCandidates": 6,
+      "afterTitleDedup": 5,
+      "validNew": 0,
+      "invalidNew": 5
     }
   }
 }
