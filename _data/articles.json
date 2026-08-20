@@ -8041,10 +8041,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-08-19T00:55:57.126081",
+  "lastUpdated": "2026-08-20T00:55:06.502759",
   "stats": {
     "total": 536,
-    "newToday": 8,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 53,
       "tools-resources": 82,
@@ -8057,9 +8057,9 @@
       "visualization": 47
     },
     "validation": {
-      "newCandidates": 17,
-      "afterTitleDedup": 16,
-      "validNew": 8,
+      "newCandidates": 9,
+      "afterTitleDedup": 8,
+      "validNew": 0,
       "invalidNew": 8
     }
   }
