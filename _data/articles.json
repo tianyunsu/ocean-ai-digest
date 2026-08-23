@@ -8176,10 +8176,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-08-22T00:55:28.163495",
+  "lastUpdated": "2026-08-23T00:59:53.820097",
   "stats": {
     "total": 545,
-    "newToday": 9,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 55,
       "visualization": 48,
@@ -8192,9 +8192,9 @@
       "data-quality": 37
     },
     "validation": {
-      "newCandidates": 18,
-      "afterTitleDedup": 15,
-      "validNew": 9,
+      "newCandidates": 9,
+      "afterTitleDedup": 6,
+      "validNew": 0,
       "invalidNew": 6
     }
   }
