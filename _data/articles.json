@@ -8641,10 +8641,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-08-31T03:04:55.763615",
+  "lastUpdated": "2026-09-01T03:11:01.432617",
   "stats": {
     "total": 576,
-    "newToday": 7,
+    "newToday": 0,
     "byCategory": {
       "open-cruise": 57,
       "data-center": 48,
@@ -8657,9 +8657,9 @@
       "data-quality": 37
     },
     "validation": {
-      "newCandidates": 21,
-      "afterTitleDedup": 18,
-      "validNew": 7,
+      "newCandidates": 14,
+      "afterTitleDedup": 11,
+      "validNew": 0,
       "invalidNew": 11
     }
   }
