@@ -15886,10 +15886,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-11-06T04:46:57.319105",
+  "lastUpdated": "2026-11-07T04:15:59.153421",
   "stats": {
     "total": 1059,
-    "newToday": 25,
+    "newToday": 0,
     "byCategory": {
       "marine-ai": 629,
       "open-cruise": 57,
@@ -15902,9 +15902,9 @@
       "data-quality": 37
     },
     "validation": {
-      "newCandidates": 78,
-      "afterTitleDedup": 78,
-      "validNew": 25,
+      "newCandidates": 53,
+      "afterTitleDedup": 53,
+      "validNew": 0,
       "invalidNew": 53
     }
   }
