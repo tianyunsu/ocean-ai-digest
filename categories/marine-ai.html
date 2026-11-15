@@ -254,10 +254,10 @@
     <div class="stats-bar">
         <div class="container">
             <div class="stat-item">
-                <span class="stat-value">686</span> 条进展
+                <span class="stat-value">710</span> 条进展
             </div>
             <div class="stat-item">
-                📅 最后更新: 2026-11-14
+                📅 最后更新: 2026-11-15
             </div>
         </div>
     </div>
@@ -266,6 +266,294 @@
         <div class="container">
             <div class="articles-list" id="articlesList">
                 
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1109/tgrs.2026.3752947" target="_blank">PACE/HARP2 多角度偏振 + 深度学习能反演多少海洋颗粒物信息？合成数据集给出潜力评估</a>
+                </h3>
+                <p class="article-summary">多角度偏振遥感有望显著提升海洋颗粒物特性反演能力。该研究基于深度学习框架，评估 NASA PACE 任务搭载的 HARP2（Hyper Angular Rainbow Polarimeter）仪器配置下反演颗粒物特性的潜力：构建数据集合成方案，生成从开阔大洋到近岸水体的合成颗粒组合，从而在受控改变颗粒组分的条件下做系统分析。前向模型采用两套光学模型——浮游植物按 EAP 框架建为双层球，非藻颗粒按均质球处理；再用 OSOAA 矢量辐射传输模型，按 HARP2 特定观测几何与测量不确定度模拟离水线偏振度（DoLP）与反射率（ρw）。以 DoLP、ρw 与观测几何为输入训练模型，预测总叶绿素及分粒级浓度、整体与分组分固有光学特性、微物理特性。消融实验表明联合 DoLP 与 ρw 显著优于单一输入：ρw 主要决定宏观浓度与整体光学量级，随散射角变化的 DoLP 则微调颗粒微物理特性与组分分离。（IEEE TGRS，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1109/joe.2026.3731092" target="_blank">StableUASim：预训练条件潜扩散模型给时变水声信道做「数据高效」的代理建模（IEEE JOE）</a>
+                </h3>
+                <p class="article-summary">可靠的时变水声信道建模是水下通信系统设计与评估的基础，但物理模型需要详尽的环境先验，随机重放方法又受限于实测信道样本多样性、难以泛化到未见场景。该文提出 StableUASim——一个预训练的条件潜扩散代理模型，用以刻画水声通信信道的随机动力学：借助生成模型产出多样且统计真实的信道实现，并支持从特定实测样本出发做条件生成；预训练使模型只需极少量新增数据即可适配新环境，自编码器潜表示则便于信道分析与压缩。实验表明 StableUASim 能准确复现关键信道特征与通信性能，为系统设计和机器学习驱动的水下应用提供可扩展、数据高效且物理一致的代理模型。作者说明本工作聚焦稀疏水声信道，扩展预训练数据集的多样性有望进一步改善对更广泛水声传播环境的泛化。（IEEE Journal of Oceanic Engineering，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1109/joe.2026.3723735" target="_blank">改进 YOLOv5 在南海八个月声学数据中检出数千次灰鲸叫声：mAP 较原模型 +0.7%，给出西太平洋灰鲸出现的声学证据</a>
+                </h3>
+                <p class="article-summary">该研究用目标检测模型从西太平洋北部海域采集的声学数据中识别灰鲸叫声，据此给出灰鲸出现的声学证据。训练音频取自公开数据集，用参数化 S 变换把音频转为时频谱图，并标注包含灰鲸在内的四类鲸类叫声。作者选用 YOLOv5 训练检测器，针对小目标识别与特征提取做了多项改进；不同 YOLOv5 变体的对比实验显示，改进模型的平均精度均值（mAP）较原模型提升 0.7%。最终从南海八个月的连续声学记录中检出数千次灰鲸叫声，并经特征比对与相关性分析确认为灰鲸发声。（IEEE Journal of Oceanic Engineering，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1016/j.isprsjprs.2026.10.039" target="_blank">中科院海洋所 RSCR：VIIRS + AMSR2 + 7 天序列做 10 km 无缺失 SST 重建，RMSE 0.32 ℃、较 MUR 降 30.43%</a>
+                </h3>
+                <p class="article-summary">针对红外遥感 SST 分辨率高但受云遮挡、微波遥感全天候但分辨率低、真实云下高分辨率真值难获取三重困难，中国科学院海洋研究所人工智能海洋学研究组提出深度学习「遥感跨尺度重建」（RSCR）框架：以 VIIRS 提供高分辨率细尺度结构、AMSR2 提供连续大尺度背景约束，并引入连续 7 天时间序列刻画 SST 演变的时间连续性；网络以位置编码、时间序列编码器、差异提取编码器、注意力融合模块与多模态解码器，把时间连续性约束与空间互补性约束统一映射。结果整体优于业务化 MUR 产品，不同区域与季节下结构相似度更高、误差更低；功率谱密度分析证实短波段保留了更多具物理意义的小尺度方差，实现 10 km 尺度无缺失重建而非插值造成的表观网格细化，RMSE 降至 0.32 ℃（较 MUR 降低 30.43%）。在 2023 年台风「达维」黑潮冷尾迹个例中，重建峰值降温 −5.91 ℃，较 MUR 强 20.37%，与 Argo 浮标一致；211,728 组 NOAA iQuam 漂流浮标在 VIIRS 实际缺测位置的独立检验给出 RMSE 0.42 ℃（MUR 0.44 ℃）。论文第一作者王梦娇，通讯</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://m.economictimes.com/news/india/iit-madras-develops-real-time-digital-twin-platform-for-autonomous-maritime-navigation/amp_articleshow/135758584.cms" target="_blank">IIT Madras 发布 SEANAV：Unity3D 实时海洋数字孪生，用 320 m 基准油轮标定，已演示自主路径跟随与 AI 避碰</a>
+                </h3>
+                <p class="article-summary">印度理工学院马德拉斯分校（IIT Madras）海洋工程系研发 SEANAV（Sea Navigation）实时数字孪生平台，用于在逼真虚拟环境中测试、验证与训练自主海事导航系统。平台基于 Unity3D 引擎构建，复现海浪、船舶运动与航行环境，可实时仿真船舶、传感器、海况与船舶交通；以一艘约 320 米的基准油轮完成标定，使虚拟结果贴近真实商业航运。多传感器融合框架整合激光雷达、船用雷达与双目视觉，并刻意建模噪声与时延等真实传感器局限，支持雾、雨、低能见度工况；配 Meta Quest 的沉浸式 VR 界面可从驾驶台视角训练应急响应、避碰、进港与操纵。研究团队已演示真实感知与波浪条件下的自主路径跟随与 AI 驱动避碰，并支持多船多智能体协同（COLREGs 场景）。成果发表于 ASME《Journal of Offshore Mechanics and Arctic Engineering》，相关工作在 OMAE 2025 温哥华、2026 东京会议报告；后续将开发印度主要港口数字孪生、认证级 VR 引航培训并用物理缩比模型验证。（IIT Madras / Economic Time</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1016/j.joes.2026.100791" target="_blank">海洋监测装备数字孪生技术综述：PRISMA 筛出 49 篇核心研究，归纳四类使能技术与三类全生命周期应用</a>
+                </h3>
+                <p class="article-summary">海洋监测装备（MME）支撑持续海洋观测，却面临维护成本高、故障预测难等问题。该综述旨在厘清 MME 数字孪生的技术框架、证据成熟度、应用瓶颈与发展优先级：在 Web of Science 与 Engineering Index 上做「通用数字孪生全景—海洋数字孪生迁移—装备聚焦研究」三层检索，按 PRISMA 式识别与筛选流程选出 49 篇数字孪生核心研究，另收 45 篇支撑文献做对比综合。结果把 MME 数字孪生组织为四类使能技术（数据感知与通信、数字建模与仿真、实时显示与交互、数据分析与决策）和三类全生命周期应用（装备设计与优化验证、调度与智能控制、监测与维护预测）。结论认为该领域正从概念框架走向面向具体应用的原型，但成熟度不均衡；优先方向包括感通一体框架、带物理反馈的物理—数据混合建模、面向任务的交互评估、决策的定量安全裕度、考虑突发状况的调度，以及多子系统一体化健康管理。（Journal of Ocean Engineering and Science，2026-11-01）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1371/journal.pone.0360659" target="_blank">AquaMamba：把 Mamba 状态空间模型塞进 U-Net 瓶颈，SUIM 上 mIoU 0.669 且参数量少于 Trans-UNet</a>
+                </h3>
+                <p class="article-summary">水下场景分割受图像退化与域偏移影响显著，而选择性状态空间模型（SSM）在该环境下的行为此前缺乏充分刻画。作者提出 AquaMamba——以 ResNet34-UNet 为骨架、用堆叠 Mamba 层替换瓶颈算子的分割框架，并在 SUIM 基准上与五种既有 CNN 方法及自建的 Transformer 瓶颈基线比较。AquaMamba 取得 mIoU 0.669，比受控的 Trans-UNet 基线（0.650）高 1.9 个百分点，参数量更少（29.5M 对 33.9M）；总体最强仍是 DeepLabV3+（0.712）。在无标注 UIEB 数据集上，AquaMamba 在四个代表性模型中置信度保持率最高（93.5%），但作者强调因 UIEB 缺少语义标注，该结果只反映预测置信度而非目标域分割精度。尺度与边界诊断进一步显示三类模型行为互补：AquaMamba 在若干大目标类别具竞争力且边界误差点估计最低，而对小 RO 子集仍受限，说明后续 SSM 设计需更好融合多尺度与高分辨率特征。（PLoS ONE，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://climate.copernicus.eu/new-version-climate-pulse-provides-new-monitoring-el-nino-conditions" target="_blank">C3S 发布 Climate Pulse 2.0：新增四个 Niño 区监测、1940/1979 起历史地图、相对 El Niño 指数与可分享视图链接</a>
+                </h3>
+                <p class="article-summary">哥白尼气候变化服务（C3S）11 月 10 日发布 Climate Pulse 2.0，对其近实时全球地表气温与海表温度应用做重大升级。新版新增对 Niño 3.4、Niño 3、Niño 4、Niño 1+2 四个 ENSO 监测区的专门监测，气温历史地图回溯至 1940 年、海温回溯至 1979 年（以卫星观测提升可靠性为界），并加入月/年视图、增强统计面板（绝对温度、相对 1991–2020 平均的距平、历史排名）、扩展色标与更直观的时间序列。官方给出：2026 年 11 月 1 日 Niño 3.4 区 ERA5 平均海表温度达 30.02 ℃，较 1991–2020 同日平均高 3.28 ℃；用户可与 1982、1997、2015 等强 El Niño 年对比，并可启用「相对 El Niño 指数」以扣除热带海洋整体增暖。交互侧新增地图 probe 任意位置取值、多种投影、导出图像保留用户所选视图/投影/设置、以链接分享当前视图，以及全屏与明暗模式。数据基于 ERA5，日常更新约有两天延迟。（Copernicus Climate Change Service，2026-11-</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1109/jstars.2026.3751751" target="_blank">FY-3G 缺 C 波段也能反演微波 SST：双差交叉定标 + 动态最优估计，实测平均差 −0.10 ℃、标准差 0.32 ℃</a>
+                </h3>
+                <p class="article-summary">微波辐射计可穿云提供亮温观测用于海表温度反演，但风云三号 G 星降水测量微波成像仪（MWRI-RM）虽有 10.65、18.7、23.8、36.5 GHz 海温相关窗区通道，却缺少微波 SST 反演的主要信息源 C 波段。该文为此探索无 C 波段的 FY-3G SST 反演算法：先用以 GPM 微波成像仪为参考、基于辐射传输模拟的双差交叉定标方法校正 MWRI-RM 各通道系统偏差；再在贝叶斯框架下提出动态最优估计（OE）算法，用 10.65–36.5 GHz 窗区通道联合大气信息，共同约束前向模型、观测亮温与先验环境场以求后验 SST。核心贡献是确定随风速变化的亮温不确定度，用以真实表征高风速下海面粗糙度引起的发射率不确定度增强。现场 SST 检验给出平均差 −0.10 ℃、标准差 0.32 ℃，且高风速与相对较低 SST 样本下表现稳定；空间功率谱显示反演在保留大尺度热结构的同时比背景场保留更多细节。（IEEE JSTARS，2026-11-10）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.5194/egusphere-2026-6750" target="_blank">IQuOD 盐度自动质控基准评估：七家机构 30 项检查、约 6,400 组配置在 ROC 空间比选，给出三套最佳实践方案</a>
+                </h3>
+                <p class="article-summary">盐度是支撑地球气候系统与全球水循环理解的基本海洋变量（EOV），但历史剖面档案质量参差，社区长期缺少基于基准的盐度自动质控（AutoQC）建议。该研究在 IQuOD（International Quality-controlled Ocean Database）框架下，对来自七家国际海洋机构、共含 30 项独立检查的盐度 AutoQC 检查套件，用多套人工专家质控基准数据集做基准化比较；在 ROC 空间评估约 6,400 组质控配置，识别出面向不同用户优先级的三套最佳实践：高检出率（HTPR）方案、低误报率（LFPR）保守方案，以及二者之间的平衡方案。作者进一步考察其空间与垂向表现，发现局地气候学范围检查与常值检查是方案间差异的主要来源，说明区域盐度结构、观测采样密度与阈值设计会显著影响「检出错误观测」与「保留有效数据」之间的权衡。结果为 IQuOD 盐度数据库首个版本生成内部一致的质控旗标提供透明框架，同时指出仍需补充区域与深度相关的验证。（EGUsphere 预印本，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://dataspace.copernicus.eu/news/2026-11-3-temporary-geolocation-issue-affecting-sentinel-2b-products" target="_blank">ESA 通报 Sentinel-2B 地理定位异常：10/20–10/22 获取产品出现显著偏移，受影响数据正从 CDSE 下架待再处理</a>
+                </h3>
+                <p class="article-summary">哥白尼数据空间生态系统（CDSE）与 Sentinel Online 于 11 月 2–3 日通报：2026 年 10 月 20 日至 22 日期间获取的一批 Sentinel-2B 产品受到显著地理定位误差影响，受影响产品正从 CDSE 移除，完整的受影响 Datatake 清单另行公布；相关团队正在调查恢复方案，包括专门的再处理活动，目标是尽快恢复这些产品的可用性。CDSE 社区论坛中用户报告巴西过境影像出现约 100 米量级几何偏移、西班牙加泰罗尼亚 10 月 21 日产品存在系统性偏移；官方支持回复给出的受影响时间窗为 L1C 2026-10-20T09:42:03 至 2026-10-22T12:15:34、L2A 2026-10-20T09:46:38 至 2026-10-22T12:22:13，质量检查仍在进行，数据保留与可修复性待定。对使用者而言，这一事件直接提示：调用该时段 Sentinel-2B 近岸水色、底质或海冰产品前须核验几何质量信息并关注后续再处理版本，避免把系统性偏移误当作真实海洋变化。（Copernicus Data Space Ecosystem / </p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.6084/m9.figshare.34981021" target="_blank">SAGE：SWOT 像元云条纹噪声三维可视化与检测的示例数据和五个 Python 脚本开放</a>
+                </h3>
+                <p class="article-summary">该仓储提供论文《SAGE: Adaptive Geometric Extraction and 3-D Structural Characterization of Stripe Noise in SWOT Pixel Clouds》配套的示例数据与 Python 代码，以 SWOT（Surface Water and Ocean Topography）在亚马逊河的观测演示三维可视化与条纹噪声检测。含一景 2025 年 4 月 21 日（cycle 031, pass 395）的 L2_HR_PIXC 像元云及对应 L2_HR_Raster 产品；派生产品包括按高度着色与按机载质量旗标标注的 LAS 点云、100 m GeoTIFF 噪声图，以及 Raster 水面高程与质量可视化。五个 Python 脚本分别支持 PIXC→LAS 转换、机载质量旗标可视化、水体局部与条纹噪声检测、Raster 高程着色、Raster 质量可视化与裁剪；附英文 README、依赖、文件清单与 SHA-256 校验和。作者明确说明这是单景亚马逊河示例，不含完整六站点数据集、独立参考水位、人工勾绘验证掩膜</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://allatra.media/news/environment-cop31-open-ocean-data" target="_blank">COP31 上启动 Open Ocean Data Initiative：大西洋 11.3 万余条读数、37 个公共来源，每周一更新并开放 GitHub 导出</a>
+                </h3>
+                <p class="article-summary">11 月 11 日，Ocean Climate Fund 在土耳其安塔利亚 COP31 期间启动 Open Ocean Data Initiative（ODI），把大西洋海洋数据免费向所有人开放，数据每周一刷新。合作方 Hub Culture 的 Stan Stalnaker 在 Climate Campus 现场用实时仪表板演示：软件把每条读数与其他来源交叉比对直至一致，并邀请与会者带入自有数据「与其他数据源比对以求确定性」。据 Hub Culture 说明，数据集含来自验潮站、气象浮标与 Argo 浮标的 11.3 万余条读数，取自 37 个公共来源并与独立海洋模型核对；媒体核对发布前一日上传到 GitHub 的导出文件后指出，其中约 6,100 条来自验潮站、浮标与 Argo，其余多为模式输出或污染/工业记录（最大单一来源为美国 EPA 工业化学排放登记），37 个来源中 21 个实际贡献记录，另含 NOAA 对九个大西洋珊瑚礁站点的白化警报。系统还提供 API 供导入分析与共享，Bermuda Standard 侧披露 113,669 条记录中 81% 经独立来源确认。后续拟建</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.17632/tsxgjvfztb" target="_blank">亚洲热带—亚热带海 ¹³⁷Cs 多舱室质控汇编（1972–2024）：5,300+ 条记录逐条带 1σ 不确定度、检出限与质控旗标</a>
+                </h3>
+                <p class="article-summary">该数据集配套论文《Partitioning, burial and biological uptake of ¹³⁷Cs in tropical and subtropical Asian seas: a multi-compartment data synthesis》（Marine Pollution Bulletin，评审中），汇编已发表研究、国家监测报告与 IAEA MARIS 数据库中经质量控制的 ¹³⁷Cs 活度数据，空间范围 8.9°S–35°N，时间跨度 1972–2024：海水 1,837 条、表层沉积物 428 条、沉积物柱 387 根（2,832 个深度层）、海洋生物 235 条。每条记录含坐标、采样日期、活度、1σ 不确定度、检出限、测量技术、校准标准、衰变校正状态、质控旗标、取舍决定与完整来源引文；README 表说明全部工作表与列，Data_Flow_Table 记录进入分析的筛选流程。（Mendeley Data，2026-11-01）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://dataspace.copernicus.eu/news/2026-11-3-copernicus-sentinel-1-sar-dataset-acquired-without-onboard-fdbaq-compression" target="_blank">ESA 开放 65 景「未经 FDBAQ 星上压缩」的 Sentinel-1 原始 L0 SAR 数据：10-bit 原始回波，供压缩算法与 ML 建基准</a>
+                </h3>
+                <p class="article-summary">欧空局 11 月 3 日发布专门的 Sentinel-1 SAR 数据集，其采集过程关闭了常规星上 FDBAQ（Flexible Dynamic Block Adaptive Quantization）压缩。常规 FDBAQ 为降低下传数据量采用有损压缩，会轻微改变雷达信号统计特性；本批数据因此提供仪器以原生 10-bit 分辨率记录的未压缩回波样本。数据集含 Sentinel-1C 与 Sentinel-1D 在轨调试期间获取的 65 个 Level-0 产品，涵盖 Stripmap 与 Extra-Wide Swath 模式，覆盖城市、海岸、海洋、沙漠、雨林、山地及冰雪等多样地物，部分场景含船舶与雷达定标器。ESA 定位其用途为 SAR 数据压缩技术、星上处理与机器学习算法的开发评估，并已用于建立业务化 FDBAQ 压缩方案的性能参考基准。数据经 CDSE 的 S3 服务 s3://eodata/Sentinel-1/SAR/S1CD_Uncompressed/ 获取（需注册账号与 S3 凭证），可用开源 Sentinel-1 ISP 解码器 github.com/avalenti</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.1007/s11802-026-6597-9" target="_blank">无地面控制点的大面积海流测量：匀速飞行把帧间位移转成行偏移做光流拼接，观测幅宽由 60 m 扩到 350 m</a>
+                </h3>
+                <p class="article-summary">近岸海流结构复杂、空间异质性强：常规测量或效率低或分辨率不足，图像测速虽低成本高分辨率，却受「大面积覆盖与高分辨率不可兼得」以及缺少地面控制点标定的限制。该文提出流场拼接方法：保持相机匀速运动，用帧间时间间隔与图像分辨率把相邻帧的距离差换算成行偏移，通过拼接扩展测速观测范围；并提出结合太阳耀斑识别与裁剪的自适应阈值方法。结果显示成像范围由 60 m 增至 350 m，实现大面积光流测速，且去耀斑处理在有效降低干扰的同时不引入额外质量退化或人工信号，解决了图像测速在大尺度海洋环境中的关键约束。（Journal of Ocean University of China，2026-11-12）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://oceanexplorer.noaa.gov/expedition/ex2701/" target="_blank">NOAA EX2701 技术示范航次执行中（11/2–11/16）：HUGIN 6000 + 两台 Orpheus 分层作业，数据 120 天内进公共档案</a>
+                </h3>
+                <p class="article-summary">NOAA Ocean Exploration 于 11 月 2–16 日在夏威夷主岛外海，用 NOAA Ship Okeanos Explorer 执行 2026 Technology Demonstration（EX2701），检验自主水下航行器在常规作业中的使用与集成，最终目标是提升海上数据采集能力，并为后续接替船 NOAA Ship Discoverer 积累经验。航次由 OECI 资助，搭载 1 台 HUGIN 6000 与 2 台 Orpheus（Orpheus Ocean 建造运维），三者额定深度均为 6,000 m：HUGIN 6000 单次最长部署 48 小时，带多波束与合成孔径声呐、浅剖仪、磁力计、相机及 CTD，是迄今登上 Okeanos Explorer 的最大 AUV，负责比船载测深更高分辨率的测绘；两台 Orpheus 带相机与推芯取样器，计划尝试在 5,000 m 深度取沉积物柱样。按数据尺度分工——母船给区域框架、HUGIN 填补船载与近底之间的尺度空档、Orpheus 做目标区细节确认——可形成分层观测链。NOAA 明确本航次为技术验证而非成果声明，最终</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://doi.org/10.17632/r675ggkjxv.1" target="_blank">中国近海超高分辨率气候态月平均区域模式数据集开放：12 个 NetCDF、2.52 GB，海面高度/温度/盐度与卫星相关均 >0.99</a>
+                </h3>
+                <p class="article-summary">该数据集由中国科学院海洋研究所团队用自主开发的 ROMS 模式 MPIOS 及其子区域模式生成：以母模式日均输出为嵌套模式边界条件，用母模式末年 12 月 30 日输出初始化嵌套模拟；大气强迫取自 COADS，潮汐强迫取自 TPXO8 并纳入 M2、S2、N2、K2、K1、O1、P1、Q1、Mf、Mm 共 10 个分潮。模式先在气候态强迫下积分至平衡，再额外积分五年，归档末年逐月平均场。模拟的年平均海面高度、海表温度、海表盐度与卫星观测的空间相关均超过 0.99，均方根误差分别为 0.0538 m、0.5435 ℃、0.3591 PSU；较好再现东海黑潮等主要流系的输运、季节变化与垂向结构及关键通道流动，M2、K1 分潮振幅与相位亦与观测吻合。数据含 12 个 ECS_1x30_monthXX_crop 文件，每个含经纬度、二维海面高度与三维温度/盐度/流速场，覆盖 116°–136°E、21°S–41°N，总量 2.52 GB，CC BY 4.0，可用 xarray/Panoply 等读取。（Mendeley Data v1，2026-11-12）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/Parcels-code/Parcels/releases/tag/v4.0.3" target="_blank">Parcels v4.0.3 发布：新增 MOM6 C 网格转 SGRID 转换器与 Uxgrid 边缘插值器，补 Copernicus Marine 使用说明</a>
+                </h3>
+                <p class="article-summary">拉格朗日粒子追踪框架 Parcels 于 11 月 13 日发布 v4.0.3，是 v4 的第三次小版本更新，也是 maintainer/developer @VeckoTheGecko 参与的最后一次贡献版本。主要新增包括：面向 MOM6 C 网格输出的 mom6_to_sgrid 转换器；Uxgrid 边缘数据插值器；修复 kernel 中动态改变 dt 的问题；新增用 xgcm 计算导数场的教程；补充 Copernicus Marine Service 数据使用说明；为 CROCO 场加入时变深度支持。（GitHub Releases / PyPI，2026-11-13）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://github.com/h5netcdf/h5netcdf/releases/tag/v1.8.3" target="_blank">h5netcdf 1.8.3：修复标量 HDF5 引用属性读取与无限维往返，切换 PyPI 可信发布</a>
+                </h3>
+                <p class="article-summary">xarray/HDF5-NetCDF 后端库 h5netcdf 于 11 月 11 日发布 1.8.3。变更包括：修复读取标量 HDF5 引用属性；补充错误编码字符串属性恢复方式的文档；为空与非空无限维往返增加测试；修复在 ubuntu-26.04 上中断的 HDF 1.10 兼容性 CI 并把 Cython 固定到 0.29.37；维护侧改用 actions 哈希固定并切换到 PyPI trusted publishing。该库是海洋模式与观测 NetCDF4/HDF5 文件读写链的常用底层依赖。（GitHub Releases / PyPI，2026-11-11）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://research.noaa.gov/posts/" target="_blank">NOAA 上线 Ocean DNA Explorer：按 FAIR eDNA 元数据标准建设的开源海洋 eDNA 数据门户</a>
+                </h3>
+                <p class="article-summary">为标准化并加速环境 DNA（eDNA）数据与元数据的共享和使用，NOAA 推出 Ocean DNA Explorer——一个开源、易用的数据门户，用于共享、探索、检索与可视化海洋 eDNA 数据。门户按 FAIR eDNA 元数据标准建设，使数据可发现、可访问、可互操作、可复用，提供地图界面以及数据检索、发布到永久仓储的工具；由密西西比州立大学 Northern Gulf Institute 与 NOAA 大西洋海洋与气象实验室（AOML）合作开发，NOAA Ocean Exploration 与 NOAA Omics 资助。事件须区分首发日与报道日：NOAA Ocean Exploration 新闻页首发于 2026-10-21，NOAA Research 于 11 月 6 日作为最新研究新闻再次发布，11 月 COBRA 通讯亦列为新增资源；本条按 NOAA Research 11-06 官方报道收录。（NOAA Research / NOAA Ocean Exploration，2026-11-06 报道）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://www.sohu.com/a/1099173838_122255128" target="_blank">「深蓝脉动」连线刚结束南海冷泉科考的「科学」号：把孩子「食物放到 1500 米深海会怎样」做成航次对照实验</a>
+                </h3>
+                <p class="article-summary">中国科学技术馆联合中国科学院海洋研究所等单位举办「深蓝脉动」深海探索科考连线活动，主会场设在中国科技馆，联动辽宁、海南、山东多地科技馆开设线上线下分会场，与刚结束南海冷泉科考任务的「科学」号科考船实时连线。活动中海洋所工程师以科考实景讲解人工智能在海洋环境精准预报、自动化智能观测、海量深海观测数据快速解析等落地场景；航次科学家带观众「云登船」，展示 ROV 水下机器人精准采样、深海着陆器布放回收等作业流程。活动缘起前期面向全社会征集科学问题时一名小朋友的提问「如果把食物放到 1500 米的深海会发生什么」，科考团队在本航次专门设计对照实验并全程记录拍摄，用第一手深海影像作答；互动环节还讨论了不同深海探测装备优劣、高压黑暗环境生物存活机制，以及深海科考发现对近海资源勘探与生态保护的启发。（中国科技馆 / 中科院海洋所，2026-11-09）</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://marine.copernicus.eu/user-corner/user-notification-service/release-november-24th-samples-are-now-available-0" target="_blank">CMEMS 11 月 24 日新版发布样品已开放：北极/波罗的海/黑海多产品升级，新增氢离子浓度等海洋健康指标 OMI</a>
+                </h3>
+                <p class="article-summary">哥白尼海洋服务（CMEMS）11 月 3 日通告：配合 2026 年 11 月 24 日的新版服务发布，各数据集样品已可提前获取，用户可在正式投入业务（Entry Into Service）前按专门说明访问样品。受影响产品覆盖 ARCTIC_ANALYSISFORECAST_BGC/PHY/PHY_ICE/PHY_TIDE、BALTICSEA_ANALYSISFORECAST_BGC/PHY/WAV、BLKSEA_ANALYSISFORECAST_BGC/PHY/WAV 等系列及其逐时/逐日/逐月数据集，以及 INSITU_GLO_PHY/BGC 与大量海洋监测指标（OMI）。产品过渡说明给出若干实质升级：波罗的海波浪近实时产品核心模式由 WAM 切换到 WavewatchIII 以改进波冰相互作用，黑海物理系统升级为 BSeas9（NEMO v5、新增多瑙河河口入口、更新同化并纳入 Sentinel-6A）；新增全球及北大西洋/地中海海水中氢离子平均浓度、热含量与热比容海平面等 OMI，并重命名碳通量 OMI。双生产与双分发期为 2026-11-03 至 2027-01-12。（Co</p>
+                <div class="article-tags"></div>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-header">
+                    <span class="article-date">📅 2026-11-14</span>
+                    <span class="article-source main">日报</span>
+                </div>
+                <h3 class="article-title">
+                    <a href="https://qdio.cas.cn/2019Ver/News/zhdt/202611/t20261104_8303183.html" target="_blank">「科学」轮 11 月 1 日进青岛前进船厂，全面启动科考仪器国产化更新改造与坞修坞检</a>
+                </h3>
+                <p class="article-summary">中国科学院海洋研究所 11 月 4 日通报：「科学」轮 11 月 1 日在青岛前进船厂全面开启仪器设备更新改造及坞修坞检工程。本次升级立足国家深海战略需要并结合多年科考作业实际，重点推进关键科考装备国产化替代、优化科考探测系统性能，以增强深海观测、样品采集与海上科考支撑能力；同步的坞修坞检按海事局及船级社法定检验、入级检验规范，对船体结构、机电系统、救生消防、防污染设备全面检查维修，排查腐蚀与磨损隐患，确保持续满足国际公约与国内法规。项目涵盖多套核心科考仪器国产化升级、续航系统改造与全船智能化升级，施工点位分散、交叉作业量大，涉及动火、密闭空间、高空等高风险工序；运管中心组建专班、细化专项方案，实行全过程质量旁站监督、隐患动态排查与问题清单化闭环复核。（中科院海洋所 / 海洋科学综合考察船运行管理中心，2026-11-04）</p>
+                <div class="article-tags"></div>
+            </article>
+            
             <article class="article-card">
                 <div class="article-header">
                     <span class="article-date">📅 2026-11-11</span>
