@@ -17101,10 +17101,10 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-11-15T04:28:06.720011",
+  "lastUpdated": "2026-11-16T04:25:15.520699",
   "stats": {
     "total": 1140,
-    "newToday": 24,
+    "newToday": 0,
     "byCategory": {
       "marine-ai": 710,
       "open-cruise": 57,
@@ -17117,9 +17117,9 @@
       "data-quality": 37
     },
     "validation": {
-      "newCandidates": 103,
-      "afterTitleDedup": 103,
-      "validNew": 24,
+      "newCandidates": 79,
+      "afterTitleDedup": 79,
+      "validNew": 0,
       "invalidNew": 79
     }
   }
