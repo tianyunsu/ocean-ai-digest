@@ -17101,7 +17101,7 @@
       "fetchedAt": "2026-05-07T07:45:49.243421"
     }
   ],
-  "lastUpdated": "2026-11-16T04:25:15.520699",
+  "lastUpdated": "2026-11-17T06:10:03.476589",
   "stats": {
     "total": 1140,
     "newToday": 0,
@@ -17117,10 +17117,10 @@
       "data-quality": 37
     },
     "validation": {
-      "newCandidates": 79,
-      "afterTitleDedup": 79,
+      "newCandidates": 67,
+      "afterTitleDedup": 67,
       "validNew": 0,
-      "invalidNew": 79
+      "invalidNew": 67
     }
   }
 }
